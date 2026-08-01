@@ -173,13 +173,15 @@ function processResults(elements) {
   for (const beach of beaches) {
     const scored = scoreBeach(beach.center, devPoints, tracks, protectedRings);
     const marker = L.circleMarker([beach.center.lat, beach.center.lng], {
-      radius: 7,
+      radius: 9,
       color: "#222",
       weight: 1,
       fillColor: scored.color,
       fillOpacity: 0.85,
     }).addTo(resultsLayer);
 
+    const { body, links } = buildDetailHtml(beach, scored);
+    marker.bindPopup(`${body}${links}`);
     marker.on("click", () => showDetails(beach, scored));
 
     if (scored.bucket === "prime") prime++;
@@ -236,7 +238,7 @@ function scoreBeach(center, devPoints, tracks, protectedRings) {
   return { bucket, color, label, score, nearestDevKm, nearestTrackKm };
 }
 
-function showDetails(beach, scored) {
+function buildDetailHtml(beach, scored) {
   const name = beach.el.tags.name ? beach.el.tags.name : "Unnamed beach";
   const lat = beach.center.lat.toFixed(5);
   const lng = beach.center.lng.toFixed(5);
@@ -255,12 +257,17 @@ function showDetails(beach, scored) {
     `;
   }
 
-  detailsEl.innerHTML = `
-    <h2>Details</h2>
-    ${body}
+  const links = `
     <div class="detail-links">
       <a href="https://www.google.com/maps?q=${lat},${lng}" target="_blank" rel="noopener">Google Maps</a>
       <a href="https://www.openstreetmap.org/?mlat=${lat}&mlon=${lng}#map=17/${lat}/${lng}" target="_blank" rel="noopener">OpenStreetMap</a>
     </div>
   `;
+
+  return { body, links };
+}
+
+function showDetails(beach, scored) {
+  const { body, links } = buildDetailHtml(beach, scored);
+  detailsEl.innerHTML = `<h2>Details</h2>${body}${links}`;
 }

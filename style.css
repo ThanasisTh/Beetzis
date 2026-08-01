@@ -232,3 +232,11 @@ header h1 span {
 .badge.possible { background: var(--possible); color: #2b2a27; }
 .badge.unlikely { background: var(--unlikely); }
 .badge.restricted { background: var(--restricted); }
+
+.leaflet-popup-content {
+  min-width: 200px;
+}
+
+.leaflet-popup-content .detail-title {
+  font-size: 0.9rem;
+}
