@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Beetzis — Greece Camping Scout</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="app">
+  <header>
+    <h1>Beetzis <span>Greece Camping Scout</span></h1>
+    <p class="subtitle">Scans OpenStreetMap for beaches away from existing campsites/hotels, checks for track access, and flags protected zones — to shortlist quiet, isolated beach camping spots.</p>
+  </header>
+  <div id="main">
+    <div id="map"></div>
+    <aside id="panel">
+      <div class="panel-section" id="scan-controls">
+        <button id="scan-btn">Scan visible area</button>
+        <p id="status">Zoom in to a stretch of coastline (city/bay level, zoom ≥ 12), then click Scan.</p>
+      </div>
+      <div class="panel-section" id="legend">
+        <h2>Score legend</h2>
+        <div class="legend-row"><span class="dot prime"></span> Prime — isolated &amp; reachable</div>
+        <div class="legend-row"><span class="dot possible"></span> Possible — some tradeoff</div>
+        <div class="legend-row"><span class="dot unlikely"></span> Unlikely — too developed</div>
+        <div class="legend-row"><span class="dot restricted"></span> Restricted — protected area</div>
+        <div class="legend-row"><span class="dot dev"></span> Existing campsite / hotel</div>
+      </div>
+      <div class="panel-section" id="details">
+        <h2>Details</h2>
+        <p class="hint">Click a beach marker for its score breakdown.</p>
+      </div>
+      <div class="panel-section" id="disclaimer">
+        <h2>Read first</h2>
+        <p>Wild camping (pitching a tent outside a licensed site) is technically illegal in Greece under Law 392/1976, though enforcement varies a lot by area. This tool surfaces <em>quiet, undeveloped</em> spots for scouting — it is not legal advice, and it doesn't check land ownership, turtle-nesting beaches, or fire bans. Verify locally before camping anywhere.</p>
+      </div>
+    </aside>
+  </div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
