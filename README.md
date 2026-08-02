@@ -49,13 +49,17 @@ Currently wired up (all free, no key required):
 
   for ~30 Greek- and English-language keywords (fines, arrests, crackdowns,
   camper-van bans, etc. — see the script for the full list), tags each hit
-  with a best-guess Greek region from a small place-name gazetteer, dedupes,
-  and commits the result. It runs server-side inside the GitHub Actions
-  runner specifically because browsers can't call most of these APIs
-  directly (CORS, and some require auth entirely) — this is why it isn't
-  just client-side JS like the rest of the app. The workflow can also be
-  triggered manually from the repo's **Actions** tab if you want fresh data
-  sooner than the weekly schedule.
+  with a best-guess Greek region from a small place-name gazetteer, and keeps
+  only hits that (a) name a specific region/place from that gazetteer **and**
+  (b) actually contain a camping-related term in the title/snippet — keyword
+  search alone let through false positives like a Dutch motorhome-fire story
+  (no Greek place mentioned) and a marijuana-farm bust tagged "Peloponnese"
+  (no camping term at all). Deduped, sorted by date, committed automatically.
+  It runs server-side inside the GitHub Actions runner specifically because
+  browsers can't call most of these APIs directly (CORS, and some require
+  auth entirely) — this is why it isn't just client-side JS like the rest of
+  the app. The workflow can also be triggered manually from the repo's
+  **Actions** tab if you want fresh data sooner than the weekly schedule.
 - The frontend just fetches both JSON files as static assets alongside the
   rest of the site — no server, no keys, same-origin, so no CORS issues.
 

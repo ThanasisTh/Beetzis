@@ -73,6 +73,20 @@ const GAZETTEER = [
   { name: "Andros", aliases: ["andros", "άνδρος"] },
 ];
 
+// A hit must mention one of these to count as actually being about camping —
+// keyword search alone lets in false positives (e.g. a motorhome-fire story
+// in the Netherlands, matched only because "τροχόσπιτο" appeared).
+const CAMPING_TERMS = [
+  "camping", "camper", "campervan", "camper van", "motorhome", "caravan",
+  "wild camp", "campsite", "camp site", "rv park", "vanlife", "van life",
+  "κάμπινγκ", "κάμπερ", "καταυλισμ", "κατασκήνωσ", "τροχόσπιτ", "σκηνή", "σκηνές",
+];
+
+function mentionsCamping(text) {
+  const lower = text.toLowerCase();
+  return CAMPING_TERMS.some((t) => lower.includes(t));
+}
+
 function createTimeoutSignal(ms) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), ms);
@@ -213,14 +227,23 @@ async function main() {
     deduped.push(report);
   }
 
-  deduped.sort((a, b) => {
+  // Only keep hits that (a) name a specific Greek region/place and (b) are
+  // actually about camping — not just any article that loosely matched one
+  // of the search keywords (e.g. a marijuana-farm story tagged "Peloponnese"
+  // has no camping term and gets dropped; a motorhome story with no Greek
+  // place mentioned gets dropped too).
+  const relevant = deduped.filter(
+    (r) => r.region && mentionsCamping(`${r.title} ${r.snippet}`)
+  );
+
+  relevant.sort((a, b) => {
     if (!a.published && !b.published) return 0;
     if (!a.published) return 1;
     if (!b.published) return -1;
     return new Date(b.published) - new Date(a.published);
   });
 
-  const trimmed = deduped.slice(0, MAX_REPORTS);
+  const trimmed = relevant.slice(0, MAX_REPORTS);
 
   const output = {
     generated_at: new Date().toISOString(),
@@ -229,7 +252,9 @@ async function main() {
   };
 
   await writeFile(OUTPUT_PATH, JSON.stringify(output, null, 2) + "\n", "utf-8");
-  console.log(`Wrote ${trimmed.length} reports (from ${allReports.length} raw hits, ${deduped.length} deduped) to ${OUTPUT_PATH}`);
+  console.log(
+    `Wrote ${trimmed.length} reports (from ${allReports.length} raw hits, ${deduped.length} deduped, ${relevant.length} region+camping relevant) to ${OUTPUT_PATH}`
+  );
 }
 
 main().catch((err) => {
