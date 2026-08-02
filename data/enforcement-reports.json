@@ -1,5 +1,1387 @@
 {
-  "generated_at": null,
-  "keywords_used": [],
-  "reports": []
+  "generated_at": "2026-08-02T17:57:11.975Z",
+  "keywords_used": [
+    "πρόστιμο κάμπινγκ",
+    "πρόστιμο για κάμπινγκ",
+    "παράνομο κάμπινγκ",
+    "ελεύθερο κάμπινγκ πρόστιμο",
+    "απαγόρευση κάμπινγκ παραλία",
+    "καταυλισμός παραλία πρόστιμο",
+    "τροχόσπιτο πρόστιμο παραλία",
+    "τροχόσπιτο πρόστιμο",
+    "κάμπερ πρόστιμο",
+    "λιμενικό κάμπινγκ έλεγχος",
+    "αστυνομία κάμπερ παραλία",
+    "καταυλισμός τροχόσπιτα εκκένωση",
+    "πρόστιμα camping παραλίες",
+    "απαγόρευση κατασκήνωσης παραλία",
+    "έλεγχοι ελεύθερο κάμπινγκ",
+    "σύλληψη κάμπινγκ παραλία",
+    "εκκένωση καταυλισμού παραλία",
+    "πρόστιμο 300 ευρώ κάμπινγκ",
+    "Greece wild camping fine",
+    "Greece camper van fine beach",
+    "Greece illegal camping police",
+    "Greece beach camping crackdown",
+    "Greece campervan ban beach",
+    "Greece free camping police fine",
+    "Greece motorhome fine beach",
+    "Greece van life fine",
+    "Greece camping law 2025",
+    "Greece wild camping arrest",
+    "Greece coast guard camping fine",
+    "Greece beach camping eviction"
+  ],
+  "reports": [
+    {
+      "source": "google-news",
+      "title": "Ολλανδία: Επτά τροχόσπιτα καταστράφηκαν από φωτιά σε… - Pieria24",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQTV3UlUzMjNwSGd0Y3g4czZHejFzQlJlbHF1Nk5HLTlvLTlGNWhsTmxoaHVoRzJNYl93U0s4SWlzNmtwejRXZDgwTzdDa29BNVFaZEtvR1hTV21tdEJJZ1c2YWVjRnQ1VEY2UllscUUtaUhTXy1MUzhwZ1ZJSmh0NnhKZm5teHA0RkJ3VFFOSU1CTEpHVDhHMjhIRjl5US1HcW9YZ3VBZFAtMEF3SGtHMmVwRXAwTWlYZ3dya0hERmxfdVJDNWRnbFVtdkM?oc=5",
+      "published": "2026-08-02T14:03:23.000Z",
+      "snippet": "Ολλανδία: Επτά τροχόσπιτα καταστράφηκαν από φωτιά σε…&nbsp;&nbsp;Pieria24",
+      "keyword": "καταυλισμός τροχόσπιτα εκκένωση",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Marijuana farm in Peloponnese had hundreds of plants - eKathimerini.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVTdESzY3X3VpWW1zdlVSdy02akRmQU4zQnZnbEZVMEpWU0dzZGt5YjRzU21mNWY1V0NYSGJnaWJHR2kzQXlHc2l6aEFtdVpDbTUtME1Yb2FlZkNmZEgtdFVCTHlhNlB3Q3dYR2g2cHRtX2FIdEZ1dHh3TXNseURGTmxUS1MtTVhvSmhRemhCdDN2TEJQaFk4Vm1POA?oc=5",
+      "published": "2026-08-02T09:46:11.000Z",
+      "snippet": "Marijuana farm in Peloponnese had hundreds of plants&nbsp;&nbsp;eKathimerini.com",
+      "keyword": "Greece beach camping crackdown",
+      "region": "Peloponnese"
+    },
+    {
+      "source": "google-news",
+      "title": "Παραλία 2026: Μια βουτιά μπορεί να κοστίσει ακριβά - Τα πρόστιμα-φωτιά για ρακέτες, SUP, ηχεία και κάμπινγκ - afteroffice.gr",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUXlsY1pjSXBmUFlHM1R1a1NqQ0dKdDdOczRIdHhsYVotdVBidG8yM1Y3eHpqNmRfdjZjMndmNFBsb3hibUVxdGdJc2RSX0ZITk8xcHFzckR3ZWRabzc2Nm1tMWVjV3dmSGtVTVZHS2hTQmNqTW0xYUJHcmpZS2RaMU1HQ0tlTXdWTThEMlF6NU1zQWgxR0haZzdnY2RwQ3l5X250SzVrTnVwNUZUVVhzdFhTSHo4d1NZUGVqbHoyNVhBdjQ?oc=5",
+      "published": "2026-07-31T13:10:56.000Z",
+      "snippet": "Παραλία 2026: Μια βουτιά μπορεί να κοστίσει ακριβά - Τα πρόστιμα-φωτιά για ρακέτες, SUP, ηχεία και κάμπινγκ&nbsp;&nbsp;afteroffice.gr",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Παραλία 2026: Μια βουτιά μπορεί να κοστίσει ακριβά- Τα πρόστιμα-φωτιά για ρακέτες, SUP, ηχεία και κάμπινγκ - Today Press",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONzBYUkllQXlGQ0ZpR3VIbXg5TmZISk4yRUlJSkdJN2RXaTVoVFFMeWU0M010V2FRcmpVY1hiVnVtN0JLcnRaVlM5V04xaGxsbmlPOUgwQVdSR0szSGthdlU0MExsRUwzUnJGZnY0ODcwWHBDcU9WWFZzZE5FLXp4YXRvQk1Kb19UMHdDaU5uZ0V1U2FGLTFGRjdTM3RqV3l6WDlIb0Nhb1ZMRzQ0aDBHTjRoZURZYjBfM3l6MWJIMEJUb2VvNHM4QkY3MEJwNVdi?oc=5",
+      "published": "2026-07-31T07:56:10.000Z",
+      "snippet": "Παραλία 2026: Μια βουτιά μπορεί να κοστίσει ακριβά- Τα πρόστιμα-φωτιά για ρακέτες, SUP, ηχεία και κάμπινγκ&nbsp;&nbsp;Today Press",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Πρόστιμα στις παραλίες: Τι ισχύει για ρακέτες, ηχεία, SUP και ελεύθερο κάμπινγκ - Workenter.gr",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUU8tTnZHNXlLVy0wcEQzV09pSDVjMzlIUThOUUU5X19WS3k3ckNVaThrVzh0SG5mNmhaTlFaWGJNdUdCTjA0bEZOMHdVVm1vb1I3TUxOLXA5czVMTUtsa1JtcHcyYTB3VHU4TU1ZWEFOV2hoMGc3WjNyMzJKWmFjZ09OYTRaeW9NX2lDS3JtZTdRZENnVFRURVNOajlMX2xXSGNCazRwMzlfUdIBrwFBVV95cUxNR3N2aWpzakhmRG5MVmw3b081cElCNktzbFBtM1ZsNS1Bbkd2NkRtTEtKQUl5N1ROczlpNTkzSVJpMXpvX00tOE0xalRTaHhaSGU0VGJLTGVJaDE1WHlmc1dLeUUyd3pIQmtiZGVtZHJRQXBQSEtYWjNIU0hZMU1uZzBjeUZyMFJidUFXcUN3VWJFc1pzaW5SMDlEM0FpRm9kWkhOdlVnVTR6Vk9wT0gw?oc=5",
+      "published": "2026-07-31T06:25:33.000Z",
+      "snippet": "Πρόστιμα στις παραλίες: Τι ισχύει για ρακέτες, ηχεία, SUP και ελεύθερο κάμπινγκ&nbsp;&nbsp;Workenter.gr",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Πρόστιμα έως 58.000 ευρώ στις παραλίες: Τι ισχύει για ρακέτες, ηχεία, SUP και ελεύθερο κάμπινγκ (Βίντεο) - Παραπολιτικά",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOMHNZMktqdUlLSFNMdUJPRm92VUlsTTZ4VGZlQU1tNGRxSHU3cVNwbEdNNFdWQk91empWWGItWnUyQlZqckM5REhqd1pfd3JIdEtsLXNYc2hqaERybnNtZUpZRFVjQV9GTXpya1ZNRWNOYkF4NE9ObndoNzVXSk53SGE2MFY4Q3FmNU85cUFCaE9xbjhsaW4yWlN3cDJaN2JqTjJTQk5zQUxSRVZnNHNWRTB2ZTVwaDdfNnVKTE03eTd1YWQxZVlpQlFRR1haeHBRbm1hR1p3LWVYVUFpT1k1RHZjdUdKZw?oc=5",
+      "published": "2026-07-31T03:23:58.000Z",
+      "snippet": "Πρόστιμα έως 58.000 ευρώ στις παραλίες: Τι ισχύει για ρακέτες, ηχεία, SUP και ελεύθερο κάμπινγκ (Βίντεο)&nbsp;&nbsp;Παραπολιτικά",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Μηχανικός της Mercedes τιμωρήθηκε με πρόστιμο επειδή οδήγησε επιβατικό βαν σε μπαρ. - vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQb1FnbnRUYzRUaFpTTzdhMUUtVjdqVHlQOXNTblpQUVF3ZjB1MzhFaThFa203ZEpZYzNNWUl6RW5vdmYzWG9EaHV0ckI3bGdjdDdGSERlLWlNRnhMWGg3Q0NTZ3V6VlVnelJpVTEwNW0zUmZXN2lPV0ctYWxGYW5pZ1lPdElBUQ?oc=5",
+      "published": "2026-07-30T00:51:25.000Z",
+      "snippet": "Μηχανικός της Mercedes τιμωρήθηκε με πρόστιμο επειδή οδήγησε επιβατικό βαν σε μπαρ.&nbsp;&nbsp;vietnam.vn",
+      "keyword": "τροχόσπιτο πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Νέο οικογενειακό κάμπινγκ στο Θολό: Η νέα γενιά επενδύει στον ποιοτικό τουρισμό της Ηλείας - achaianews.gr",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPVi0wX3otV2FQWVpWVUFOdjlyQTFlajBoZjEyTlF6S3RtMEhxSk5sTEJRSUNfdmFYOWdkMjVPbS1DUDlvUFlwNUFFYk1XekswRXA3UGxlTHNWalpHUXNZZERDUUg5dXBoSVJ6dmpGbTByWEtaVXBmeVRRR1dvM2x4Z3dNQmV5T3VLR21LVlBIeTNENzVZb0d3ZnBDYmYyc3VvMjFFekxHYjN0WXlQbzBWTFI2aHBWS2xaZnhwaFFuRGpUak9kdVByWm5PalI3VFp4R0EtWThsa05tOEVFVndkT1pEbHVmbUVsQjVKWmF4VWphUmNnbmVDZW1KQXNPMS1JVGRMWHRtSl9JM0RlMjBqdE9yZ0N4SkZUTEFZ?oc=5",
+      "published": "2026-07-29T08:22:20.000Z",
+      "snippet": "Νέο οικογενειακό κάμπινγκ στο Θολό: Η νέα γενιά επενδύει στον ποιοτικό τουρισμό της Ηλείας&nbsp;&nbsp;achaianews.gr",
+      "keyword": "σύλληψη κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "«Από τη θάλασσα ως τ’ αστέρια»: Δημιουργικό Camp από τον ΦΟΒ - politischios.gr",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRGFzRjBEY2ZSLUp4VjJZQkhQN3J1QmtnR0NZX2lUaWFaQXAzZmx3M0hMT3ktdU1xSmtuTE1faWoyZVJXaEdCVEdscnlmaGdMc0JFNThMY0pVSVlIbzd4Tkk5MTJ5NzhqQUZqMmNhV3pFS09CREh4SUcxZUNaaDdGNEM0UnV5TEZBU0JqanhWRmJKMnVKWEE4TG5Zd2w?oc=5",
+      "published": "2026-07-28T06:24:33.000Z",
+      "snippet": "«Από τη θάλασσα ως τ’ αστέρια»: Δημιουργικό Camp από τον ΦΟΒ&nbsp;&nbsp;politischios.gr",
+      "keyword": "σύλληψη κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Έφοδος της Αστυνομίας στο δάσος της Ελαίας στη Μεσσηνία - 18 συλλήψεις για ελεύθερο camping - CNN.gr",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNzdXdFFZNWpFRmVGY1VQV3ZNN0JxZ1Nmc0l2TzVpLXYwTlRockVjZ2VKQWtOUGdTTmNTRUYyVmRPWDZVeTFuX0l6dFY0a3ZzckdjTUl2YjBTdXhOQzBSNUJaVWNvOS1qVWVKYkpaWUZkYUZKY1NwdjNfZUwxMC02X0VoZUo2bmNZQklFejFPMGZBWFdCQnJ2Y2R6bzYtYms2NUhKTERrWDFNSlZWbEM5alBtYU81anZzd2FwcXppT0VoclRqUl92eTdB?oc=5",
+      "published": "2026-07-27T20:30:41.000Z",
+      "snippet": "Έφοδος της Αστυνομίας στο δάσος της Ελαίας στη Μεσσηνία - 18 συλλήψεις για ελεύθερο camping&nbsp;&nbsp;CNN.gr",
+      "keyword": "σύλληψη κάμπινγκ παραλία",
+      "region": "Peloponnese"
+    },
+    {
+      "source": "google-news",
+      "title": "Police arrest 18 in crackdown on free campers at southern beach - eKathimerini.com",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM3ppOURYcGxnM0JEdndCTDlxajNMczliZXEwdWNJWEJUaS1acDVELU1EZzVCRkwyRFFiY3ktT0VGbWwyLWZQU19pSXNwNnQwTzNSUDVlclJNRE1sTVVQMXdZRnlwQmpHcDhBNEw3dXNreU16d1F6eVdJSHBhRXBsQjUxQVAtb0luRWUtTVMtRFctWFlReXRfOUVESHozbzZZU1FLYUE4LUcwZw?oc=5",
+      "published": "2026-07-27T18:31:25.000Z",
+      "snippet": "Police arrest 18 in crackdown on free campers at southern beach&nbsp;&nbsp;eKathimerini.com",
+      "keyword": "Greece illegal camping police",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Παραλίες με κανόνες: Τι πρέπει να γνωρίζουν οι λουόμενοι -Από τα SUP και τις ρακέτες μέχρι τα πρόστιμα - iefimerida.gr",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQWJIbnFSOUpjU1pZelNabTBSelIySXExUlNVTTIyeF9RWE9pRlo2MWxGNTJlLVZ6VXM0VWM0OUp1SEJjTENSTk90ZHlPWXBUc21lU0dHbXBKTmQ2SmJVVUtXa1hLT3MwV3BPTVVESHc5UkE5Vm1lS01DSm9zUE5WUzZULU9pd1R3dGgtQUwtbFdvUdIBlwFBVV95cUxQaGRGNW96M2hiVzk4YjRJTVBrS3ZfTEhPR1BuZ2l5QVU2dkM5Z3Rlb3hpX1hqTHZjenNjck83S0g0bW13M2ZIM1Vqa0pnaGdFaUpvbmQ5TU9zM0RabEU3bEp3VEp6V2RBbHZHLUQxVDVRZURjMjF0eklVbXZQMkVNZlhwX0tLZkVGVDN6WXZXRUUwQkE2NVQw?oc=5",
+      "published": "2026-07-27T18:19:42.000Z",
+      "snippet": "Παραλίες με κανόνες: Τι πρέπει να γνωρίζουν οι λουόμενοι -Από τα SUP και τις ρακέτες μέχρι τα πρόστιμα&nbsp;&nbsp;iefimerida.gr",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Μεσσηνία: 18 συλλήψεις παραλία Ελαίας για ελεύθερο κάμπινγκ, ναρκωτικά και ραδιοσυχνότητες - Newsbomb",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxObEV3aDJ4cUNBNENfSjhiMDhfTldOOXdWYU4zMnpGTmZGRlIzSEZ2TEhvam1LcDlDazgtUVZkVE5DVXlwZkdJaGY3VnlCSHo0T0syUEpkOWpZRmFIazItQ2tzQXBucFdpb3NsZjhoTlVqc1Z5LUNTNk5mOTNGYlhrYW9kRkRzdjJNcTlkeF9abHRLcVVoVTBLM2dMcU5tNFhhQUt1OW9jZTNTaDZhSW10SWZ2aTNHaGxkQzg0bU9idGZwTS1UUmlUNENTU0V1M3p3dFpRX1dqMExwS0EtVFA3X2FDZE5wSmNqSFhCdXBn?oc=5",
+      "published": "2026-07-27T14:10:45.000Z",
+      "snippet": "Μεσσηνία: 18 συλλήψεις παραλία Ελαίας για ελεύθερο κάμπινγκ, ναρκωτικά και ραδιοσυχνότητες&nbsp;&nbsp;Newsbomb",
+      "keyword": "σύλληψη κάμπινγκ παραλία",
+      "region": "Peloponnese"
+    },
+    {
+      "source": "google-news",
+      "title": "Αστυνομική επιχείρηση στο δάσος της Ελαίας: 18 συλλήψεις σε παραθαλάσσιο αλσύλλιο σε ελεύθερο κάμπινγκ – ΦΩΤΟ - Astinomiko.gr",
+      "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNZDdQSlZiTUxDS3lqTXNpUGxPTkh1SFBQa1M4VjdxX0pZQ3lmRldudUhNbFVuek9RMFhsNk5ZRmg3eXFMRjNlb3VTNWFNU2JfOXRWSXB2allIbzZ4ZEpvcEN3cFhkNG5rMmdDZldmYjJlTlV0ZE1md2l2c2hRaloxWnJmbk9sQ1FNUjFoR3NjVEQ5YUNnQk9jVm9GRlRKUVJLcVhqSHJmZ0dCNElUOVV3eFpONXhXNmJhVEw1U2hIZDFGTXIwWXp4M3J0b3V6VVZLcGtBX3F6YVctZ3hJZEpGU1dBOTNBOW1TRVliMGc5djdRemE1aURLeEdNLTgtTWJGYW9wbUt6eERodUhwLVZEQkxYb3dRRURHRzV3YVJic0NlWjg4NmVzTl9QUUxqQXZLN2ZUcS1YUVJSdG1uSWJDRG1B?oc=5",
+      "published": "2026-07-27T13:35:43.000Z",
+      "snippet": "Αστυνομική επιχείρηση στο δάσος της Ελαίας: 18 συλλήψεις σε παραθαλάσσιο αλσύλλιο σε ελεύθερο κάμπινγκ – ΦΩΤΟ&nbsp;&nbsp;Astinomiko.gr",
+      "keyword": "έλεγχοι ελεύθερο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Θεσσαλία: Συνεχίζονται οι τροχονομικοί έλεγχοι για τη χρήση κράνους - Astinomiko.gr",
+      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQTmtOQ2tEUG1ERy1kdGlncGpzaXg0NlczWWRfVDZNeTdQaFIzdTZOaU5WQXlpT1NuS3FlOEswY3YzaHpVUmtEOGoxZjZUQVhwUWFwdHVvYTVZdzZxa3lGbllrMlQ4ZnRoWUxFd0xYN0g4aGJEYThoZU1qYV9uS0pTdDlVUVdMa24tNndiNUZLaHhLM2syUjczQk9DNTAzQUZTNXJnajVHRmpyblJ2dml4dlE2Rk02MGdwZnRpVENSdUxPejFUT2JRQXJRQzJSaktaUS01dnItakY4VklrWkJFdHV5OUJCRVd1djFDVl9fMjI5Rm1PbnVDcGxpRER1cVktTFZVSE54V2xCamxLUXM0bVpqZXBmeUpnb2lJamliMDVreTI5WVdIeTJzLXpFMmE3WWhtV25DU0N4cjRORl8w?oc=5",
+      "published": "2026-07-27T12:18:39.000Z",
+      "snippet": "Θεσσαλία: Συνεχίζονται οι τροχονομικοί έλεγχοι για τη χρήση κράνους&nbsp;&nbsp;Astinomiko.gr",
+      "keyword": "έλεγχοι ελεύθερο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Ήλιος, θάλασσα και… πρόστιμα έως 1.000€ για όσους παίζουν ρακέτες σε οργανωμένες παραλίες - Newsitamea.gr",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ja2hrS1ViVmxlSUFCcXJSbzlNU25zV0E2bTVTZVZiVEJYejBGR1praVpDUEc4TWJ5NVd5bXlMV1BGVUZaZDBxUnppX0Z4WGcyY290cnk2emtCU3E1MG1ocw?oc=5",
+      "published": "2026-07-27T10:57:48.000Z",
+      "snippet": "Ήλιος, θάλασσα και… πρόστιμα έως 1.000€ για όσους παίζουν ρακέτες σε οργανωμένες παραλίες&nbsp;&nbsp;Newsitamea.gr",
+      "keyword": "ελεύθερο κάμπινγκ πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "ΕΕ: «χτυπά» την Google με πρόστιμο ρεκόρ 890 εκατ. ευρώ - Proson",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeUM3d05CaVBfVlJrYVhxNnB6c3otUTd3Y1BKTU9vaTF3OWFUUldhRWRZUEVFQk1BRlZ3ODRJdlFvRFRVVkUtNEQ1R0pOSl9OeERYLUYyVVRhdHMtcnBiZDZZQ3RhZGFtelhtZEI3YVZibkRyUHd5OFoweUpTcGRCcXVGdmZSMy1FT3M4TkI5aE1mZ9IBlwFBVV95cUxOOUQ0QzZfbTVDdzZ0VGd1S2taUTJGMXpPYmhHb2NGOGRVQVdudUM2NnM4cEJibjhwV1RRby1ycTMyVGFkLWM5MlNRdm9UMHpXd29ueUhkeExkM3plSllTMUJVcHlrQ2VpeW1SQ2VyQm5wLWltczRYbVFCVUdvQndRM1hfYXBOVVVEMnBMVE8welRBdTZ4RGs4?oc=5",
+      "published": "2026-07-23T13:26:42.000Z",
+      "snippet": "ΕΕ: «χτυπά» την Google με πρόστιμο ρεκόρ 890 εκατ. ευρώ&nbsp;&nbsp;Proson",
+      "keyword": "ελεύθερο κάμπινγκ πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "ΒΙΝΤΕΟ & ΦΩΤΟ: Ξηλώνουν τα παράνομα υποστατικά από παραλία, νέα επιχείρηση «σκούπα» στη Λάρνακα - AlphaNews",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUjN3UlA1MWxKZzZPVklRcmhpUTBPMXNoS3hvSzdzdmFtbDZsZW5zaEhyQ21leGhKQTdyeWFYMGMzQlowMkpMMHRUQWcyMmtVaGlsWmpoa01HXzNXbE9JZDVFalNPanVCanNVQlRDZlRaeGdCOW41Mkg2ektteTkyckVTV2E1QndHUW0ycDRsWDcxNDB5MnpreU84cW1WLVpDOHRGQUtVSXdlWG9ieUFjSWlMcjFZcjViWUlZZ1RKNUIwWFE?oc=5",
+      "published": "2026-07-23T07:00:00.000Z",
+      "snippet": "ΒΙΝΤΕΟ & ΦΩΤΟ: Ξηλώνουν τα παράνομα υποστατικά από παραλία, νέα επιχείρηση «σκούπα» στη Λάρνακα&nbsp;&nbsp;AlphaNews",
+      "keyword": "τροχόσπιτο πρόστιμο παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Ελεύθερο κάμπινγκ στην Ελλάδα: Tι απαγορεύεται, ποια είναι τα πρόστιμα και τι ισχύει για σκηνές και τροχόσπιτα - NOMIKI BIBLIOTHIKI Daily",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPalZSOE1Vb25naTFqd29neHVyVVRvalM5TGhBcUZXMVFaeW5BLWJFcUFqa1RSLU0xMWk2OWdVeEQwWS1ETHlXZktFd2h1eE5FcDhfX1J6ZHdVWkRCeF9LUWI5X3NIcjNiUF9YSlNfWVJlakF5ejBpNnVKNVAxeHZpODQ5ekcyX0pfU0RyT1ozLTd0UkV6NWhVVllPSnU3a1JJYV8wX29iZHcwWi1fZ2NJaDdRdzNGTWtHcGZJdUlnMEUzeFNVcFZMcEJRUVhHOVIwMVFFc3lBUkMwalY0Y2dMVHMzT0VqRS1HR1AtNmFQY0lWQ3d3cFZz?oc=5",
+      "published": "2026-07-23T03:02:51.000Z",
+      "snippet": "Ελεύθερο κάμπινγκ στην Ελλάδα: Tι απαγορεύεται, ποια είναι τα πρόστιμα και τι ισχύει για σκηνές και τροχόσπιτα&nbsp;&nbsp;NOMIKI BIBLIOTHIKI Daily",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Φέτος οι ρακέτες στην παραλία μπορούν να σου κοστίσουν 1 χιλιάρικο σε πρόστιμο - Pillowfights",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaUk3VVVQRkFLR3R5Qk80R21QaFZndFNDR2F6b3JJTG5odXFqdE5UT08wT3BGejZuNUZpMjhhakhJTVZTQXJaa1BoY29TMXpnN2lNQlZYT0lrOVdRTlN4VWR6M2h6bDNFaEZ0RjB6eERYb3cyNlFuR2Fxa3NUNmdublZvclVzVjVsV2g4bTVEZHdCRE15Z1R0YmZ3bEtRNy14RGs1N2t3MHcwTGJ0Tm9WMnZ1SQ?oc=5",
+      "published": "2026-07-22T08:43:37.000Z",
+      "snippet": "Φέτος οι ρακέτες στην παραλία μπορούν να σου κοστίσουν 1 χιλιάρικο σε πρόστιμο&nbsp;&nbsp;Pillowfights",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "French lawmakers approve a sweeping social media ban for children under 15 - NPR",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBZc2JFTnR6UllTVDM0SEF5OGkyeEpxMTRlMU9BS0dmdXU1QXE3bDBzNzRLRjB5eVVCZWtGNVROaS1NWmE2VUVWU2drOWJIU2g3cG5MNGxDV2VrV01EZ0RIS3pfcGFIdG9YNzQtQlpvai0wSXgx?oc=5",
+      "published": "2026-07-22T07:00:00.000Z",
+      "snippet": "French lawmakers approve a sweeping social media ban for children under 15&nbsp;&nbsp;NPR",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Τα άγνωστα πρόστιμα της παραλίας: Ακόμα και 1.000 ευρώ για θόρυβο από ρακέτες - Thraki.com.gr",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUFpqT0hGX3JWQnBZOFlZb3hPWF9vbHMyX3FRUnlaTlVMOUdRR0VxU0o2ck1fSUpMeUo3SG9hOEVzMi00ekhJZ01FT1R1dXo2eURyT1BWa0d4UERkd3J3ZWg4SFdadEowNXdSeDdKWVViYWZjQ1hScjlZT3VLZTZEc3hWaDlIOTluaTZfTU4yUEVhYlc2Nk1fX0hkZzBKRG5FeFMxcUk3bw?oc=5",
+      "published": "2026-07-21T19:00:00.000Z",
+      "snippet": "Τα άγνωστα πρόστιμα της παραλίας: Ακόμα και 1.000 ευρώ για θόρυβο από ρακέτες&nbsp;&nbsp;Thraki.com.gr",
+      "keyword": "ελεύθερο κάμπινγκ πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Βαριές «καμπάνες» στις παραλίες: Από 100 ευρώ για ρακέτες έως 58.000 ευρώ για θαλάσσια ρύπανση - Φωνή της Ξάνθης",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNWpodFZJamZqckR0X1ZFZGdraUhVWTF2NGlTU3dqakhmZXZobDFaUXVEbE92dWh3dlhPTm5xY1RoengxOWxoM2tncFF0eWFBZEY2SkNSNzVFR2pLb0FtVmhZdjliM0hmdFNQM3JTNmY0T01TVFV5cFRpc2dVMDFvbWpaNjYwTm1oeHBITHd3cXI1TzV2YVYwS3RLOGNvRHgxTzNmaDhlQmJWSTI1RnBuOUVJMEd6eWRROFBPM2k1OEhGZ3VjUDJFV1BaTTd6UdIBzgFBVV95cUxNNWpodFZJamZqckR0X1ZFZGdraUhVWTF2NGlTU3dqakhmZXZobDFaUXVEbE92dWh3dlhPTm5xY1RoengxOWxoM2tncFF0eWFBZEY2SkNSNzVFR2pLb0FtVmhZdjliM0hmdFNQM3JTNmY0T01TVFV5cFRpc2dVMDFvbWpaNjYwTm1oeHBITHd3cXI1TzV2YVYwS3RLOGNvRHgxTzNmaDhlQmJWSTI1RnBuOUVJMEd6eWRROFBPM2k1OEhGZ3VjUDJFV1BaTTd6UQ?oc=5",
+      "published": "2026-07-21T07:00:00.000Z",
+      "snippet": "Βαριές «καμπάνες» στις παραλίες: Από 100 ευρώ για ρακέτες έως 58.000 ευρώ για θαλάσσια ρύπανση&nbsp;&nbsp;Φωνή της Ξάνθης",
+      "keyword": "πρόστιμο 300 ευρώ κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Ο «χάρτης» των προστίμων στην παραλία: Τι ισχύει για SUP, φωτιές, κάμπινγκ και jet ski - Athens Magazine",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLU15bGdZNW1FZE1VRF9IS29mZ2k3dnoycHlJRW5vc1lOMTFKQXI5NmFGNWF0eVdCQkhSeEpnLU00azVuZV9hUmdrYXZmQXFWNFYxQnVOcVlCbWFLQllUR2dTRVZubTBEQllJUHY4V3pIVTM0R2RWT0hfLWpXUzN3QXBESUpNa0FucG1kN0wxT3ZZWGE5VHJjUVZ5RWNMRnhiMWF4WjkzaE9kYTlvcGxaZDNxVlRUYXFLM0t2c3dqODNIazZ5S2N2Z05MUWV2UnBV?oc=5",
+      "published": "2026-07-21T06:26:31.000Z",
+      "snippet": "Ο «χάρτης» των προστίμων στην παραλία: Τι ισχύει για SUP, φωτιές, κάμπινγκ και jet ski&nbsp;&nbsp;Athens Magazine",
+      "keyword": "σύλληψη κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Greece Tightens Beach Rules with New Fines and Increased Tourist Controls - Novinite.com",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE52VHRmWkN1QlF1WmJFb1VXUjU1Tmk3YWwzY0FTc1ZBcUN6X3FfY3JlTExHWFRlQ3RITTZMdW9vUmZvVmxLUDdXalRFWk5vbWFWZllkeHZHWGh3Y216YTlING9kUW9aZ0hRNkszSC1laHV6UzVEY01V?oc=5",
+      "published": "2026-07-20T21:04:32.000Z",
+      "snippet": "Greece Tightens Beach Rules with New Fines and Increased Tourist Controls&nbsp;&nbsp;Novinite.com",
+      "keyword": "Greece illegal camping police",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "SUP, ρακέτες, ελεύθερο κάμπινγκ: Τι ισχύει στις παραλίες, τα πρόστιμα - fonien.gr",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOTFZWXloWWpKRkRiZ2hEX2IyRDdZZ1JjQk0xdHhfcGN6MFVpUTFZMmlOc0wtZlNxWGdCVy1pWGl2YTFRUkloSC0xNGlLeThNNTV0TW9wQ1QzRGMxRURsTVZKZFFFcEJJQWx2NkVDSTkyR05YR1NvazZObnEtOVNCUjBWVXR4dVB5TVQ1ZkxR0gGWAUFVX3lxTE95OHN3XzZJTXA2TjNiUjRXVVI2WjdXOTM2U0xzWXFGdjFSOVA2b21YcmNoODZTN1JwbzhIMTZDb0Y4NS1USndlRFAtWlZDV0NKX2paRGtJNlhMRXNMZjVfbmp1QWNuR0xsN1VtTDUxRkI4TkVpZFZOaWVYY3Jpa2FfVnA1aHBKSlhmUHA4bkpkWThXbWtzUQ?oc=5",
+      "published": "2026-07-20T12:30:00.000Z",
+      "snippet": "SUP, ρακέτες, ελεύθερο κάμπινγκ: Τι ισχύει στις παραλίες, τα πρόστιμα&nbsp;&nbsp;fonien.gr",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "SUP, ρακέτες, ελεύθερο κάμπινγκ: Τι ισχύει στις παραλίες, τα πρόστιμα - ΤΟ ΒΗΜΑ",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONFVVU3YzTWxqd1FfX0NtMk16U3A5YmlBemdJODBJMzJaTFZ6WmxFcEhaRktDTlRqX0JqVnhKTld6U1R3U3NoSWxOYmlQNzJHcVZkNTN1eHI0b0NKajVtem82YmhnUTRKZ1RJTTZfRl9mUzItNjk5VURqa0d5UmpjSmZndDZDTHF0aE4zSzg3alJ5TWxZd2NLSnkxRTZweDEwbGpsMWFPSmFRUktw0gGyAUFVX3lxTE1RbHlHV3VzelFoU2FOOHUyR1oxUHJNQmw4MWkwalRsVnI0aVR6TWFleFZGbVI2c3BTNUJWckRGMUZUQ3YzNERvdTlKLVdGZjgzZDRoRXRMTDdsTVd5SmllSmZpbG1aZTNtZGtaVkxrMzNvS0JYX1RwdVcxX29vQUg3ZG9lUWM0THBWaFBTZkdVR3JCdk1iRkhXR0VLVVlWYlhFTnhDcFU5bFJCMHhLSnVFYmc?oc=5",
+      "published": "2026-07-20T07:00:00.000Z",
+      "snippet": "SUP, ρακέτες, ελεύθερο κάμπινγκ: Τι ισχύει στις παραλίες, τα πρόστιμα&nbsp;&nbsp;ΤΟ ΒΗΜΑ",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Τι ισχύει για SUP, ρακέτες, μουσική και ελεύθερο κάμπινγκ - Τσουχτερά πρόστιμα - Dnews",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPa3QxVGNNSkEwZGY1ZUZTcU9LeGUySHY3ZkZKRnlzUV9QbHBfeEUyREIxR3l4NmtDZ280UXZEa2FacEtTTTh5WTdPYWczTUVfM0dpQzBzaWpQN3JjcDJIWmt1ZzdPV3prLUZpeFNkWUxCWnUwb2Jtc0puVVlNRWI0MHl4SG1VcmhlcTQ5R1NkM2VGMUxQOTBWOXdIYld6MExTdVhYODhDTUZVeHlJYWpKaGJKMzZ2Tkp2QjFZ?oc=5",
+      "published": "2026-07-20T07:00:00.000Z",
+      "snippet": "Τι ισχύει για SUP, ρακέτες, μουσική και ελεύθερο κάμπινγκ - Τσουχτερά πρόστιμα&nbsp;&nbsp;Dnews",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Πρόστιμα στις παραλίες: Τι ισχύει για SUP, ρακέτες, ελεύθερο κάμπινγκ και ηχορύπανση - AlfaVita",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPemV0ZThSSmVyLVFiMF91bks0b1Y5YzRCZzZ0U09Nekg2S1JPUXNlSWRvTE5rVTFZbV9HNG9oV0QzN0Rzdkk2aGRuZGp6bmI4N3NVNEtlYTh5TnpNcF83NnZSVWJPMXFkTTJycmlUb3k3UGNVSlBtZUlmZWlCSVdMelBsb0wtZ2ZMcEN3NVQxOTFLdzc1MWdOQWdCTy1DUW1oajNDS3VZa1BPb0xNeXVLdE53S0dxYXlzdHpMUllFUQ?oc=5",
+      "published": "2026-07-20T07:00:00.000Z",
+      "snippet": "Πρόστιμα στις παραλίες: Τι ισχύει για SUP, ρακέτες, ελεύθερο κάμπινγκ και ηχορύπανση&nbsp;&nbsp;AlfaVita",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Τα πρόστιμα της παραλίας που πρέπει να ξέρουν όσοι πάνε διακοπές - Reader.gr",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWHlpeF9MTENXYmRlV2F0QzhjYmJmeE9EM0dyN0VaTkJfSUJmUnZwdDhWNWZ1UmtYMnk0SmlqbU1sRm9KRVF4NkQ2VnJlME13VHA2RUJpRElKTmNJQmdXVkxfbUtfM095YWpQYVc2c1NhNHdTR0JzY1hFVndESmVsUGJmUDhnV3l2VjRORnRzSjF3dnV4dnRDMVBFQ1RWQWhDZTM1WENn0gGrAUFVX3lxTFBPc0RCMXJzU0I1UnMydUxuRGlJVWdKU1R0NlN5NnUtMTc3dmx0MVhtTWZTRERncXpyQVllWVVZSkh2WnB0SnFzZVBWYk9QX1p5Tzc4dHE2dUNGOXNYbFJGcnNoMlhKeHp6VU5jU1YwSVFtX0hvMlVpSW81a3hkREFoTEJZRFRhV2pzOFZjRVdtVlYxLW5OancweTBiQ3g0X3FSMnZucktndWl4NA?oc=5",
+      "published": "2026-07-20T07:00:00.000Z",
+      "snippet": "Τα πρόστιμα της παραλίας που πρέπει να ξέρουν όσοι πάνε διακοπές&nbsp;&nbsp;Reader.gr",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Παραλία: Τα τσουχτερά πρόστιμα - Τι ισχύει για SUP, ρακέτες, δυνατή μουσική και ελεύθερο κάμπινγκ - Proson",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcHNTWUxSWGZzQ1l3S0JRSzNmYWtIWDBqTThobnRzVTZaTFN2NzZCM3N5VU1MVzBsME9BZTRjOXpJakJVRGlqeFJ2YTdtby1feGg4TUtxbmVnUE5hVzRuQlZPMmpWckJpSV85YlIyLVY5c0NabVk4NktSTVNEU0kwVk5mamRsVlcyRkNMQTIxT1dldWFXNkJ1M2gwWWFfQVlZblhfVWs3V3NYVndxbzBLaGF5Wk5ibjl5b1JjZE1B0gHDAUFVX3lxTFBDZkZEWUt3UWhLLV9DQmIzMXpMb3pxZzEyZFdhbC12RE1pLVV2bEZiUUYyVVF1WmNLRkZpNXpvY25sdE12RmRyYWJSX0JRekZlMFBfVmlkYnJWcUhRRjY2R2Vkb29EeHRUTmIwUEhpRmpvWFFOdndLMXlObEYxWDV4TExWRHc3OEdKMHJyMDF3WTV3c0cyaUlWbFNiT0NRdXEtekpaV2ZfakNQajBENWY0WDNwTHY0YkMzcURhQWdkaGFIbw?oc=5",
+      "published": "2026-07-20T07:00:00.000Z",
+      "snippet": "Παραλία: Τα τσουχτερά πρόστιμα - Τι ισχύει για SUP, ρακέτες, δυνατή μουσική και ελεύθερο κάμπινγκ&nbsp;&nbsp;Proson",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Παραλίες: Πρόστιμα έως 58.000 ευρώ για παραβάσεις – Τι ισχύει για SUP, ρακέτες, ηχορύπανση και κάμπινγκ - ekriti.gr",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYVZKemRiT2hXUXk4MzlBVXB6cm5BUmZQb2FoWlA2VVRmVGppeDQ4NUtVWVZHNXNZVG9ZelpJZUM4YjBZSWVvd3g3dXUyei1wTW1XcF9LaDlWWkpwZ0JTV3gzX1pCVUVOWkdPdHBfVzBDYjk1Y21zVnpFdWJkSkV6MkpQQ0NnTEIyTzhrNHBHTEpGU0UxWEZXNkRoOE1NN2RuSXB4YWpiVlJfXzdRVGxUYmJadjNMbDRwTWpZYmVVQXhaSW1p?oc=5",
+      "published": "2026-07-20T07:00:00.000Z",
+      "snippet": "Παραλίες: Πρόστιμα έως 58.000 ευρώ για παραβάσεις – Τι ισχύει για SUP, ρακέτες, ηχορύπανση και κάμπινγκ&nbsp;&nbsp;ekriti.gr",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Πρόστιμα στις παραλίες μέχρι 58.000 ευρώ: Όλα όσα ισχύουν για ρακέτες, SUP, ελεύθερο κάμπινγκ και φορητά ηχεία - Daddy-Cool.gr",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSFdEakZuMzgxRG43dUswc21aNjJkNWhkSi13THI0VUlYQ0xFODVFZmxEaU5fS1VkdzNRZEpCNFdLOEtWQk1mbGhOTWhxMmgzRnBJUUNTZWJwYjJnY2xueGljUUh1XzFueG9xNXJtWGpROHJOWmIzYjdtaGpnRVc1NEpHODlxLTIteXlQOWljYzRQS3dxazlCOXpYV2h1ektkYjVFUDZGWEREeFV4cDRUZVhObGJpUlpES1VUU2ZzMXVjRF9HVkhwV1BqVEYtRmM3ZExUMnV1aGw1bU90QjQ3VXc5LVVHRmFOeVE?oc=5",
+      "published": "2026-07-20T07:00:00.000Z",
+      "snippet": "Πρόστιμα στις παραλίες μέχρι 58.000 ευρώ: Όλα όσα ισχύουν για ρακέτες, SUP, ελεύθερο κάμπινγκ και φορητά ηχεία&nbsp;&nbsp;Daddy-Cool.gr",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "«Κρυφά» πρόστιμα στις παραλίες: Τι θεωρείται παράβαση – Οδηγός… ασφαλούς πλεύσης - aftodioikisi.gr",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOU41Yi04bi1QckI0RnZuWlJBM3AySVFxbHRGQVhvUFVyVTNWTmpuNVVCdG9mMU41V3pFMWUxYk52VTY3dWlDMHNzaXVHbVByMmp0cFFYRzBRVThLOHhib3FhWl83X3VyQVp5SDVnQlZlaHl4LTk5M3gtblBoblZ6bXRmY1hnaEJzNHNwMG1tUGZVcWhGaGN3TW9DNXV1WjhDWW9JaHpZc1RvVklwS3pQcklZZw?oc=5",
+      "published": "2026-07-20T07:00:00.000Z",
+      "snippet": "«Κρυφά» πρόστιμα στις παραλίες: Τι θεωρείται παράβαση – Οδηγός… ασφαλούς πλεύσης&nbsp;&nbsp;aftodioikisi.gr",
+      "keyword": "ελεύθερο κάμπινγκ πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Ήλιος, θάλασσα και... πρόστιμα: μέχρι €1000 σε όσους παίζουν ρακέτες στην παραλία - Mama365.gr",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNEQ4aGhwZHF1N2Vad09DMTRVMlE1dmlPU2xkQ3llNjdrWkN0emRpbm9XaXZrYndINEFjSnFNWE5uc2VLaFMzcXd4R1FJNkR5S2d5NDUtZ0FCU0Y1TnROODBSWTNIdmVPUVFnUXVFOElmWnhnQ29UbVU4czk0cTNlZ2hhWG4yNkdMem1icA?oc=5",
+      "published": "2026-07-20T07:00:00.000Z",
+      "snippet": "Ήλιος, θάλασσα και... πρόστιμα: μέχρι €1000 σε όσους παίζουν ρακέτες στην παραλία&nbsp;&nbsp;Mama365.gr",
+      "keyword": "ελεύθερο κάμπινγκ πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Πρόστιμα Στις Παραλίες: Τι Ισχύει Για Ρακέτες, SUP, Ηχεία - Star.gr",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQUxJUjB5V0NfeG1teENUaDFiemFkR2ZveC11TnZkc0tQeGdQN2xfUEdPMV82OWVvUTRuY2V4Q1BOVmlnV2dKaEFjS3EyT0Z6dnZ0RVlYUkRfOEsxMG1nNXJ4WG01WENjMTVhcFBVT2VXc1ZsdTFpcmQ0QkJHbDQ1TGFkSVkwaFNQQjZZQmtpdW9rME1ubHhUb0lqanh0UdIBowFBVV95cUxObXJFRE54M2lqVHN4d0R0T1BoLXBBRnY3b1luSW1nbHF3aFVsOFRNWnBDUUFSdDJGTklNRHowcUFoZTg1U2laQ3dtbVRzVkpSZmRSaEh1SjdWOWR5dWx1ODhoakc3UmM1TkVLV2FXWWc5a203WmF1MDczMXZwejdJZ1IxMkpsd2QxUkdXY2hWUkhLanlmWWR2a3FLeVFyQmdSSEJB?oc=5",
+      "published": "2026-07-20T07:00:00.000Z",
+      "snippet": "Πρόστιμα Στις Παραλίες: Τι Ισχύει Για Ρακέτες, SUP, Ηχεία&nbsp;&nbsp;Star.gr",
+      "keyword": "απαγόρευση κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Camber Sands: Ταξίδι στην απόκοσμη αγγλική παραλία που πρωταγωνίστησε σε Χολιγουντιανές παραγωγές - Newsbeast",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaEprczY3TTlxTVQ0Q1h5c2JLYVo3WXpRSjdNeE1lcDVEMnZSOHh4a0V1RHRsWDNDRHZkeEdRWDR5bGpXNjd4SzRfVWRCcGtHelhiVHh5QnhzX3o3NVRZRllxcmMya1QtQjBkaEdPN19CWW1sR2llb2lleVVSMEJPUllrQUtFMFc1bHh6ZWJOeTBKZXd3Q2R2ckVSWDUwdkFpaXZ6c09NNkNnaWxvOERMWkZXdDAzU2ljS0VUN2RIblhHMHM4WUVuZjh2Z29SN0NrWGRMNzllWkgyWC1WTFh0bHZjVGQ?oc=5",
+      "published": "2026-07-20T07:00:00.000Z",
+      "snippet": "Camber Sands: Ταξίδι στην απόκοσμη αγγλική παραλία που πρωταγωνίστησε σε Χολιγουντιανές παραγωγές&nbsp;&nbsp;Newsbeast",
+      "keyword": "αστυνομία κάμπερ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Πρόστιμα σε παραλίες 2026: SUP, ρακέτες, κάμπινγκ και ηχορύπανση – Αναλυτικά τα ποσά - Thriassio.gr",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE53aE1TWXRjcmxGeHFsU1gzbXZ5OTM1X3NkQm90VzRXam5yMC1QUUNCdjVXMUFIR1YzNXhDWElfcHFJSFZQNmlJeHdweFdEUWRFR091ZWk5WGR5OGlsNXlUXzNMQzlyS0xuN2ltWkRXNHVhYUhQUmc?oc=5",
+      "published": "2026-07-19T18:19:37.000Z",
+      "snippet": "Πρόστιμα σε παραλίες 2026: SUP, ρακέτες, κάμπινγκ και ηχορύπανση – Αναλυτικά τα ποσά&nbsp;&nbsp;Thriassio.gr",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Καμπάνες φωτιά: Πρόστιμα 58.000€ για SUP, ρακέτες, κάμπινγκ; - iAxia -",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdV9oVjh6ZnROemNSMkNPd3RSUXh5eERmMHVfLTNXeWlHN1d4bXlSblVoaXVQLUpLODJBc243N0daSk9kcnhXZ2c5TkZjaFRFWVpvekJnc3dNbmJVUG9ETnlFUGJ1SnhiZFlMY3JyTVBEclZYb0ZDNTdCNzdVVXlCV1R6aDU3SFBCTk9v?oc=5",
+      "published": "2026-07-19T13:50:25.000Z",
+      "snippet": "Καμπάνες φωτιά: Πρόστιμα 58.000€ για SUP, ρακέτες, κάμπινγκ;&nbsp;&nbsp;iAxia -",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "«Φωτιά» τα πρόστιμα στις παραλίες: Έως 58.000 ευρώ για μία παράβαση – Τι πρέπει να προσέξουν οι λουόμενοι - thefaq.gr",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWlJ0NTY5empod1R2OUwtbDZNdVZYd25WZEtQSWhnSUZvdUkzR2tSTmQ5dXp4SVVWY0NHQ1NSa0hlUEFUOXdWUzhSYnMxY092ZW5XNURFWmMxcWx2OWtzcTlqQ0FFWmxOV3BhTVFOcXQ1ZXhLNHRDc2F0aTk3WXBWLUMwMWV3UTJycmRQd0xOTU5WNXFZcWJIQXN5ZEVKZmtwbXJvcmt0VERqb2FJNUpyNGFvVV9zRUxxelpj?oc=5",
+      "published": "2026-07-19T13:41:38.000Z",
+      "snippet": "«Φωτιά» τα πρόστιμα στις παραλίες: Έως 58.000 ευρώ για μία παράβαση – Τι πρέπει να προσέξουν οι λουόμενοι&nbsp;&nbsp;thefaq.gr",
+      "keyword": "ελεύθερο κάμπινγκ πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Τσουχτέρα πρόστιμα στις παραλίες: Τι ισχυεί για SUP, ρακέτες, ελεύθερο κάμπινγκ - Αναλυτικός οδηγός - Athens Magazine",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbjhrNFp0VU9ZZ3hKNVA5NEU4MThvRE05blVmeC1KSVhmQkJ3MWdka2pLaDh3ODlWbW1IbXEyN3dQOEJQdjQyeEVCZnVlTEZIcFhPUVZ4bWNfRVBRUEZ1TGpVU2tLaVhNTV9kRUdHSE9pMncwZmM5VnRfVkJLSVdXVFdvSEV3dEp2TVUtUzFKZ2doMVJmZnBTanV0N1piRHNObEJlR2xkUEwzejl0WHZJNER6Znp4ZHR1dG1KeUZjMmVsa3o0QmlsMzQ3dE1Vc01JZnN0R0FraHhwZzRBdWo0?oc=5",
+      "published": "2026-07-19T13:33:10.000Z",
+      "snippet": "Τσουχτέρα πρόστιμα στις παραλίες: Τι ισχυεί για SUP, ρακέτες, ελεύθερο κάμπινγκ - Αναλυτικός οδηγός&nbsp;&nbsp;Athens Magazine",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Οδηγός για τις παραλίες: SUP, ρακέτες, ελεύθερο κάμπινγκ και τα τσουχτερά πρόστιμα - δεδομενο",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOY3Izc2k2TDVBN3NrRXhOU0dyM3A5c0FtTDZHQ2RRc1l4VXhQUV82c1FXWlhCR0pERHBSSm0wT2dIY3lWZk91NjRjVmswSUFYY2kyUnVjcW5RejF3X1U3dldMUVIyLWRPRzNfNUtaaU1jTUNTTS1USGhBeXR1ZUxQa3NBdTliZW0zOUVpR2dfUGtsMTRHZk11dUljMjRRWFU5cFFLX3pwUFRyZHUyYThLNnMzejdEWnNhOHJSMjAyRko?oc=5",
+      "published": "2026-07-19T13:17:31.000Z",
+      "snippet": "Οδηγός για τις παραλίες: SUP, ρακέτες, ελεύθερο κάμπινγκ και τα τσουχτερά πρόστιμα&nbsp;&nbsp;δεδομενο",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Τι ισχύει για το ελεύθερο κάμπινγκ – Όσα πρέπει να ξέρετε - PowerGame",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWVZ4dHZic1hGNkg4c0V3SWY2b1Z5SWh0NjZGaG1KdjZZV0FLYWllUk0xaXVQVnZYNkhUSTd6aDl0ZXJ1QmlaaVdoQXVCUWY3a0prbFA2NXJ5N0lfMV9xM3NxNFN0dnFQYWRaa2JRdE5iWGdxRTRZU2ZHTDZoNUxxaEgxaDlkRU55TTNCUHV6SktjUkdDLVJsblhuSnZFQQ?oc=5",
+      "published": "2026-07-19T13:05:51.000Z",
+      "snippet": "Τι ισχύει για το ελεύθερο κάμπινγκ – Όσα πρέπει να ξέρετε&nbsp;&nbsp;PowerGame",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Όλα όσα πρέπει να γνωρίζουμε πριν τις εξορμήσεις στις παραλίες: Τσουχτερά τα πρόστιμα – Τι ισχύει για SUP, ρακέτες, ηχορύπανση και ελεύθερο κάμπινγκ - ertnews.gr",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPOTZrWUZRa3RIZkU1aEx4bnhER2l4VUtQaDRwa1phWnZZS3VXaVFyTmNGUWs1eWhLN1JBTEtzTXpVU2h2ekR6WjV0N0kzRThLaGlzMjJmN2h3V00wT1ZQZFdMSkVIYk1LUHNEQ01mTFhMUTNOaS1aM0R0U0gwWHJSMGk0WjdtSjBkNU9VQlViZnNLNl9CTFJFS01TMUZmS0x4cGdBN1FlWWw1eEQwUjhuZ3lWTHZTcHF4TTVoN3pEYmtONEZyUko0dURUazdMWUwxRE4tOGp2QkdEa1ZVanhZTmVCeUFRNEc2UWdBS1J5S0J6Zks0OF9KTDItWk9fbzB4ZC1GRnNoSnhpQdIBjwJBVV95cUxPQnp3bjlWSGc4WktnbE1vZW15QnBsQ3pvOHVBU2MwTHZPS0o5RTFQN0tLbEtMX3RvS0tld2NodExaRVNzaEROY2dFSWZuM0Z2RUFQMDFldmJjNF95dDZldTlhZ05ON2ZnTVZsZVFCeWQ1YWdBdURMdFZGa01IRUd2RkxWLUY0SmdmMHp6U3ZoWkhYeFQtcjdIUktoXy1xZ0VPZ25lSDBZMmluSzUzX1Z4MjZXN1VEbFBveVVuN0JveHZQQlE0VGRxOGoxLTFZelVoejhGQnFPSGJVaTRhMW5CV2x4LVFTV2RwQm9Mdzd4akotLTJNU3lsTmlieFNSdC1HZ1E1YWdvdWI2cjhLVUMw?oc=5",
+      "published": "2026-07-19T07:00:00.000Z",
+      "snippet": "Όλα όσα πρέπει να γνωρίζουμε πριν τις εξορμήσεις στις παραλίες: Τσουχτερά τα πρόστιμα – Τι ισχύει για SUP, ρακέτες, ηχορύπανση και ελεύθερο κάμπινγκ&nbsp;&nbsp;ertnews.gr",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Τι να προσέχουμε στην παραλία – «Τσουχτερά» πρόστιμα για SUP, ρακέτες, ηχορύπανση και ελεύθερο κάμπινγκ - ΤΑ ΝΕΑ",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPY1JjdXhHc1JJNllZLWxHN3pqMm03d2RFdHE2UFEzdzdaUmlJSklCbjQzaGxFQUFUbVdaVzh3VnRpNGxmdGJzVVhMSkY3RHZucXIxUWZCTFFrSWhCUkVTczB6QmVnVWlXekdLTVpMX0tEeEpDeHMtaEJKNHlhQWxCRFN3VDlOWEM4SmFKV2pRYjRlTGgtbUpYQmRxS0MtZUR5emlYY0VDOUZmbF82NVBVYkhoZEQ1eVU3N21ZeTU0dHJ4blpUVmhRX3lyOFAtbEgzdUJRZNIB2gFBVV95cUxNdHZabk9TLWpPdUp2NEprVGZMY21VMEdZOHFLS1d1Z0YzcVF5T3NVUXg1VzJsbHBMT2tqcmFIenhOcU5yNnA2YUtDZWlmQ1M3YklUY3VKS3hFa2k3aHJLT3FjR0RGdzBPaEJUMk1ZQ2dVSlIwZ2VoOFFJRk5HbUVxbXhpNG5tREJMUkJEWHpSbDd0RFhKOWEzZDdhbzluVjJ2RFFNOXhBdzlBN3pkU0lkSF9iWkJhOFJ0d3VLS1pvUWJLYm9hVmhIOS1vMU9xSHVzQ01aWnRNZWRFQQ?oc=5",
+      "published": "2026-07-19T07:00:00.000Z",
+      "snippet": "Τι να προσέχουμε στην παραλία – «Τσουχτερά» πρόστιμα για SUP, ρακέτες, ηχορύπανση και ελεύθερο κάμπινγκ&nbsp;&nbsp;ΤΑ ΝΕΑ",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Τσουχτερά πρόστιμα με... τις βουτιές στην παραλία: Τι ισχύει για SUP, ρακέτες, ηχορύπανση, ελεύθερο κάμπινγκ - The TOC",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTHptWnFUMkpIMHJ6RTY3ZFdjaGxLR0oxeXBraVRqejU0NXZBSFdHV2w0b1RSSlhQWkJSSVJHN09HREIzTjRCOXF4Sy1qdV96cmlqaXR2T3lDYzdTaXg3MXcydW1iWm5RcmsyMGo5RjVVS2xtZ3dSSVBBNnZZSV9CWkExbmJvR094bHQ5d2FZTjdtb2dwbmQta0VEV0VLUUk5ZzlkemVIMjF3bzBOUC1jQ3FWalZkTDQtTWgxZ0g1bGlmbnhreXc4ZzFRT3VRajFXSTRZX20wWk9pZ9IB5gFBVV95cUxQZTJtWjQxbHR5LTlURVYxWVBXYnVPQ1ZhVDhQRFBKY3FqYldHb1pwcE1UdE1STU9kMWptX1dhMnJycWdqLTJVRjFPbEhyS2ZIc2VwbUVBc3BsODQ1OGE0ZEhWUFh2dlMtSlNpRzN5OThrWU1wRXV5WnZJdHNVWmlVMlFJdUJXV1ptVzlzNEZxZzVPTFlBYVN3bjZTRDBmVWUzM3NLNVhkeHBIejFMYlhzWG9sYjE1MEFheVY4bHoydTlrSzZ2T2FmM2FyY1FCVm9HRG5tZEFwcGZ0R3FxT3dUSWlGWHN6Zw?oc=5",
+      "published": "2026-07-19T07:00:00.000Z",
+      "snippet": "Τσουχτερά πρόστιμα με... τις βουτιές στην παραλία: Τι ισχύει για SUP, ρακέτες, ηχορύπανση, ελεύθερο κάμπινγκ&nbsp;&nbsp;The TOC",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Ο οδηγός της παραλίας: Τι ισχύει για ρακέτες, SUP και ελεύθερο κάμπινγκ - «Τσουχτερά» τα πρόστιμα - Flash.gr",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOX04yeVAzdDBucDJZcmdwdlAwckFzTVdpZXIwcjNSS2Y5OVY1RlNlZEtYX0xLeTU5ZnMwM2JNYTJIYnhnbkNTdV83TVRqYk5JQlNfcGphdk9HVkN1SzlpSmJDbFJJbU5mTks5NjhtNzFYdDJybjQxMTlfaWZFS1hUdTZEV09uOGFCM1h1RUxzZTZDQ0FVN2c3STh3R3lseXN4SzVfX2hrZ2Rfenoyc0R6NUw5UlJrbzRsWk10bTl3Rlo?oc=5",
+      "published": "2026-07-19T07:00:00.000Z",
+      "snippet": "Ο οδηγός της παραλίας: Τι ισχύει για ρακέτες, SUP και ελεύθερο κάμπινγκ - «Τσουχτερά» τα πρόστιμα&nbsp;&nbsp;Flash.gr",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Παραλία με κανόνες: Τα πρόστιμα που πολλοί αγνοούν – Από1.000 έως και 58.000 ευρώ - AlfaVita",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOa3NEd3R6M3lfb0s0S0luYkdwb2dzZkU0cHNRVGRuOENUVWFKWkZKVW91cGZxZ2gwd1dmell5NFl1SDJMZHFySVBBRzdiX2ZpRnNwamxRd1dWMmlIa2NHNXBlQnJEeFRlYmRDYmRQcldyMDhMNG9oZkkwZG0wZGhLT281dndEZE1TWmtVVHNiamRDZ1BFLVI5NkU2RWhjNzhMZ0lEQmp4TGcxZVYyLXlscEtOZjNBZ3c?oc=5",
+      "published": "2026-07-19T07:00:00.000Z",
+      "snippet": "Παραλία με κανόνες: Τα πρόστιμα που πολλοί αγνοούν – Από1.000 έως και 58.000 ευρώ&nbsp;&nbsp;AlfaVita",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Τι να προσέχουμε στην παραλία – «Τσουχτερά» πρόστιμα για SUP, ρακέτες, ηχορύπανση και ελεύθερο κάμπινγκ - IliaLive.gr",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWkkzdmlDNXBMd0xfYkptRzdJbUdkc0Y0T2IyckNPRGo4M01XNFdRNnBXZ1BjcEdxdDl5N2FaWW1UM1B1b0lOY1VrUXQ3SnpxYjJoQkRLdDVhbG52ejJERWd1QllCdHhuOUx5TGVFWjVQYVp4QmZHWFhpLTVZdHYwbWFTcjdQZ3dTSHh3V18ycU1rY0lRSUZVaHdqNmJLQUFUNVctaXE3TzVJaUhTV3Mtc0dzc1VFdEJidjA2Tk51OHNIZnhzc1BMZXU1V1czbGQ5clE?oc=5",
+      "published": "2026-07-19T07:00:00.000Z",
+      "snippet": "Τι να προσέχουμε στην παραλία – «Τσουχτερά» πρόστιμα για SUP, ρακέτες, ηχορύπανση και ελεύθερο κάμπινγκ&nbsp;&nbsp;IliaLive.gr",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Παραλίες: Τι ισχύει για SUP, ρακέτες, ηχορύπανση και ελεύθερο κάμπινγκ - Οι κανόνες και τα πρόστιμα που - enikonomia.gr",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWFVULU9UUTR5aGhSc1A3ekVCRGhHQnVDam4zd1lGX0JrclEzV3B3b3AtY28zMG5CeG5FaDlYcDJjS0FWYzVCbXMtZ1gxQVRVOGpySDl3ZlNkU1VybTRKakxuT3ZDXzlMLWVzZTVwR0gxa0JsQWU3d21KX1daQ0puVFlRSXdLMUdLMnRhWtIBkgFBVV95cUxPY2F2aldNc3FhVG9pNXB1WnFjS01aZ1FmZFlabGpIeVE3R3NDa1Q5bGE3TExLUlZreU5ubGhDN2NMSUhUTGI1MlNPS1NQQkxFdlRVajJVSlkycExIMFpvRDZNZmd5N01ubnNlbU1ER0xiMEl6Qkdfa1JFcHN0WXZuWTJNWGdhRHV1aUlmT2o3UnlIdw?oc=5",
+      "published": "2026-07-19T07:00:00.000Z",
+      "snippet": "Παραλίες: Τι ισχύει για SUP, ρακέτες, ηχορύπανση και ελεύθερο κάμπινγκ - Οι κανόνες και τα πρόστιμα που&nbsp;&nbsp;enikonomia.gr",
+      "keyword": "ελεύθερο κάμπινγκ πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Ρακέτες, sup, ελεύθερο κάμπινγκ, ρύπανση: Τσουχτερά τα πρόστιμα! - Stilida.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcHh3bHg5eUlYc0M5Z1A5N2tyUndVU2JuNGJ1OTZTVjFkemNsM25lR1ZpbGxCdjl1NGlEdlBfVTNZTVYyNTVkV0lrRWdGQXpUaFgxRUJELWJIMzRQc1E4aHZWdXEyVEpYcUV1eThHZjVjNHRueXpRTktxQkxzcEhjcUxEV2ptanNxeW13WmhQSm04ZEVO?oc=5",
+      "published": "2026-07-19T07:00:00.000Z",
+      "snippet": "Ρακέτες, sup, ελεύθερο κάμπινγκ, ρύπανση: Τσουχτερά τα πρόστιμα!&nbsp;&nbsp;Stilida.com",
+      "keyword": "ελεύθερο κάμπινγκ πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Τα άγνωστα πρόστιμα της παραλίας: Ακόμα και 1.000 ευρώ για θόρυβο από ρακέτες - iEidiseis",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSU5nREU0QVJVNk5aM05mdThBdHZ2LXcyUkdoX1B0VEJCaVJ5a3hIaTU3M3dsUGRNNkRLQlZuSjBPWTMyM2VCZnlUOWw3dUFDTnJIZmhuYjRYMVZkZkVab3NHT0U5SWd0ejNuWXBCTGtacU9OcF9FbE9DVmpOV1o0LWROdGNMem1oVWRSQ2t0SFVsanpkbmlpWXExZzhUenY5LXFRcmxJX29OdDl6VG0tdjNNbWxrYjI5?oc=5",
+      "published": "2026-07-19T07:00:00.000Z",
+      "snippet": "Τα άγνωστα πρόστιμα της παραλίας: Ακόμα και 1.000 ευρώ για θόρυβο από ρακέτες&nbsp;&nbsp;iEidiseis",
+      "keyword": "ελεύθερο κάμπινγκ πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Τι έχει αλλάξει στις παραλίες: Βροχή τα πρόστιμα για ρακέτες, SUP, drones και πολλά άλλα. Τι πρέπει να προσέχετε - briefingnews.gr",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUzVMSkZaUmpkdEc1bWVtUVJyaGM2Nl9aT0hFNVlmQTJfbXIyc2duWlR3dzdHdVZKQlplLWktWVppTi1WYWk3S3RDQkh3NDlST3pYbzI0RnBvQi1QVGRhdjVFX1JUUVNVa3AwYVUxRFFhQThTcVVwUzc3Mll0TjVFMEc3RHNaUkhXakp4S2ktOS13b0pUUHh2Q1l0azN4dzF5YVVhdzMwZGM0MGRfWE9heW5OTWtXaDRjZGZpbUl0NGU?oc=5",
+      "published": "2026-07-18T13:09:56.000Z",
+      "snippet": "Τι έχει αλλάξει στις παραλίες: Βροχή τα πρόστιμα για ρακέτες, SUP, drones και πολλά άλλα. Τι πρέπει να προσέχετε&nbsp;&nbsp;briefingnews.gr",
+      "keyword": "πρόστιμο 300 ευρώ κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Από το SUP και τις ρακέτες, μέχρι τα ηχεία: Τι επιτρέπεται και τα πρόστιμα αν σας πιάσουν - Enimerotiko.gr",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVXRZQzhUNWZ2TEtNa1ZFWFpaT3oyWnlwWXg3VktDNHAyNy1KbmZ6dllJV1RIWlpyZ3VQWGp2aFdGVnd0bGNHU0pwS24tS0Fqb21vLXFBemxHZW5CWU56YzdKMGZYLVNlalI5SGMxaTNmYldXTmxlbG03RkFULWpuQTkzUFFxQ0MzTmxjYkRjTmxFcGc0MUxNalZEbmQtWWJFYnpxTHZkTHZ3d1IwejVLVDJXSVVfMjN3dWhCX1RwZ9IBxAFBVV95cUxNcGFPRXp6SjYyc1NUNDNndC1qZ1BIRnhFUkFncTBhZ090dGFodjJKR0syZ1NHT3N0dlJOM0RuVHBjbzNNNWtJZmFGamMxZHBVWlpTWnlxaUg3VDJQWlg5VzFReEtXZ1h5ZDNITlpWS053ZWktU1lDS1ZFQlM0eUtCTG81bDAxN29PTDhmd2xwT0RqTW51bFZJNzZWN1BzQUMxbmVudlRuclBQS0hnM0FiWDl4eXBPVkItOUJ1OG5lcF9LX2xi?oc=5",
+      "published": "2026-07-18T07:00:00.000Z",
+      "snippet": "Από το SUP και τις ρακέτες, μέχρι τα ηχεία: Τι επιτρέπεται και τα πρόστιμα αν σας πιάσουν&nbsp;&nbsp;Enimerotiko.gr",
+      "keyword": "πρόστιμο 300 ευρώ κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Ελεύθερο κάμπινγκ: Τι ισχύει και το νησί που το επιτρέπει - aftodioikisi.gr",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZGVudkJpZFNaMUFDSncyWS1KRzZaYVdHRHdnYV9sbVd1RWlkLTRkSnRldHVhT0NpcFNlVHY5Vk56Vm43TFVMbmtmSFk0TFhoeVh4TDdPR1F3dlJTa18tQTBIa3VHMWM4MWVOUUtlVm5RTjhPSmZSeEwxa0Ztb2tMWktZcF91OG1kc0daRXc2Y0pSQ3F2cUVKaGtud3A?oc=5",
+      "published": "2026-07-18T00:58:54.000Z",
+      "snippet": "Ελεύθερο κάμπινγκ: Τι ισχύει και το νησί που το επιτρέπει&nbsp;&nbsp;aftodioikisi.gr",
+      "keyword": "παράνομο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Camping in Cyprus by Campervan: Rules, Campsites, and Life on the Road - Travel Dudes",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMlJiaS02YzhTOEFiSGVGdEFaRS1veDhkeXZtNDR2YzBmZEtXS3dwcmJqbm5GS2tsenRhcEhDbTU5Ml9lT3R6S01xLThiY3FFSVBzQzdtYy1aQWJTamFzWUhmUDA0MkJHY1VUeFQxZmoyckMtTHV0Zjh3LXMyT1dPX25ITThNSDVjc2YwbW5uZU1Zd1NvaDJr?oc=5",
+      "published": "2026-07-13T21:56:41.000Z",
+      "snippet": "Camping in Cyprus by Campervan: Rules, Campsites, and Life on the Road&nbsp;&nbsp;Travel Dudes",
+      "keyword": "Greece camper van fine beach",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Τροχόσπιτα: Τι ισχύει για στάθμευση και ελεύθερη κατασκήνωση - εφημερίδα δημοκρατία",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNjFhTkNqWFdvdEluYmdLbjJXVHJrcV9zUGdkVlUtS2VPd25CXzJLSVRXSzFxWXRLcVNfM0dVMWNBbkt5RXdBTDVBSExtT1prcy1fUW5CbHg3RC1UX21oR05LUkVkd212WkdQSy10WVc3ZDN6S25wTG9zRUNlUkdOQlVsZk01VlBMQ1RFRlFjZEl2SUNwSFlNSFItU0Noc20xOERKSHh3SQ?oc=5",
+      "published": "2026-07-09T07:00:00.000Z",
+      "snippet": "Τροχόσπιτα: Τι ισχύει για στάθμευση και ελεύθερη κατασκήνωση&nbsp;&nbsp;εφημερίδα δημοκρατία",
+      "keyword": "τροχόσπιτο πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Τριτοκοσμικές εικόνες στην καρδιά της Αλεξανδρούπολης: Αυτοσχέδιο ελεύθερο κάμπινγκ και εστίες μόλυνσης κάτω από την «Αργώ» - pame evro",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hYV94a2s3T2lNQUttaVhBUXA1amtZRTdxdnFmNzFER3d0YlJvRVVMTE11MGFqYy1nbWFBQzkxVnNzQXJLUDEySzQ3c1Q3aHFiak02OHFEVWVaM3ctVllGTmEteFdKdzN1aUE?oc=5",
+      "published": "2026-07-08T07:00:00.000Z",
+      "snippet": "Τριτοκοσμικές εικόνες στην καρδιά της Αλεξανδρούπολης: Αυτοσχέδιο ελεύθερο κάμπινγκ και εστίες μόλυνσης κάτω από την «Αργώ»&nbsp;&nbsp;pame evro",
+      "keyword": "παράνομο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Σαμοθράκη: Οι επαγγελματίες στηρίζουν τους ελέγχους της Αστυνομίας κατά του παράνομου κάμπινγκ - E-evros",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWGJpZEpzM2I3RW9qYVdMZk1lYWxENEkxczJnWGlheTRCOHEtRUJjTlh1MkhhOXdEdHBsbmgzLUlQc0NMSllGczB6TFVUZVdSZlBRNWtfbEVMSDZxRHQtMFlNQVMtR0ZGZk9WRGJYSVZPTWI3Z3R4cW1uendjNi1LNm9lanhGeGhaRVh6NWc1R1dQaVJOTEotNnJ0MTQwMnViOUh5Ni1INWRrLV9oOGYwSE1TYzJzaFdCQUYzaVFpamx0YThKWHZCaDFLQjdnSDZSWm1odEUxaw?oc=5",
+      "published": "2026-07-06T07:00:00.000Z",
+      "snippet": "Σαμοθράκη: Οι επαγγελματίες στηρίζουν τους ελέγχους της Αστυνομίας κατά του παράνομου κάμπινγκ&nbsp;&nbsp;E-evros",
+      "keyword": "παράνομο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Κλείνουν το ένα μετά το άλλο τα οργανωμένα κάμπινγκ στην Κύπρο, φωνάζουν οι κατασκηνωτές - AlphaNews",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd285WVpwNW5zOXQzdXBmS24zdG9mZS16TUhCZHpENlpfS2Y2aGhrM0lVTXFUb2FRNFJfSGhpOEV6Q216aGgzY0Q3Nl9QeWUySjBJbTJYMlVkVTE4OHZlRXZEd1BsaFV0VWhqbk5JbWpGUHpnQmloWW04TXFSc05rV0RRZDVHaTh2M05GcGtUWlg2eVVwS00wM3hlSkxIQXdGb1Zfa0dsVmctaUt4bEJyT2lFTkgxdFJ5YTZvUTFB?oc=5",
+      "published": "2026-07-04T07:00:00.000Z",
+      "snippet": "Κλείνουν το ένα μετά το άλλο τα οργανωμένα κάμπινγκ στην Κύπρο, φωνάζουν οι κατασκηνωτές&nbsp;&nbsp;AlphaNews",
+      "keyword": "παράνομο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Πρόστιμο έως 750 ευρώ για μια καθημερινή συνήθεια στην παραλία – Τι απαγορεύεται αυστηρά ... - Corfu TV News",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZ2RiUlJGM0xERWtxd3NQSEVEeE04MTE1bTh6Q0t1c1hVTHI1WDlJVC10YmFZek9Ha3hDbXo5NjRpemFoX01FajZObDBfNVdkbWlFdDlSUVJaUmVSbjRJcGhjWG5lRElFZzRhOGJ5TUFfLUJtSkxOQXB2NW13S1FpajZuRTVHSzJoY0JETWRCRnNwUTNSSzcxM3JrbGNwSGxUT0s2dVNvMGFHYldzNFhfTW13?oc=5",
+      "published": "2026-07-03T18:38:00.000Z",
+      "snippet": "Πρόστιμο έως 750 ευρώ για μια καθημερινή συνήθεια στην παραλία – Τι απαγορεύεται αυστηρά ...&nbsp;&nbsp;Corfu TV News",
+      "keyword": "απαγόρευση κατασκήνωσης παραλία",
+      "region": "Corfu"
+    },
+    {
+      "source": "google-news",
+      "title": "Πρόστιμο έως 750 ευρώ για μια καθημερινή συνήθεια στην παραλία – Τι απαγορεύεται αυστηρά - AlfaVita",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNV1hkLWFhN21yNllUX1Q3ZWU3UXRMSFNDeEc1WmRZLXFWNUFyZjA4aWJDck9aN2I0eWVxZEpUdkQ2TVY3UGNqQ2s2RnZ6QnJIamFmTmdfZkhOT3dkMDVZNUFWdUZpU042WVFCcFlXLXpWNUY4MkxQUmRyUlBsNWFLelZSOVJ4emJvRFNPVHFwT1RlTlNGcHdJXzVUR1NSYW15QS1sdzdWdkZQVWlXcWZzNkNBVnlVemRUSmc?oc=5",
+      "published": "2026-07-03T07:00:00.000Z",
+      "snippet": "Πρόστιμο έως 750 ευρώ για μια καθημερινή συνήθεια στην παραλία – Τι απαγορεύεται αυστηρά&nbsp;&nbsp;AlfaVita",
+      "keyword": "απαγόρευση κατασκήνωσης παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Η Ισπανία δίνει το παράδειγμα: Πρόστιμο έως 750 ευρώ για μια συνήθεια που πολλοί κάνουν και στις ελληνικές παραλίες - Pressing.gr",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVzJTODU2aThxaUs1TkJTa1hXSzJXNjBkWVdlZFFTY2NpMkVRNUY2TDB6RDJPS2RLV1pOalFTVmJCN2JiYU9TUV82YkZIenRNVTQwdGZTME5xU1ZraEJaNVdZOGU2S3JPZTg1T1V4cDlCYUZ4Um1NS1lmdTdvTW9YaFB0SUlUdnZod2FzajVVbUh6cUhvUmZrNEhOOHVpUWszWE1WMHlYbDY3Z3J2a1VCZThNWTF4WUc4U3pqYV9ZT3ZXLXVwcVhweFZlUWpDQUczM0tncENZUmIzWHM?oc=5",
+      "published": "2026-07-02T07:00:00.000Z",
+      "snippet": "Η Ισπανία δίνει το παράδειγμα: Πρόστιμο έως 750 ευρώ για μια συνήθεια που πολλοί κάνουν και στις ελληνικές παραλίες&nbsp;&nbsp;Pressing.gr",
+      "keyword": "απαγόρευση κατασκήνωσης παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Σαμοθράκη: «Ανεύθυνος» διαφημίζει ελεύθερο κάμπινγκ στον Φονιά και τον Παράδεισο και πουλά προστασία! (ΒΙΝΤΕΟ) - pame evro",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LTkVTcUt0d3ZqdmxhYko4RWNQclJUajBUNlkwS3VPM0dKR2l5RWdycEV6dkhqQzg2Q2l0dlBtVG9qVkhta2pPM1hNcjl5UXNWaGxIbDlLYUlGcWh5YWdIbzhVQlJxaGlI?oc=5",
+      "published": "2026-06-28T07:00:00.000Z",
+      "snippet": "Σαμοθράκη: «Ανεύθυνος» διαφημίζει ελεύθερο κάμπινγκ στον Φονιά και τον Παράδεισο και πουλά προστασία! (ΒΙΝΤΕΟ)&nbsp;&nbsp;pame evro",
+      "keyword": "παράνομο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Πηγαίνεις στην παραλία με το αυτοκίνητο -Η λάθος κίνηση και το πρόστιμο των 3.000 ευρώ - CAR & MOTOR",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQXdvb1ZHZmxreW1EcTRWbzRVeXFQc0FhQ0ZWN0hnQ3R2VjlFNTZtOGlOREx5elc1Mkp0aGdMOHRJNkRndVR2UXRSLUdrekxsQ3VTaVl0Q3B4YzR0aVZLRTBHdzk1NUh5am1jd2NPVGJ5TjRka25kNkczUkxSOXlIVg?oc=5",
+      "published": "2026-06-26T07:00:00.000Z",
+      "snippet": "Πηγαίνεις στην παραλία με το αυτοκίνητο -Η λάθος κίνηση και το πρόστιμο των 3.000 ευρώ&nbsp;&nbsp;CAR & MOTOR",
+      "keyword": "ελεύθερο κάμπινγκ πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Gavdos Dispute Deepens Over Demolition of Beach Shelters - tovima.com",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZzdoQlhOTEk1M2s3Zk9GWUs0TWc5bFlMd214M1NKWHQyX0c2d3N2c2xmVXhRMGFsNkNLRjN4MzlrTk14cmo5RDVKOXVJdnpGM1B2eU1KTmFrSVdhbjQ1RTFENmJwYTZzVEdUdHVQcXBweWcwbkZSM0JSUUY2eXBWWkxUSWkybkZoYjRvM3RoZUtTd9IBlwFBVV95cUxPWXJHeTlPaTJwVERNbDNCSWxmQUtySDJXWmZzamJyQTFkYXFKaGVOTGNpa3hoLTVfTURVNEh1VlJBMnFmaUhHaGZfQWpLTXFtdlhOZU9SOGZaVEQtQ2FNX002TkZRczNHcUEtWXN0YnZnMThnQVZRSGw2TlV2VkZWcnF5VHVKWlk4V29jTDQzVHRmdjFUR2VV?oc=5",
+      "published": "2026-06-26T07:00:00.000Z",
+      "snippet": "Gavdos Dispute Deepens Over Demolition of Beach Shelters&nbsp;&nbsp;tovima.com",
+      "keyword": "Greece illegal camping police",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Διακοπές με τον σκύλο μας: Πού επιτρέπεται, πού απαγορεύεται και τι πρέπει να έχουμε πάντα μαζί μας - HuffPost Greece",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbTVEclphY0VVb0d3Y0xRMHpPdWlGQ0U5YWNoLXQ3cWJBSEJoN0pYRUVSQ2NtLUMta2hmcVNtTlBvV1BPMTYyaUxBdEcxTjBxT0g2ZXlodFBZdDRSUDI3YVNibnRTLV9hd19xQVlmZDNkMExULXBJOGdTSXZpRlZrSDhhXzZlNGk1QWtVeU02ZGdNSmlzRWFpV3oyMmxoN3dZTklaX2syWlNHRmFMUGktUHl2NEpueWxPbFZ1SmFsOFA4OHk2c2V3UU5wQXJadWthYjU0?oc=5",
+      "published": "2026-06-19T07:00:00.000Z",
+      "snippet": "Διακοπές με τον σκύλο μας: Πού επιτρέπεται, πού απαγορεύεται και τι πρέπει να έχουμε πάντα μαζί μας&nbsp;&nbsp;HuffPost Greece",
+      "keyword": "απαγόρευση κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Ανάβυσσος: Συνελήφθη 72χρονος για παράνομη κατάληψη παραλίας - Είχε βάλει τραπεζοκαθίσματα και ηχεία - The TOC",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZkdiLTNDTEJMNnZSVG9MenZDVzJPa3cxeFlIMHR2N19kY2steEt6U0l1elhWYmc2bE40SlVVSDdyTUxJRHZVcjZyNXVxLWtmT213Q3VYN25NUWktcHlTdlRnS2VlT3FwRVF4UE5meWl3Vk9lMnBWcEotZWd5bEhMQVg5TlE0TThMQ2JiSVpNZlJVeGRZd3JlT1M1NVlWUUo1MThCWkNVN21sRHp3TmE2NlVKNlgzaTVjcWpCTmx0Vlc1T3hzSHBaYjVYaThDT2RURFFTcXByWGY0d9IB5gFBVV95cUxQZ0ZhcDFocExWRHFUTkNzQVBBWkt0bE9VUGlVUHRBMWVLZlFmMEFaQUpmWFBqS1NiYUtJUThYWG54SzVRd3pOTzJKVERwWV9OVm1RZWM5S2NhNXdmLWJJbDdyWmE4blI3SjJ6M1Y3a0RYV2FJTVRJYm9UZDF2bmxwVGZGaElUYUhaR2ZQb2h1YVBjU1pVOXo5Rk9tUUxubnd4WEoyWEVrN016SFhJcl9ORUtzcGpGS3Z1RjhzaFJsU2FQUXExWGlDNmg1RzlzcjlkaVB1dFFDRnRVaFJiTHZ5NHREYVFMZw?oc=5",
+      "published": "2026-06-13T07:00:00.000Z",
+      "snippet": "Ανάβυσσος: Συνελήφθη 72χρονος για παράνομη κατάληψη παραλίας - Είχε βάλει τραπεζοκαθίσματα και ηχεία&nbsp;&nbsp;The TOC",
+      "keyword": "σύλληψη κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Ελεύθερο κάμπινγκ στην Ελλάδα: Οι αυστηρές απαγορεύσεις, τα αυτόφωρα και τα τσουχτερά πρόστιμα - AlfaVita",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYmZ5RVBWb2FYeVdmUE03dlV0d1Z1dGs0bm82c1MzTjNkdVl3LWZVaEdGMmprNnpENEE3ZWFGNVFjVDJGM1hJd0VzUmFoV2NDTk5ubEJ5WmNmakM5dEREekRENFV1WVFHa054c0QtUElGekJnX3JibGdZMHMzejNYUWFXUkNpeW9yS1BmbDhheHdhelhXajFhbnhsYkJfR1B0UkhDYjhqT08wcS16QXRtcVhlR0o?oc=5",
+      "published": "2026-06-10T07:00:00.000Z",
+      "snippet": "Ελεύθερο κάμπινγκ στην Ελλάδα: Οι αυστηρές απαγορεύσεις, τα αυτόφωρα και τα τσουχτερά πρόστιμα&nbsp;&nbsp;AlfaVita",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Καμένα Βούρλα: Παρατείνεται το καθεστώς έκτακτης ανάγκης – Πρόστιμα από το ΥΠΕΝ - aftodioikisi.gr",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYkJYUS1ENndUWm15ZlVUdUI0MTJMM0UyVlIyS0NCbFF6UlRiUGREclR5ZGstUzBpeUxtM2xyYlJUX2Q3ZGpOaUFBNnJ3OTVud1ctRTZwUm9ncHltZVI1eHBLZEh4NWJDSW1qOVJqYXViZ3lTOEUxMWlCbEV6Y2hsVTYyWGQxeTBMOVA2LVFGektfV2JHQ0ZDYVNuZERQUXVTYlAzZkljdDh6V18ydjdJWGFYUnVBcDA?oc=5",
+      "published": "2026-06-10T07:00:00.000Z",
+      "snippet": "Καμένα Βούρλα: Παρατείνεται το καθεστώς έκτακτης ανάγκης – Πρόστιμα από το ΥΠΕΝ&nbsp;&nbsp;aftodioikisi.gr",
+      "keyword": "απαγόρευση κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Χανιά: Έλεγχοι και πρόστιμα για ηλεκτρικά πατίνια - Cretaone",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBoa09zMnlFalRhaWZwOEVwVTNDZ0kyRXlIOFp2M0dJMVoyM0lfekszY0tGdVJwVW9tczJVQlpLY2kxSUs5aXJoblgtWnVjb2RRMUx4TEhia1hhVDJJY1Z3MDl6QllDQkhxMk1qZk5PSEVwUkZ2Z1RRdlE2WQ?oc=5",
+      "published": "2026-06-08T07:00:00.000Z",
+      "snippet": "Χανιά: Έλεγχοι και πρόστιμα για ηλεκτρικά πατίνια&nbsp;&nbsp;Cretaone",
+      "keyword": "έλεγχοι ελεύθερο κάμπινγκ",
+      "region": "Crete"
+    },
+    {
+      "source": "google-news",
+      "title": "Ηγουμενίτσα: Αποχωρούν σήμερα οι Hells Angels – Στο νοσοκομείο ο 60χρονος που συνελήφθη με ευρωπαϊκό ένταλμα - ertnews.gr",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNUmlrRnlDUElGREZTZVozYmhZWnkteXhuckdMVzhPaFNyMnJJQ2hLd1VIOVY5TnMwdGxpcUNuOEFCRGpVVm05UFc5dm54dlhweUxVRnhLdVhEOGN6NGt3dVlaYW9qUjdnZjl1Q2dzeDZOeXNRQ3pRY1RfWjdwWWFuZ2ZEX1FWakdCZVFPeGZMTGlzangyME9hc0JnXy05dVlQTnM4TVFqRVpBdXV4UEtJVGJCaFZlMlNpZHBwWkRZTDJJY1dCXzJWekJUR3g1SzJEWmhpQnBVQW9aZ0pEcmlUQ1J6ZHlRSGJSOWRIekMwc3RCaEnSAfgBQVVfeXFMUGVPWVBSZ09YNEdJc2RXVTFERFNVdjVzSEE3OWpKTHh2bDNBZ25ReGdyT0FGT3dLMWh2MFduLVZFbV9ydUxWWFMtX2k0NUhDWmR0VDkzOS13a0lTLVBrX1M4YkdjdTF4cHQtTlU5UzI5Q21vYjNPOFM4YUlSdTRrbUR5U2NodkVNeFl4NHNSdWFHc2N3MVhSQ0VKN0VHU1lyWlJrSTdOTWNiVUdtOXY1bDlFOURCclYzcjNRdEtQVC0yRU00bUcxY3dQTm1lNUpJWlVvMzRNTjRFdDVWSTRCMExMYVM2Wll1T0ZIdGs4VmpXandBWFVFTzM?oc=5",
+      "published": "2026-06-07T07:00:00.000Z",
+      "snippet": "Ηγουμενίτσα: Αποχωρούν σήμερα οι Hells Angels – Στο νοσοκομείο ο 60χρονος που συνελήφθη με ευρωπαϊκό ένταλμα&nbsp;&nbsp;ertnews.gr",
+      "keyword": "σύλληψη κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Ηγουμενίτσα: αποχωρούν οι Hells Angels - Στο νοσοκομείο ο 60χρονος που συνελήφθη με ευρωπαϊκό ένταλμα - tomanifesto.gr",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWFhqR054WDg4clZZV2FzcDNWckRBbHhhekMzVXd6Vkt4TUlXajI1ZTFBYjRGS0dyUWFKZW9vX3ozZ090d2d1Yzc1cDJLcXM5RWJqbnZ6dzhjSTF2eTJQbkRYUHpON1l4aWJscnQ2OEtVcTJsRnp4Z2NkMTMySTBhRkktb1phWUxyamdBd3pCaHZDYjJxOXRFQTlUd3VqSnNqTVViTkNMb1dUaDhQT2FLcTlpM3RXdTVCQ2NmOEtyakRMNC1VN1NEY0U1Zw?oc=5",
+      "published": "2026-06-07T07:00:00.000Z",
+      "snippet": "Ηγουμενίτσα: αποχωρούν οι Hells Angels - Στο νοσοκομείο ο 60χρονος που συνελήφθη με ευρωπαϊκό ένταλμα&nbsp;&nbsp;tomanifesto.gr",
+      "keyword": "σύλληψη κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "«Δώσε 5 ευρώ για να κάνεις μπάνιο ή περπάτα»: Έντονες αντιδράσεις για την πρόσβαση στην παραλία της Ασπροβάλτας (ΦΩΤΟ) - Thes.gr",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNaTZiT1hBZDh5bUsxRXZKTVlDLUNhVjVjNUtqYTVpamlkQkJ2eHM4b0ZuWEhmR3Fjb3d6M1RKdnFaU2lkdE45YWw5ZEJGTTEzb3o3V1Njci0wZk9PdzV4YWhqd1lMc1Z4SWdYd21JSExNUUZSdTI2NnlRb29wN0hvWkRIWEI2WUJNRzUtWGV3a1ZmVk8wUXdHdzVqZ1BFQUV6a0M1RXhZZ29LZGRFRUFyblNuMUFQZ0M1bUl3V01vd1RwdUwxSk5Cd0J2OHk2amp1SHFMUmJ4cFBWeGpZQmFZTjVONzRnQQ?oc=5",
+      "published": "2026-06-07T07:00:00.000Z",
+      "snippet": "«Δώσε 5 ευρώ για να κάνεις μπάνιο ή περπάτα»: Έντονες αντιδράσεις για την πρόσβαση στην παραλία της Ασπροβάλτας (ΦΩΤΟ)&nbsp;&nbsp;Thes.gr",
+      "keyword": "σύλληψη κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Ελεύθερο κάμπινγκ στην Ελλάδα: Τι επιτρέπεται και τι απαγορεύεται, τα πρόστιμα - Athens Voice",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOb0lLMUcxaExpcGNWYnYtTmpwUlkyN0RfMDNVNFJEYTVIN0VHckQ0b2lPREVWa0JoTURjZ2ZQNVY4dlVwWGM3dmVWMWRoTDM4MnNwaE02OHFDOTU3VEg0LXRkRUhVcjRXcFJpRnRzRWNhT3VqTGh2Vm9rcFpzbzRseDVQOGVxRHNDT21LZnB5bVh1LVhHaUpscGFTNUNaNVg3SVVDdk5RV3hQd0o5cDc3dUVzbkd6M0hIQkNMN3ZMZ3RDZkRMbmUzRFhR0gHPAUFVX3lxTE1oeF9hVXpaNU1CbWdXNFdDX2FuOXREWkRiS0RTMS14ZVpkX3RTTWJUSmY0eWpjQjBZQ1VWNzdJQVlQQ2REZUpUSjhBTjBuLVFIRlpDa1NVQ1ZoWGctUDNGdEo5Z3I3elFJUUZYRXRWM0FQRUhjTXIwc0xXd2NIRXRKOEVoSWVCeXRqY2FXUy1mUzB2QTJqMXp6UkNTZDFHM1RFWVZVY3dZZE9wT1M1YzFpZ2N1c19naVFaWmdJNWVZTHkzVEVoNTV2dlJLYjdXRQ?oc=5",
+      "published": "2026-06-04T07:00:00.000Z",
+      "snippet": "Ελεύθερο κάμπινγκ στην Ελλάδα: Τι επιτρέπεται και τι απαγορεύεται, τα πρόστιμα&nbsp;&nbsp;Athens Voice",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Τέλος στην ανοχή του ελεύθερου κάμπινγκ: Έλεγχοι, συλλήψεις και πρόστιμα έως 3.000 ευρώ - iefimerida.gr",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMTdBcWh3dnZRaTdmSzd6ZkdFRDhYU0RIdzA0MWRXNFZ1dWlzYkhTZ2tibDM5aXN2MlhhcHVtYk9fdE14T1ptSVNMMFE3WndIRXB2Z3RYVkIweXFaaFNPMGlITG41N1hjR1ZyaF8yaUxaaFlrVkhhei1rUXRzZF9JUDJzMy1pLU0tM3VERTFwMnhwNXB5emlj0gGcAUFVX3lxTE9uNTNhZnl4UEQwXzZtUExOY21mdzFMejRsNDZxemxGenhOWFg5bzJ2a2hJMFhuSk5MTTlQaEVsYm1SYVJkYW1qY3hWZ3JZS1RnSE5mb21DN1hMaVhERmJxRGFXcjJIMmJTbEVKLTdFd256MWY0UXNhTmR5QlVZbm5waW45WFVGd1FSUk1CVXRSVW5pQk9GR0tYYmJrTw?oc=5",
+      "published": "2026-06-04T07:00:00.000Z",
+      "snippet": "Τέλος στην ανοχή του ελεύθερου κάμπινγκ: Έλεγχοι, συλλήψεις και πρόστιμα έως 3.000 ευρώ&nbsp;&nbsp;iefimerida.gr",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Ελεύθερο κάμπινγκ: Τι πρέπει να γνωρίζουν οι παραθεριστές πριν στήσουν σκηνή - Economistas.gr",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTWJoRmJxekhZSm04SXdndjBVclFXWDFyWDlYUEVXU25lVUExa0ttSU02OUdqREhja0JqNVJBUDJFbzNoQ2FQaGs2UFdiRk56RWdJWnAyVWhqREJLSWVOcWhadTEtQzNDWHoxQ01EYk02LTBXZHFtRHJhMlo1d3J5LU5hbDc0VUVZX05BeDAtSTJYUEVHc0VnWV9ieUdoNHYwVTlJT3c1aVlLdGl4VXJIWV9JQXlvTjFEYmRF?oc=5",
+      "published": "2026-06-04T07:00:00.000Z",
+      "snippet": "Ελεύθερο κάμπινγκ: Τι πρέπει να γνωρίζουν οι παραθεριστές πριν στήσουν σκηνή&nbsp;&nbsp;Economistas.gr",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Οδηγός κάμπινγκ 2026: Ελεύθερο ή οργανωμένο, οι top προορισμοί και όλα όσα πρέπει να ξέρετε | Το Κουτί της - Το Κουτί της Πανδώρας",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMlVjUVc0LUNMb29GanB6Qlk4YlE2NjJNaDNKUkdraElfbnp4X1gyTmNOZHctRWtmclpubkp6d3lYWUNyMWpOaTVaUWV1UFRkcTJIWkxlbEZXbnlTV0FVd1NGS1F6NnJZZlJscUhETTRzdEVfeWVtLVhQX3ZJckFlYmI3MEFXQ01HYjNzZEh3Y1BZTUZlbUlEOGZFcXM1VklvU19maU5FdVp0Z2duWkxNemFvWWt1THJEVXV3a3RKaWJ0WVB4WmfSAcsBQVVfeXFMT2JTY3dwSmh6MkluWFFqbW91S1ZuVEJKQ0R5VVdtQndnUENuVXpnTUtvUHNmVzNMVXg2VDhwaGxmak0yQWZVRXJCamh5SEtET0h4S0pRWV83TmJYUUlCZDFhTW84bUVlNUlXMXlaOTB3YmlXeTBveGVvYUg0UllXSkkxYWtkUUUwdFZMQUFWRGpneTVIajVZMWFLMkNwRGlac19GcEZWSk9tNEpxekVFQUNGemVZNzhheTlVWXFJQlZ5a3hzOTRLZzRScVk?oc=5",
+      "published": "2026-06-04T07:00:00.000Z",
+      "snippet": "Οδηγός κάμπινγκ 2026: Ελεύθερο ή οργανωμένο, οι top προορισμοί και όλα όσα πρέπει να ξέρετε | Το Κουτί της&nbsp;&nbsp;Το Κουτί της Πανδώρας",
+      "keyword": "παράνομο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Τροχόσπιτα: Τι ισχύει με τη στάθμευση και τα πρόστιμα - iefimerida.gr",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONkxRN0k5WER4Ums4UEQyd2hpaTZGcUk4T2FJbkdiOEdYVkhvMzJMQXpTcVVfUzhPbExINWllTGdZRWkwQmx4UmNwalpLVjM1LVFTMmI1SFhucmFReWp2Rk1oNkVZY28zTHVFXzJ5VTEzX1N0eENfWUJRc3dSdTBSTUVFWUZ3b0XSAYwBQVVfeXFMTkNacDlqSi1nRV9vRVphSlJQa2dEV3QyRTJ0WDdYdm5LNTVNZ2NpdkhSYUN0dlRQRG9iM2M4WmxVZ0hQd3lQeVVObWZpRFNSWFBtWndDc3JCVDZNblFsNUh2T2p1S2hlRlBKZE0wT1BtUUEtM1YtdVJ6dVZfNkxDUXVVd3czYThtNElkak0?oc=5",
+      "published": "2026-06-04T07:00:00.000Z",
+      "snippet": "Τροχόσπιτα: Τι ισχύει με τη στάθμευση και τα πρόστιμα&nbsp;&nbsp;iefimerida.gr",
+      "keyword": "τροχόσπιτο πρόστιμο παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Τέλος στο ελεύθερο κάμπινγκ: Έλεγχοι, συλλήψεις και πρόστιμα έως 3.000 ευρώ - cna.gr",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb3dJR2xFeWtyMkthbjFjX09HXzZfX3ZBYzc1WnpjYV9Ba3V2SHdhUUZaWmpwSVF1WjBWMFFzVU1fS3lPbUpwYy0wRmxMY193T29TVGIzclpFWlYxNkRnbjdiTzBrV2lmbEIwajRqdTR5aXV4MnFjZDY2bHZiR3F3VHA2amhyLV9OV3huRkJBZDAxejdfUWNEQ0ljdE8xcGgt?oc=5",
+      "published": "2026-06-04T07:00:00.000Z",
+      "snippet": "Τέλος στο ελεύθερο κάμπινγκ: Έλεγχοι, συλλήψεις και πρόστιμα έως 3.000 ευρώ&nbsp;&nbsp;cna.gr",
+      "keyword": "τροχόσπιτο πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Free Camping in Greece: Tourists Face €300 Fines and Possible Arrest - GreekReporter.com",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QQWpBRVRFcGdkQVZzNVFlMVhaZzM5MDBqdlB1U0hWVnNkNnQxMUR2Q0txOHdyblk4WkF0SW8ySmc3OFlrSlFlOFlYU3MwSEo4cnJkVVpJc2llX21QWW02V2lLbV9iTkd4NWIzVkVjdHg?oc=5",
+      "published": "2026-06-04T07:00:00.000Z",
+      "snippet": "Free Camping in Greece: Tourists Face €300 Fines and Possible Arrest&nbsp;&nbsp;GreekReporter.com",
+      "keyword": "Greece free camping police fine",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Greece Eases Motorhome Regulations to Boost Tourism - GreekReporter.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBaWHdMdmlqenRPU1JoQlRGcGJVQnl5N3VFZnlZVlhQZTRhaDhFY1FjMEtOdlNqbjhFRm1FQzF1SXZZOU10djktRDlqS1IzZzV2T1Z6QnJoZUxjcEtLV2xFUVJVWHpyaUhGNW5DNEVpWUpnMUtpVVE?oc=5",
+      "published": "2026-06-04T07:00:00.000Z",
+      "snippet": "Greece Eases Motorhome Regulations to Boost Tourism&nbsp;&nbsp;GreekReporter.com",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Κραυγή αγωνίας από συλλογικότητα: Τέλος στο ελεύθερο κάμπινγκ στη Γαύδο; - aftodioikisi.gr",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdEtESEM4UjVZMTJPc0ZqQmVDVm1XNTNGQkNpZjFtWHRwb1NuNnoxRXJ6cWkzTlJMbFJaTzZicDE5R1ZoVTNtVWlUVGJONVdOOENkMkdXZEVHRkkwU0s5NFdtRG1kRUZ6ZmZyRk5MU0J2TjR5MGllNzl3dFIyZnpVMGdVSTBvRDI1RWc2a3RqTDV2R3RybDRTcEpFSm0zb2JLTnoxb3V4VU5ydGxrQmMw?oc=5",
+      "published": "2026-06-03T07:00:00.000Z",
+      "snippet": "Κραυγή αγωνίας από συλλογικότητα: Τέλος στο ελεύθερο κάμπινγκ στη Γαύδο;&nbsp;&nbsp;aftodioikisi.gr",
+      "keyword": "παράνομο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Summer Camp στα Εκπαιδευτήρια Μπουγά: Το πρόγραμμα για παιδιά από 7-14 ετών - Messinia Live - messinialive.gr",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaldiTXZHNHRRR1pSVFZHNlhvRm9xa3pMV1RCREhCaGdOU2JZclZYZmVCbTdCb01GemtxbjlhMVRLRzhETFlfOGtIUk53TWFkcV91RjVUMWVWWjR3WHFFSzJPXzJpQ3htdXNVVWZ6M0RzejhBZ2pJczdOZllhalJwam9uQlhJY0VZZlFIaklaaENHR2c0cUV6ZVpYaDJHbi1GMGfSAacBQVVfeXFMTWxiOExqN1lWbzVHZzVUaUVJU2xlS1J6ZGNkVjB1ckpiTXZ0dUlRRktkb21Fd0w1bmg2dHlPbDhNQUNzUnFWbHRRX3hsengtZkRRc19yRWx0Qk1YbWVra2NCUzdZUHV5X3dMQUtjOUZVRXRDWjZxUzczRlRISll5MkFVRFpWeW10Q29JNjM0LUZXS3UxSGVsaklfTE5oZG12bUM1NDFENms?oc=5",
+      "published": "2026-05-30T07:00:00.000Z",
+      "snippet": "Summer Camp στα Εκπαιδευτήρια Μπουγά: Το πρόγραμμα για παιδιά από 7-14 ετών - Messinia Live&nbsp;&nbsp;messinialive.gr",
+      "keyword": "παράνομο κάμπινγκ",
+      "region": "Peloponnese"
+    },
+    {
+      "source": "google-news",
+      "title": "Μέσα Μαζικής Μεταφοράς: Σε ισχύ από σήμερα τα νέα \"τσουχτερά\" πρόστιμα για όσους δεν έχουν εισιτήριο - The TOC",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNM0tLY3NvLVl3YzRER1BiNjNPdXI5bzRoMnktdVpYbGd6STdMdFA4X2w1SDZ2d2RyVlRnQzF5eDB2OGdQM3lTQTJLSmgyQWwtZFg0YkpKNThnbkFfYWN5aU5BWm5PWkhfUkRfUDY2TkgxdUxBZUVRUk1WMWpyM290RVdlRE0ta1NFU3c4SnMyVDlYYzNIT0xiNFJ2WTNVUlpoVXRScFNidGFjbDd1QzdRb041ZXFtQkxSU3NSVXp1aHFQVFd2YWN3MnYyYjNuVUE1VGhR0gHfAUFVX3lxTE1LakhIUEk2RFcwSkdTUGFSR0FTcElKZTlCWHJCNVlsSGhHcjZVbUxKc05mOGJJUEVhU2FqNm0yZUt3NmhvbWJUXzNCMTRha1pMTkVlRjVkY1B0dF84X0NQdXhGT0RQelJGMUpWZVBFTmlNT2lDTTRFTEhZZ1BFX2k5TWRRZ2p3bE90Ymowc2tGc0xsbktJMFVuekRBTFJSeVlSUzRLY21XSlVNN0c5RURZWVNIU01JM2RvR1JFVExENi12UXhHYURvaWZ2VjYwdDRzUTdGaUFmNHVYVDNEZlk?oc=5",
+      "published": "2026-05-30T07:00:00.000Z",
+      "snippet": "Μέσα Μαζικής Μεταφοράς: Σε ισχύ από σήμερα τα νέα \"τσουχτερά\" πρόστιμα για όσους δεν έχουν εισιτήριο&nbsp;&nbsp;The TOC",
+      "keyword": "ελεύθερο κάμπινγκ πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Cyprus immigration crackdown leaves three severely injured after plunging from buildings - InfoMigrants",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeDA1YVhkaTBwcXJBNnN5SndoRFhZZWlCR2YweHo3bkVIODRTV2tkSUdXM1RaYXRUU19iZTczQTFZV0c2ekxlaG1hZ3NyUS1CNGpIZGEtLUQxalhOX2dSLTROcmp1M1VfUWoybVY4UFdJZWhJTi1Bb1lEdzlfZ251V2JHZzU2b2Z2RnJJd3BlX2VaUTZtNWkzdlllQTNGU3F0Wl9CN0FiWDU3cUZsVG52TkdTZjBveWpJZ3I0bjJtamF3MXBmUlNKckhPQQ?oc=5",
+      "published": "2026-05-28T07:00:00.000Z",
+      "snippet": "Cyprus immigration crackdown leaves three severely injured after plunging from buildings&nbsp;&nbsp;InfoMigrants",
+      "keyword": "Greece beach camping crackdown",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Δύο συλλήψεις για εμπρησμούς από αμέλεια σε Αργολίδα και Κερατέα – Πρόστιμα και αυτόφωρο - NeaKriti",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRHVNMTk3dXpZYnY4V3pvQ1RKaHVjUDN1RjZxbGt2Z2F1T0E4SFJTSG1MSlJCNll4TXVGVk5ySkFIR2VxTWpRSDR5VnBkVVVhSFp2YUphMnRxSjNJRDZ0MEExU0dsd1pLamVYeWdQY3I2Y1dJUk5hZ0VyQ3g3QkJfdFBYSmNwUWZEY3BKRXVkWERaX01iT2ppTXpmNGhRUFE5TVRtUkZrRjVBVnVXblVOQW1wdWVwWXgwejMw0gHAAUFVX3lxTFAtZUlCdkxHaGF2bDVJY0xlQVRBVGNKaWJHeTR2SHJ3SS1wN3FpR0pjOW1nSFJxWVo2dzA4U25BRnN0blBLWDlHYjVzYlgtVzRiZVVQWV9KbE85QkQxaE9UZUVHSHl2S21NemFwY2RUSUtKaXpKSk5xM3labUkzalQ2bk81bFZVSDJsMERteVoxZHZVX0UxMFRWM1ZRcjhCU3dUWmZBQ2k3TUUwa1g3bGZuSndrQmN6Z2ViTXV4V2xpaQ?oc=5",
+      "published": "2026-05-26T07:00:00.000Z",
+      "snippet": "Δύο συλλήψεις για εμπρησμούς από αμέλεια σε Αργολίδα και Κερατέα – Πρόστιμα και αυτόφωρο&nbsp;&nbsp;NeaKriti",
+      "keyword": "τροχόσπιτο πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Unicorn Riot in Greece - unicornriot.ninja",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9HOFRacHZkVENOWnRFQ1JHbnY0THY2RjRCZnhXZC1mN3pUeEV5MnhlQlRyZ1BrYXA2bExnS2pIbXBvVGVFTjRSdm5RNEhBalh5T2JPaVZNVU9JR2MzZUE?oc=5",
+      "published": "2026-05-22T23:13:35.000Z",
+      "snippet": "Unicorn Riot in Greece&nbsp;&nbsp;unicornriot.ninja",
+      "keyword": "Greece illegal camping police",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Holidays, tourism by caravan or camping is growing in EU countries - Il Sole 24 ORE",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTFl2YlQ1bDZlMW1VYjFrTXJRM1gwdjRYV3kyYmtfNktIbm1DTkRkWXdZcnBoZ1pVRXJtZzM4RFBkUG1GbXd5QTNYcDQ4dDdyNUppa0cwYW9KTC12dzhKRl9Fb1ZJbHVNNUtFcHVCeDRUTmZBV0JyUlZvOXZlOFROUzUwaWo3R0VPelQ4TFhPZmRIVzhyOWZFNTlabmk2aENDc3gwNg?oc=5",
+      "published": "2026-05-03T07:00:00.000Z",
+      "snippet": "Holidays, tourism by caravan or camping is growing in EU countries&nbsp;&nbsp;Il Sole 24 ORE",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Major changes made to some Greek beaches will affect tourists - Liverpool Echo",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTjY2cEREU1lMdjNZY05JVXFXOFc5SENBeGJfeHRtOC1TdmNwZE5GWEoxc1hPbDdqWmlYaTBUNjUzbW1DaFFZY1UtblQ5MGt6ZDNYYjMwT3lpVm4xdFF1YUpNc0g2eVlfWEMwWDNfLW5ZRjhGN2RGR0V4bWJpVDJla2M3VmdHMmpvRFpYMUxFSDBFazgtY0FR0gGcAUFVX3lxTE5KMFZYTFVUQlROdk1ndnNIekFvMjZNSW1xeWdYRVN6el9laGRXVFdiQ1hxYll3NGZJNUY5VUd3QkdQUi11TFFIUWR6dUNKR2pBQkd6eGtmdm1HOTNkZEx5UG92QlZXZzVMVlpPOHBzUXJXUHhQdGtjSTRhbzhoXzFoTVJUXzVCcGh0aXJqUXQzWFVqQjNsMDNBQ0dVeg?oc=5",
+      "published": "2026-04-29T07:00:00.000Z",
+      "snippet": "Major changes made to some Greek beaches will affect tourists&nbsp;&nbsp;Liverpool Echo",
+      "keyword": "Greece campervan ban beach",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Ένα πολύ κακό vibe - LiFO",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BVVZMV1lyeUt4MS05b1ZVRXF5NjV0T005NGhXWGFnM3BWOG9ORkV2UlN2ZDRjQ0hLMkMtM0VpRjFheDE2X2pJckZCVHVKZXdFdi1vZmRqNDZsVlRmMTVTbNIBZkFVX3lxTE5fQW1DTkNnRDdyVDFocWZuUkRYNGxuM0Y2VDJMSlRYZDA5NnVGSjFSc01mN3VESm1NeUs5TjFvbXRqNFU0bFg4aURXR3o4NzJkT2o2XzVnRHFKLUV6MWQteldaWlZEUQ?oc=5",
+      "published": "2026-04-27T07:00:00.000Z",
+      "snippet": "Ένα πολύ κακό vibe&nbsp;&nbsp;LiFO",
+      "keyword": "παράνομο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Αυτοκινούμενα τροχόσπιτα: Η παρέμβαση που τα κάνει ξανά ευπρόσδεκτα στην Ελλάδα - 4troxoi.gr",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRmNTdE95QkN1S1F2Y0xYSjFrbXFOc0JKdl9SSFBIcUoybjRFRFlUZ2ZBVTdZMTd4SlpHN0RCeEZEbi1uNkpwcUNzTjc5eFNkN0liSHZhS19BWVphQVppQlJsU1RFdExsSmdBRVRZNEs5YUM2S3F0TXN1aG1wQ3ljRHVTN0Nqako4NDVzOTk2MlFyQ1ZPb21YRE1wZ3M4TDN3WGVJRFBmZ2pJUzhtNmlhTzV3Wk5veWs?oc=5",
+      "published": "2026-04-23T12:35:20.000Z",
+      "snippet": "Αυτοκινούμενα τροχόσπιτα: Η παρέμβαση που τα κάνει ξανά ευπρόσδεκτα στην Ελλάδα&nbsp;&nbsp;4troxoi.gr",
+      "keyword": "τροχόσπιτο πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Parking rules for camper van travelers clarified - eKathimerini.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMjFPdzVNSm5YbEFoUlpLc0V1QjJsQURJT2VMaVZ1NjJQWEM3eG5hbWRwWkVLWUhOYkhreWd4LTBiQ0IxN1Vpa0hMMXg4YlVnSjRhUTBtS25zZ3NQeXhsUGdWeG1tVjRENWQ3bzQxTlc4V01MNWdPUFpRMC15N1NOQkpfVzhISTFWNWp0cTJETG5xd2VBbk91VEF2VGNoNFpmMkN4OUVpYkl5X0FkTHRwM1h3?oc=5",
+      "published": "2026-04-23T07:00:00.000Z",
+      "snippet": "Parking rules for camper van travelers clarified&nbsp;&nbsp;eKathimerini.com",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "ΕΝΦΙΑ: Το πρόστιμο για όσους δεν πλήρωσαν την πρώτη δόση - Proson",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYno5M0hGT2UtSVhvZ3lwUTlPU2haUm1UY1lqR29qSEY3QU1NOHczd3ZwNzFPMHZEMDhNVkZQUlVDd2dpLVUzNEVRLUlzWV9raU5GakFHQ3hJb2dkdmFLVS1UdndMLW45OVprWlpRX0pBQWhVZHc3eVdvZ0dITlUzVjQ0N3QyWE5PZ3VHOGMyQkhXNTjSAZgBQVVfeXFMT290VFhuVkZ1eldGakg4U2x6eXY2YlAtcEpZdkNsaEdEcmdwazNhSzE5SktjWjF1ZG9xQkc2eEV1QWZSa1ZnMmRscjVHaUxBTldJaW11eE1zbDgwcXlOWWpyLXRPNlNnZUNmYXFPQS1yRHZ3T3F1bjNYZFdGMFZMS29sTEpXbF84UW92eTUtV3U3V3ZpRjhMMVE?oc=5",
+      "published": "2026-04-03T07:00:00.000Z",
+      "snippet": "ΕΝΦΙΑ: Το πρόστιμο για όσους δεν πλήρωσαν την πρώτη δόση&nbsp;&nbsp;Proson",
+      "keyword": "ελεύθερο κάμπινγκ πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Small improvised bomb explodes in central Athens, no injuries - eKathimerini.com",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdXVQOVRZRnk2R0V4QWY2dk05dGlKaWs5aXRDeVUzMGNUY0FxY09WckRONFU5ZEo1eWVPTTBuRXNrRzlja2hZWl9KSmNleTUyZGZNNEpqN3VUb3l4anZrZTF4Z0xYVzVWVmFBanRKaFNkN0lmWGo4ZUx3aXBjZWtNclk3SkwwZ0FoenpLXzA4T1dqTWF5SWdtT2MxMk50Z0hNZVh6alpB?oc=5",
+      "published": "2026-04-02T07:00:00.000Z",
+      "snippet": "Small improvised bomb explodes in central Athens, no injuries&nbsp;&nbsp;eKathimerini.com",
+      "keyword": "Greece illegal camping police",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "\"Έξυπνες\" κάμερες στην Αττική: Πάνω από 130 πρόστιμα – Στα κινητά τα πρώτα \"ραβασάκια\", τι να προσέχουν οι οδηγοί - The TOC",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQeEZhUWFPSmhUbkRsZjNqVXhTajN5TG5la1pKcG1xWnl2NzU3OGVOVkNXRndXQWVFa0FPUnNSMWM2Q2pRVXJicVJsbVJLaV9NLWFSWnJTT25RNmhVZzcyLUhwNmw3aWxUREhpVjZ1c3N0RDJGcEtvZXV3aGVtM0ZJMmtIeUcwRHpzUEpldkxsemtDTXMycHJqMFFwOVl6bEQ3OThmWE1TTjBTclNvM1pPWGNhZ2hVTmR4RDVSTGhSbW5fbTk1SXVPNzFOcDRhQldsLUpPSEJ6TWVkQmtkZXfSAeoBQVVfeXFMTU5FbVZkd0NQbHVGVHBQVUJ2MEhZNUpuaDhWY3FzMkw5VUZuSHNzLXUxbFYwcVl1Um80T1Q1eWVLemJJS0x1eUJyWUVaRlMwME5lNHhQb3RrLU80QUNpaDNHZlk5eTlZTHpUVE1YNElZSFI0N0JReTIxYUtvcmQzSklwbUdRMHhOV2RXQ0oxZDEtRWJuYmpqdUEydkFtM1pQek9iX3ZhdWtmMFE4YlZqakU4dGFoYl9KU1plb3U2dTdyVkZYR2E2QmNwUDNFTk1ldG5CUmNLTnRVVkIwNUg1UGdxREhqVFItUHh3?oc=5",
+      "published": "2026-04-01T07:00:00.000Z",
+      "snippet": "\"Έξυπνες\" κάμερες στην Αττική: Πάνω από 130 πρόστιμα – Στα κινητά τα πρώτα \"ραβασάκια\", τι να προσέχουν οι οδηγοί&nbsp;&nbsp;The TOC",
+      "keyword": "ελεύθερο κάμπινγκ πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Νέος νόμος για τροχόσπιτα: Τι αλλάζει σε στάθμευση και πρόστιμα - Workenter.gr",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZUg4b3JraUViRzRPWVpKTmNxdms0TXhabjBaOWZiVTVhNXBNaElxeHd4dzhmQU43NzBJSTkxWklIbVVIZjd0Q1duY01pQmRZMElMaVJsM1Z5V2NaOGpZUV8zZll0bWxXOXhpWFpjWE9XSEhGUkFiaS1mWm1POFRhYnc1bGlTNUhzX3EtTmdVSU41d0thWWxN0gGcAUFVX3lxTFBLS3hQTDFOMkcxUF95ZUxuNkJxTGJJbDYwQnYtVUEwa1dtbDRFTmpIYXA2ekZ4WnFVZjNDcGVpeDFOanJqTmlZZW9jTjJBQUp4M3ZaZXVUTE9QcWN1SjhlQkt1UzhBN1UzNzZpeXVFTkwweFgzazJ4ckJvTzB5QWROejhzUFFQUWkwSndFYnJWbWM1cnhhSVhZamRjaw?oc=5",
+      "published": "2026-03-27T07:00:00.000Z",
+      "snippet": "Νέος νόμος για τροχόσπιτα: Τι αλλάζει σε στάθμευση και πρόστιμα&nbsp;&nbsp;Workenter.gr",
+      "keyword": "πρόστιμο για κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Police break industrial-level illegal cigarette manufacturing ring - eKathimerini.com",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQLXlzandZNUJGaUVDeFZDX08zQ3o0Mlp3WWpFVjExa3pzS21nODJBcC1MWTRLUWptb2k1ZXNqU2M0UlhxYzlWUEl6eTg4ai1uYmQ4emh4S0xpVFMwaHlJRk5waU9rOWdPV0swa0xWQUE3TnlZNjROZGxPWC15dVIwaXA2RXpUMUxRbHNZSTIxakhYUWRnUGZzT1JaUEdqMHlncTVpTTJnamVlZ01PVlE?oc=5",
+      "published": "2026-02-09T08:00:00.000Z",
+      "snippet": "Police break industrial-level illegal cigarette manufacturing ring&nbsp;&nbsp;eKathimerini.com",
+      "keyword": "Greece illegal camping police",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Κάρτα καυσαερίων: Έρχονται πρόστιμα 350 ευρώ - Κίνδυνος να χάσουμε και το δίπλωμα οδήγησης - Dnews",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUDVlRlgxWVlCVVdEbzhOa0FPR2M1cUZmblJYNEJ1cFc0ODFUTF8wRldOLWw0V3Y4ZWlXRERmTEtKUXV2bHlZMzFGS2VHYkhibzZQZk5Rb2xNcC1xTEh1eVp4T0dyWFdqclNFWWoxZlpnZXZiOWE3YkI0VjRBM0hFU3RUcUowNDFMYWEwaVFLcEpOOFp4YWFwaWpkTEItZDY3TUlLZVZfa0VkV1hTcVRCTWhYei1jbjVLTi13RUxya0pSQXEtZ2tvNlQ5bGU2bm8?oc=5",
+      "published": "2026-02-07T08:00:00.000Z",
+      "snippet": "Κάρτα καυσαερίων: Έρχονται πρόστιμα 350 ευρώ - Κίνδυνος να χάσουμε και το δίπλωμα οδήγησης&nbsp;&nbsp;Dnews",
+      "keyword": "ελεύθερο κάμπινγκ πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Greece: Court Acquits Seán Binder, Athanasios (Nassos) Karakitsos, and 22 Other Human Rights Defenders of All Felony Charges - Front Line Defenders",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWDZVeEN0VkNBazY1TmhOc09Kd1Z0Wm1nSHFWcFBGYXA1TGtmWWx4eXFyY3kzYjlRc19fUWN2eXFVZGxheEdic1lFQ3BOV0ZXRVQ0QmVIaDBXM0NrT2wxOElJREdPVXl3ZzlnaFQxdFAwSmpSZFlPQXI2enJFSTl1QzR5NHhjM25wQW1jZEtLejhCWS0tQi1waVI4aG80STcxSGM2UFZDT0xoWElSOFNaU2xjaFB0bnFKZ2c3aHhHZjA1ckV3bzd6RXdvT2U?oc=5",
+      "published": "2026-02-06T16:42:35.000Z",
+      "snippet": "Greece: Court Acquits Seán Binder, Athanasios (Nassos) Karakitsos, and 22 Other Human Rights Defenders of All Felony Charges&nbsp;&nbsp;Front Line Defenders",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "World Report 2026: Rights Trends in Greece - Human Rights Watch",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5QZjBXR3RTT2lKN3k5WHpUQlZjYW9zS09rbWlNMV9mU2gyWWliakFnOTFiTDdOY2NvRkhkRWlYZ1EzNlY1MVhKRnphdEJZZ1NoS2ZqRnRwOWQ3bDU3NkM3cUIzOVFOaGc0YXFBaVRR?oc=5",
+      "published": "2026-02-04T05:14:54.000Z",
+      "snippet": "World Report 2026: Rights Trends in Greece&nbsp;&nbsp;Human Rights Watch",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Greece. Twenty-four humanitarian workers involved in sea rescue operations acquitted in Lesbos - Progetto Melting Pot Europa",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYUNSX3dWaElfdkpyT25kN1Z3ZWpjUWE4RDdjenRIeG5TQThVWlYwZHZ5YTVpcXhZX3VCTTBjMDZ1bUV6dXNjU3pjSDVWNjF1Wnd0d0FwM3BiOWZQcmJ6RzJ4Q1E1U1NaRmtyZVNoVWoyRmE5cnY5V2JxNVAydzBYRFZuUFcyY0VpcmlwSE9tZUFpVlkwS0FPZW1MTXduS0hOY0dlcWd6TUpHejFkcHFoVENBMFJJMzRuZnY2YXk4OGpUNHVhNTV6UlUzcXg?oc=5",
+      "published": "2026-01-19T08:00:00.000Z",
+      "snippet": "Greece. Twenty-four humanitarian workers involved in sea rescue operations acquitted in Lesbos&nbsp;&nbsp;Progetto Melting Pot Europa",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Lake District sites get protection orders against illegal camping - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JOE9jOVVLZ1lLaFAyLVFEVlpnNGhOZm1FbFZBY1B2TlA2TVdoQ0Vnc0sta1FTVUFGLUoyUWdMa0hPVTJPcEJEMFBtVWc2NWVtR3dDT0h2ZmdlMHE0?oc=5",
+      "published": "2026-01-07T08:00:00.000Z",
+      "snippet": "Lake District sites get protection orders against illegal camping&nbsp;&nbsp;BBC",
+      "keyword": "Greece illegal camping police",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Reporters’ diary: IOM uses UN immunity to avoid scrutiny of Greek returns - The New Humanitarian",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUV9CRU9WVHh1dHdDeDR0dlBUTHF3R2NXcDFSNTVsdjhpWUtpZDF0UWlRaXpQc1NQSFQ4OHVEeUY1bUhlNGtBT2xmc19tZkNlNGcyQXlzRkpLNzZXS2tfY0NIV1JhYmJMazJjLTRuTE5fT0VUcU5rS0ZLTTBYXzF6LV9lZ1VFVmZKaFRpRzFHS2JzWm8xeWVDb24yTFNXc1lUdWNXNGxIa2h6UmRTeFh1eXFWeExlZW44dUt3?oc=5",
+      "published": "2025-12-22T08:00:00.000Z",
+      "snippet": "Reporters’ diary: IOM uses UN immunity to avoid scrutiny of Greek returns&nbsp;&nbsp;The New Humanitarian",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Double Murder in Greece: Victim Feared for His Life Before Death - tovima.com",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPLUpGLWVQYW9DSWw0V3JaNkdhRmhlaHhXc1pyaXdTTnJmRC15WS01NlNxbkpNWVhycGl2NHRjeEJMTzBqUXhESDJ1bUI1UmRnUTRNLU94OWRxUUc3RzJjVDlCeVc1eTN3WGExTnU5UlVkclJfUldoTmJVUHUydll5em1INmhwTWt1ZEFHQXlyTlJIS2VqN19rRUpn0gGfAUFVX3lxTE96bUd4aFRzOEtNNFJiLW5WM0VMN1pudlJ0QXpYVGFOZmJaNV9HeXQtTk1NUXpWQUFMMzBMZmp1bklEdjZnQWFtQVl0bkxYaFBNbkJtcjk5TVlBNFNkaURaeFA1U3RpS0RGOE5YakpDLWt5bjN5OWlHclVjU2xmSlMxSTBnMWpOZE5aZ0VMZkplSU43dWVQNXJFcnpDdVBkRQ?oc=5",
+      "published": "2025-12-20T08:00:00.000Z",
+      "snippet": "Double Murder in Greece: Victim Feared for His Life Before Death&nbsp;&nbsp;tovima.com",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Greek refugee camp Moria looks ahead 5 years after blaze - dw.com",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRXZrY3NDSWdqMWsybi1qSXFELUFDODBZUjNfM0RZR2V1dGE2c1dQREZuS1daQXV3LThIcWdoMnlHOFVkYUJlUkpyZnZfenRpMlA5OGlCaGpvaWJ5REJVX0o0U1M4cWRia1BMdGI3RjdwSTg5dzlScWlRcE9pM0cySFhIbGNsZ9IBhgFBVV95cUxNVi1DQ1BsUkpPMXN1N3JuNy1Hd094T0ZwZ29XbXFhMzJfZFZJWldUVzRaVTh6Z0FpNHk5Y3dPd1RuSTRXcXZBX0lBYlMzVEdxb1hGdXdnWFpaYUdWM2Y0a3lfeDF6X2xua1Q4TEFGT2R5MUF1dkVhWWNsQ3hMVXdLZEQxajlBQQ?oc=5",
+      "published": "2025-12-18T08:00:00.000Z",
+      "snippet": "Greek refugee camp Moria looks ahead 5 years after blaze&nbsp;&nbsp;dw.com",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "A friendly new Greek restaurant off Camp Bowie has ‘outstanding’ gyro & bowls - Fort Worth Star-Telegram",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWTZUREdyVUE3WEZNLS1sOEExejItZU5UUUhZZzQxUUFUX2NkNzdVSmNHNXJfeGlyX29rUVppU3FjLXQ0NU5yRjZraFZPbk9KTklfclZ1T1puLUJMQmt3MmVtMDFyMEZvdnIteHI4RkFJeThnaWkzN0xicUw1UDZjbmNvMNIBgwFBVV95cUxPVTFnaHBLU0Y5cUpvaXNRaDI2ekFHTXIxc0VVN1lLWWp0VDkycHp3dFNYZWVZMlQtc2dEVkZISmNTSFp4eEN1X2ZlekNlSUd2LUdHVVktNFZmM3ROVkJnSllVZmN2dEk3Q3E0c0FEanNsa1poV3F6MnROZDRmN2F5MDN5VQ?oc=5",
+      "published": "2025-12-16T08:00:00.000Z",
+      "snippet": "A friendly new Greek restaurant off Camp Bowie has ‘outstanding’ gyro & bowls&nbsp;&nbsp;Fort Worth Star-Telegram",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Hells Angels member Cooper Gavellas charged in NSW Police crackdown - The Greek Herald",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbVBPUjdSSl9iT2habFdUN3BlbjNMUjNZTUltR1NsbHBfcklHcVJMWUhKWjI2cllqcm0yQ2tvajhPekZZV1F3b1lNODlFMDZhVXRQS0JFQ196UElQbFNfd1RIMU5TSURfbDJsMHZNSG1TeC1YZ0hPOVd1cHY2X2NoZWM0a25zVEhJMHJnbzMyN0Z2Um9rR2ZtaVA3d05PaHY5SHc?oc=5",
+      "published": "2025-12-15T08:00:00.000Z",
+      "snippet": "Hells Angels member Cooper Gavellas charged in NSW Police crackdown&nbsp;&nbsp;The Greek Herald",
+      "keyword": "Greece beach camping crackdown",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Portugal Golden Visa Reigns In 2025, But Greece Gains Momentum - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTVg3d29OZDlIcTBNcjNia3hDcnNIaHA2N0Q4dzFJSWpnUF9EZzZUdzFtTll6SXB2amVXaDNVMno0dEpZck12YkpzZzFYS3RtX0QtbDQyeDlUUnNmaVo0WWl6Rzd5TE5LaHF5TmRZRUFfWGx5RWhfTFRncUlOSl9KSTdmcDZPczZSdktueGEtUlhxelA1dzV1OC1sYmE5eHIzMFFFQ0tHVFBnWkFwVUJ0TlJWMA?oc=5",
+      "published": "2025-12-15T08:00:00.000Z",
+      "snippet": "Portugal Golden Visa Reigns In 2025, But Greece Gains Momentum&nbsp;&nbsp;Forbes",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Φοινικούντα: Η εκτίμηση της ανακρίτριας για τον φυσικό αυτουργό της δολοφονίας σε κάμπινγκ - LiFO",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWVB6SEhuTWYzU0E0TTJsczdSZU90Z25BQTIyaTZtcVNiZjZYUGVlX3BzTVJpY2dfaEdONXptRXFnZ0FyN0hiV2s4dDlKbzNrd0tkQ2hKSkxXckhFbm9PQ1lkR1FudUg5SGJhc1hqTkthRzF6U0hTa3ljcVJGcnJDUV91QU9ZcnU2WEo5Wnhhemt5X0RDN3VGUnFhdTVpOW4xdElkUFU4bVpiOUNFV3hBWNIBtgFBVV95cUxQa0lDQVoyLVN6UEI5ZnRuQ2U2ejF5MGpBUV8xam1vaGJUWXdaekJJa095clRqTHlvTXhkLVNkbFowYjdDX3RfSXZRUGtNb3pmU3d4U3BTR1VoMWMwTkZXT21idWx2enh2MGtiTUJObTZNYnlpU3FPdXJaWk9SVUhSazBjZHh3ZjVwZ1NDQTJoRVJSRmJCMmJQQVFydDliUzNkTTNwNi1XMFZBMmdxUW40ZE1XM3d5Zw?oc=5",
+      "published": "2025-12-14T08:00:00.000Z",
+      "snippet": "Φοινικούντα: Η εκτίμηση της ανακρίτριας για τον φυσικό αυτουργό της δολοφονίας σε κάμπινγκ&nbsp;&nbsp;LiFO",
+      "keyword": "σύλληψη κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Nicole L. Stupka 1986-2025 - The Vindicator -",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9fRDhIb0ZJbC1kWE9TZ1FXZkRfbEJyejY3aDVGSGNwMmtvYVdCYTdJSTBGLUxwT3ZYWkwyUUJoTGlWaDVvZkpiYTJOajRVTnZMSV9zOHp3OEQ1Wkp4MmkyR1NQUjduY3RkOHRnZzlyYzJOcU5teUE?oc=5",
+      "published": "2025-12-13T08:00:00.000Z",
+      "snippet": "Nicole L. Stupka 1986-2025&nbsp;&nbsp;The Vindicator -",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Solidarity and deportation: EU moves to get a grip on migration as pressure mounts - European Newsroom",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRjRsUDRmYUhCOWE4Rmk4UlphUjBXOVUxTlpxTTRDb2oycHgyeGpkS2kwZkJXaXZiOXdHWmZ3YWRPRHVwb3JCcFA1bVBYODJuNkRmSkJzZV9EMEQyamhhQ2s5RWE2eGd2ZlFCRGJIX2ZoZGFQeXBJZWl0cEloWW1uTXFnSEEya1RiY21FY0tZTHl0eUV5U0taVlNTWHBqZWctZy1XUVJ0VVVncURYeDc3cg?oc=5",
+      "published": "2025-12-12T08:00:00.000Z",
+      "snippet": "Solidarity and deportation: EU moves to get a grip on migration as pressure mounts&nbsp;&nbsp;European Newsroom",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Φοινικούντα: Στην Ευελπίδων οι δύο συλληφθέντες για τη δολοφονία στο κάμπινγκ – Τι λέει ο ανιψιός - ΤΑ ΝΕΑ",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZ3RtUUJtRTNXZFdYVG5tS3dXUjlmblVwUEd0bW42MTYtQWNYaXZ1Z2o5VWE2YTZfWjlXWlo5U2VqU2xxU1BtY3BpTXJ4UkJrT2F5cHNsT3JwLW1ISGltZzdHMnZ5WjhrS0RQOW9UTnJCRjVsX2dnZVVRMS1fMUlxVENDYVZ3ZEdFOWNpM0pPY0U2eXpaRE0zWXdlTkx4NTh3cklHeGlVcmtJTTRScUk4VWtTS0tBUWlTcVpEMEJ4cUJDdGxibmZIQTVHNFlrY21veVHSAdcBQVVfeXFMUHhjMnBzdzNvYXNQcTB3b3pqaFdFcVczT25aTElibTJ3TTZlRUJ5enZ5bUtUWVp6bUU2RTU4VHNyR19ULUVBc1poTU1QM0gxamJTLU03TnQzWnhMS19KSTBWdXpkeFllSmtQUmZ5NVRQX3ZoUVVwYlRON1hUb1ExLVZVdHVKUUlnellhNDdfSjQ5dko0NEdNeUN6d3hpcUwzTTJzQks4RFhWR2ZDMUhTaUFtdjFnSVVQSWZpZ0VjTkdNaE84bkgyUDVtWnppVzlIM0JNRVZ4b1E?oc=5",
+      "published": "2025-12-11T08:00:00.000Z",
+      "snippet": "Φοινικούντα: Στην Ευελπίδων οι δύο συλληφθέντες για τη δολοφονία στο κάμπινγκ – Τι λέει ο ανιψιός&nbsp;&nbsp;ΤΑ ΝΕΑ",
+      "keyword": "σύλληψη κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Στον εισαγγελέα ανιψιός και επιχειρηματίας για τη δολοφονία στο κάμπινγκ της Φοινικούντας - newmoney",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUkFjU2FxNHN1NWVBYUo1ejcyelU2M0VOazMxeFlDVEoxdzZHanZiX0d2MVBFT2ZRS0p1WlBGTWlvX0czaHJKZDExSFVmMDlLZEFZdlkwMkJMc2Y5QkZubThNMzloZ1JDSkY4MzRUZWc0NHhlNFllN2loTDNidmJSZmF5Y3pwalp4LXJ5cmNaVnBleXpuWl84ek9CTDgwem9uSDhldzVGYnYtZFZXT2QzcFppRWlabWY2SWl3QVdwQUNFMVVjVEpwN3RTVThOcXE0QVljMF93bXjSAd4BQVVfeXFMT1lCVTNmUktNYkdqd2xjVUlBNThDT3QyYTdJLVRYa25aLWw5bmEzRjNhZ3dvMDBPT0lHTWwyMU5UMVo5aWlCeTVyMUIxdWdZRUM2RzFmR1B0NFphSkFzR2lpS0FDcG9HZDhyTnNIekdYSmRJMDBFeng0Mm5Yc0hkTzdPSmJRVE9ObzU4WmIwd29IdWo4V0s2eThaLVlpQjhUTTE1RUYtOUJEMDRzTEV6SEdrLWdMX3JBdDVBcG04ZVhRdE55b3gtM1NkNk9PY3hGUnBUZU9kWnZGUFMzazB3?oc=5",
+      "published": "2025-12-11T08:00:00.000Z",
+      "snippet": "Στον εισαγγελέα ανιψιός και επιχειρηματίας για τη δολοφονία στο κάμπινγκ της Φοινικούντας&nbsp;&nbsp;newmoney",
+      "keyword": "σύλληψη κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Rev. Anthony G. Demetri 1959-2025 - The Vindicator -",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1sem1oNzRaWG9kSlJyOUlvMVdKUkdGSkZKUl9FOTRIRU5VUUliQlVnYklKTk1LRy1sYmZJenhrZDVuaEdONUk0SmxkeE8zaV9JbThpbUxabU0xbENLTlBsVmpzZDk4OTFkeEl5TVFRWmJBM3R1QjJKenJwNV9BZw?oc=5",
+      "published": "2025-12-11T08:00:00.000Z",
+      "snippet": "Rev. Anthony G. Demetri 1959-2025&nbsp;&nbsp;The Vindicator -",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Φοινικούντα: Πώς φτάσαμε στη σύλληψη του ανιψιού του θύματος - Ποιον αναζητούν τώρα οι Αρχές - LiFO",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSnBxWUNod2VJNUZncHpGZGFzZVpXVWpYWVg0Y1RuWExsUGNuNEtSTHVuZTJLUlVrT05XSmNTOEttaVRoYkQwb0NsZExUeHJtaXZQU0YwVHMyMmltcWF0bDZ4NEdYZG9oZm5HMDQwVGFwanlHUVpfZUpjRV9tSnNmZlJwNm5yZ2V1N2tiT3h6eDh4Y0VlLV9rWlAyTi1odVV0UFFidHROZlppWHJyeFZFN3FMUDVxY3FL0gG-AUFVX3lxTE9uS25mdENUTF9TY0NIa3FlbmxXZVFyOEI2blkxdTVkNXVueUo0RFlULTBsUzJDcW1QUmlGMHFuQTFiYktHdU1YRWpHUnd1TDlrcmcyMFNoWDJaYzlCckRJV29jTUdORVUzd3prV0kxMWlwSDZweF9nSzA1OGRFM1N2RXFfVG0wN1JndjE4YVg0WGxqTEl0ekVrbGdnLWs4VnlqRS1oNzVBdjF2SEhfcUNJeHNEVGg5WVFEZXk1dGc?oc=5",
+      "published": "2025-12-10T08:00:00.000Z",
+      "snippet": "Φοινικούντα: Πώς φτάσαμε στη σύλληψη του ανιψιού του θύματος - Ποιον αναζητούν τώρα οι Αρχές&nbsp;&nbsp;LiFO",
+      "keyword": "σύλληψη κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Τι λέει ο ΚΟΚ για τα τρέιλερ; - Δες τι ισχύει και ποια είναι τα πρόστιμά σε περίπτωση παραβάσεων - Autotypos.gr",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeGR5QUNJRnJ1bE9JVENMUDRCX1FBSXl4S09XOTJ3SXVmUVVNOE8xZGNfRXlOSmRDMnl4UmtXSnNlaS1XdVN2a2I2Ni0tY19BbGc3clVmalR3Y3FUd29jVUtxdXpESnIwMk15ZVp0a0swajl5aVBfcE80STNXODRkMGNyTXJzUHV3QjlENmFtVmtpVTQ0bGp5bGdaVnhMMTdIXzlGWW5OOWl6MXc2ZE5Zd1VsZE1ZMFZDX2hJU0puZzlycHNTRkg1dg?oc=5",
+      "published": "2025-11-15T08:00:00.000Z",
+      "snippet": "Τι λέει ο ΚΟΚ για τα τρέιλερ; - Δες τι ισχύει και ποια είναι τα πρόστιμά σε περίπτωση παραβάσεων&nbsp;&nbsp;Autotypos.gr",
+      "keyword": "τροχόσπιτο πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Νέος ΚΟΚ και πορτοκαλί φανάρι: Το πρόστιμο εάν το παραβιάσετε - Proson",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcWZsSGhNX1VPQzZDc0xSXzVJMzF3RGYxdDZWZzZwX1NoTThIY1BfXy1URzlZSmRmRmE5V3ZtSEdHVzhoTWRQUUhtRm50TlhvZGMyLXByVU0xNVd1ellIUVRrbUJzLXg0bGdHdEItZndDYVh0bUo4T1UzaVNlVFlCbzd0bkQydG10a3pITGFYZ3RCbHdTdVHSAZsBQVVfeXFMTk1OY3FTZE9rVmRHUGNubC1KSmh3UWtGc3lnSWpwSVprcl9TcmdoZm9jR2RyaGhZWGJacjhkLWlfQlhURmpBUTUwelYxOFJyTWljQTUyNzhyTzlHMGFEQUNTVFByNUM2eE5RbkxkRFpKNGJFSHgwbGYydW9vQkxzM1BtNUJzdEF5aHNyaTJQbDRMRk94S09KTUpZS1E?oc=5",
+      "published": "2025-11-09T08:00:00.000Z",
+      "snippet": "Νέος ΚΟΚ και πορτοκαλί φανάρι: Το πρόστιμο εάν το παραβιάσετε&nbsp;&nbsp;Proson",
+      "keyword": "ελεύθερο κάμπινγκ πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Rohingya Refugees and their Crises in Criminal Justice System of Bangladesh - blogs.law.ox.ac.uk",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbWpLVTFWWk9kbGJqV2U0V3NMZjZRSlA3Y0hId2tBNGdrME1qNDdwYmtwcDFHeWlrV2taYmQyTEdpVlJySllQVXZVbUZSZktVeFc0eHU1cVJfYWlBdDJpQnY5YlJWdW84OHh3eWN6TmN5UlZPYVI0TTk5d3RfV3h1Y2g4eVZlX2g3bXVLVGZGQnlVSktodVpqNFNKV3hLY216U3lMc0tWS0I4WjhES3hRV3ViN0l6Y3RHMWhkN3N2bw?oc=5",
+      "published": "2025-10-24T07:00:00.000Z",
+      "snippet": "Rohingya Refugees and their Crises in Criminal Justice System of Bangladesh&nbsp;&nbsp;blogs.law.ox.ac.uk",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Meet the candidates on the ballot in Monroe County - WXXI News",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYTRaVEEwZjJvRlpMaDJMOUJNZzc5TDFidjNhdWRBUFBHc1hfdlpwemQ3VE5aMUdMOWhHSHV0LXAxZkh6WWtKZmVFejBTMHgyNzBHMF9tVnZrWU9LcFlDNk1NY0hfWVVIRWNZN1JOM0tycFJHc0RsaEg0dFBpT29PaGc1Vl9BaXd4SDVYVVVDelozRFR3d2dhZXNaREd1QQ?oc=5",
+      "published": "2025-10-24T07:00:00.000Z",
+      "snippet": "Meet the candidates on the ballot in Monroe County&nbsp;&nbsp;WXXI News",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Νέος ΚΟΚ: Πάρκαρες σε πεζοδρόμιο; Αυτό το πρόστιμο σε περιμένει – Πότε σηκώνει το όχημα ο γερανός - Car & Driver",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPanlHa20xWWp4QWJla3hqZ2dldGZxT192VERHNWVCX3Q0WkJpMTNPb2t4Tjc3WVFZRzRfdk42VnNjcjkyX3RQZ2ZIcVhuRS0wREdhOEVkSVZTVWc1RHBPYjBjaUhnbXBjQTVBODlleUNFaTdHbmRCMlUxRC1zYUR1TVREMXBPTVNLZVVKakFmcnZ4S2lYcFNCVjBTT1U3NGZUM3JqS1o3RWw3Njc4aXNSOEZzdl9lVmRweGFJSXRSMFY3YW1xRWhXR2kxQjJGZ09rTU5tTldVUEdoaTdfenNB?oc=5",
+      "published": "2025-10-14T07:00:00.000Z",
+      "snippet": "Νέος ΚΟΚ: Πάρκαρες σε πεζοδρόμιο; Αυτό το πρόστιμο σε περιμένει – Πότε σηκώνει το όχημα ο γερανός&nbsp;&nbsp;Car & Driver",
+      "keyword": "τροχόσπιτο πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Greece sees 2nd general strike this month as unions protest new labor law - Washington Times",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRzIzdjlqNlZDUTRxZ2xrZlZSeGZzdjk4YkVQR1A2Vk9MUC14QUtDOTh3WjNockQ5elV5ZXFzSWhzRWdvNEJKZUFiQWFDelVrRnBDeURlWEg1TDA1QWlkLXlrTzBZMnNyYUVZWXp6TEpCRy1uOEp1TWRBazJIVkoxbjc4ZU4wTXd0aHIxa09PUmExam8xajdabWtfSVRscENCLU1jR3AySTgzWkV2cDFTMGs4bWtjQQ?oc=5",
+      "published": "2025-10-14T07:00:00.000Z",
+      "snippet": "Greece sees 2nd general strike this month as unions protest new labor law&nbsp;&nbsp;Washington Times",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Φοινικούντα: Ο αποδέκτης της περιουσίας του ιδιοκτήτη του κάμπινγκ ίσως αποκαλύψει το κίνητρο της δολοφονίας - Athens Voice",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPZlNwb0VRcDV5OUE1UVE4MDRWZ3h4M3ZISzJ1cWtoQ21Ub0s2d0NXSjVQdTROQ09kMjg5eXFqRld6ZDc3dzlHeHBWSVhYUDVDNTBMdlZxdk1tQ0hGbmxHSE5JT19DU1BqcHVEVkJHN2FyN0U2VkY1NmluM0NiM1Aydy04SjRoZFJrRC1PZTIzOHZnVEw3VFRPR19JbFo0R3pwN0xHR3FZQll4ZFNneDBWb081cFkyeWhCQkhjcG9IbGk0dHNTODJIa1VOTENqZk9jeG0xVC1HSHdoRlBuT0g5VVlVTFQ2bWFtQnl5OFRPSi1UbFJ6b0HSAfsBQVVfeXFMTms5dlh3anljX1hnTnp5Tjd4Yk1walJ0cGEwb0M2bHhJMDU1cEhwVktnNkVva1ZNT21fV1hmNC1GWDhySHZoMFVJMkhYc0FObGRkUVBGek5OOTBQZjV4TUpWMmp3MVFCMjAteEE4UXNNdXNSTXZOWXFUMUN4X0poUkhXOS0wcUtjTEVFbjRrc1BrNlNkNVBzSnRSWExjYzNLRUFlc1h1VTc1YXhFcm9DT0l2dVVXQlk4aEtGSFhwWlJPM0lmRktNakJNUXdwSWl0ZEdyM0FuXzVkVXF4UnVMalJUd2RnQ3FXcC05UUFDOGNmX05RWHNVTEhSaUE?oc=5",
+      "published": "2025-10-10T07:00:00.000Z",
+      "snippet": "Φοινικούντα: Ο αποδέκτης της περιουσίας του ιδιοκτήτη του κάμπινγκ ίσως αποκαλύψει το κίνητρο της δολοφονίας&nbsp;&nbsp;Athens Voice",
+      "keyword": "σύλληψη κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Ten years since the 2015 migration movements (5/5): Lesbos, a symbol of solidarity turned into 'prison island' - InfoMigrants",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMG1SMXY4eGUwS29Ha2FUd0JBcEdLUUpKblNmb2JONFhvZTdTU1hxdHhPNk9JNFc5bTdqVEpTRm5JNkkzTHhrT1I4dGtPQlJnTkpDdlVObWM2djM1RlZDem5EM1JWM3JONTBDZ3dIeDQ5OE9iXy13TVJSczZsMzNGVldfSzBiQ3U2TG1EaXBJSmh0eHJQenpmV2NaNnZQNFlXcWJoM0dTV0JIYmNkMkd2WGFyQ3dXYWN1dXozbC1FeWhxdHNVQTA1RFdoSEsta0NZOXhnU3NGZVV1V19lY3BJ?oc=5",
+      "published": "2025-10-10T07:00:00.000Z",
+      "snippet": "Ten years since the 2015 migration movements (5/5): Lesbos, a symbol of solidarity turned into 'prison island'&nbsp;&nbsp;InfoMigrants",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "New Twist in Campsite Double Murder - tovima.com",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOS1DaHVqZWI4WmJLcXdGYUx6OEJFSXdLU1A3ajl2X0UtUnFzZXZ5bG5qSW0xLXc1aUtqbFVsdkJySDI3ak80TVowRlZvb2p6elUwa08tM0FCalRLYUpXb3RVUlVVNVlqSkF1NDFwMy0wazhEWUxCZUY1QV9odF9xenZLaFJJSTlkaGtpR3Vsb3ZzSXUzTm130gGcAUFVX3lxTFBma0NUS0wwZ0ZtUklVUkZFRmxueFVxaVJvRWQ2eXVfZ3J3RzFITFl2WHRFMjlZa3p3emUzY1FmRHJZd3NWMG5IeU44UG56M2tjeGkzazNqMHZSd3BqVnNSZnA3eUJfUVRmdjBBblFCNlE2RFdlWDFaZzFHT2JpSERWcEtNNi1kbXR2eGNSRzdWV19kQXRmNUFxYW1vQw?oc=5",
+      "published": "2025-10-10T07:00:00.000Z",
+      "snippet": "New Twist in Campsite Double Murder&nbsp;&nbsp;tovima.com",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Κρήτη: Έκοψαν πρόστιμο σε άστεγο για «παράνομη κατασκήνωση» - rosa.gr",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNX1UxbGtxb2dGSU1GZGxYeWdWTjRkSW5fdjhscjZ2WjJVeXlPdlFJSEdLcnBsYnJyQ2RHMzJtVUFwdHIxMC1yQTQwM3hvSnpMM2poYUZ4aXoteUZhMHBHOWJEYS1JTEJROEJJbEZzNnc5cy1BNlZHSFJWeDIyM1pLSGNxQ0RubVUyMnJJbFhR?oc=5",
+      "published": "2025-10-08T07:00:00.000Z",
+      "snippet": "Κρήτη: Έκοψαν πρόστιμο σε άστεγο για «παράνομη κατασκήνωση»&nbsp;&nbsp;rosa.gr",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": "Crete"
+    },
+    {
+      "source": "google-news",
+      "title": "Πρόστιμο 300 ευρώ σε άστεγο για «παράνομη κατασκήνωση» στα Νεώρια Ηρακλείου - Athens Voice",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNX0lBTjRzd2ROb3NLSFpDZkVfOVpGWmI3dUlNRFJ4X3dXWTdjRExJRW5rUzYzaERmanJBUUZFNHhPbmJXRE5USjVtQTRMVjhpZHNuZE1nUUZyRWNxd3ZpQWNHTU1OWXZZTW5hV2VNc3VPSW5tTUp2MHNKX0pSa2R4czhWYmRDM1NBYmhSdE03WDVnblZ0aWR3Nml1SGFlVTZYQzhRd0JzR0J3c2toRy1fbWVhM3U5dWFXTVpjWU5KOWlwZkRjVEFF0gHMAUFVX3lxTE02TldaeV9INGN0ZnY5RHFmMVNlMWNWNVJ3a0l2bUFyN1ZIV0o1eUZYYkdUSWVjQmhyYjlBNE5fdmRhZkxFbVpfNmxVMTdjb3VUcjRWbmdYbTFESld3dUxnZS1mMThnSXF1VTdUTThuOTVhNTl5elhMTHVmRk4zb1BMQXBNcy1DX2dkbUphYXAyNGY4Y2RSYTN2ZWFhbVZuLXZ5eHR3d0Jwb3BLMnVZZ3hJNXUzbFdzQVRwa1A4dzVjRlh5bDBGTUlrV19Rbg?oc=5",
+      "published": "2025-10-08T07:00:00.000Z",
+      "snippet": "Πρόστιμο 300 ευρώ σε άστεγο για «παράνομη κατασκήνωση» στα Νεώρια Ηρακλείου&nbsp;&nbsp;Athens Voice",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Ένταξη Κάτω Πύργου Τηλλυρίας στο δίκτυο ύδρευσης του ΕΟΑ Λευκωσίας (ΒΙΝΤΕΟ) - ant1live.com",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOGp5YzFva21NeTdQTWpuaTlnOWFkN1dqVDR4cVphckJLUGdfQkVPc3h4WWFzQVliaXh6bERiMnJjbXAyX1RrRlNyaWFidWZuOFhvVkQ3a0dlM0lsMGRjcUpleFJ0bm1xeng2RXNLd0gyR0dXQjc3ZGJ5bVNRNC1kZ3BtQk5jemJ5VlBZNDhiTTh0NUpKaXlHR1NKenVvQXJ3akxSSFBNazdONzJyMEw5SUR2cWk4ekZDam9ESDVn?oc=5",
+      "published": "2025-10-08T07:00:00.000Z",
+      "snippet": "Ένταξη Κάτω Πύργου Τηλλυρίας στο δίκτυο ύδρευσης του ΕΟΑ Λευκωσίας (ΒΙΝΤΕΟ)&nbsp;&nbsp;ant1live.com",
+      "keyword": "παράνομο κάμπινγκ",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "“Return, or prison”: Inside IOM and Greece’s failing migrant return scheme - The New Humanitarian",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbXowUFh1cUtvSjFVT2ZRZ0lWZXhid1VoaXUyOGNJa2VFZ2E2U1VtekdUbXppd2Y5WkZ6S0ZwZjFOU2FRNnB3NUN4amJxNEpySEZuMnAwczk2d2dIVmlVTVluaWd6QWFQUU1YUXhGNF9KME5QN3JYMTJsUXdMUDZlb0FpQjk5ZkVJSUJibEpnWk1CUG5iOVpBeFVNVnRsXy0yNGRZLXpIQUpvVUF4NTQxMVRjaUdNSEdUU3ZTeFpNY01lUlU?oc=5",
+      "published": "2025-10-07T07:00:00.000Z",
+      "snippet": "“Return, or prison”: Inside IOM and Greece’s failing migrant return scheme&nbsp;&nbsp;The New Humanitarian",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Ten years since the 2015 migration movements (2/5): In Idomeni, Greece, people still remember the 'chaos' of what happened - InfoMigrants",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOLTdDRW5RUVhqOGYwcUVKMjFkRTEydldObkFfZERGNWdLRWszNWxrSGQycnctaGpCLVEwNmpGM0hJWUFXYlJQdV9XWUxLRk5iSEdGZ3lCYkxLYWx6bTMwNlNIejJTaXdKYzFHT3JmOHpqcUVPQlF4SmUyTXd0MTR6OGdOMHBxODlSdjR5bXpmRjdsMDEyTVNPRmV6Mm02WG5WbTV3dldPYUJ6YjNmamRGMDZuMV9sV2gyNWhaRjAzME5UZll6OE5Ra1V2LTduN1Z1WmNWTzhnV2kyTzYyQWxRT2pKcTBZRnlWZkthQXR3?oc=5",
+      "published": "2025-10-07T07:00:00.000Z",
+      "snippet": "Ten years since the 2015 migration movements (2/5): In Idomeni, Greece, people still remember the 'chaos' of what happened&nbsp;&nbsp;InfoMigrants",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Police chiefs call for total ban on fly-camping - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1sRGxUYlBab25Od2JFQzB0SVhkdGJhdmhKMEhsZ3EtWGhwVi12X29BNW8tU05jOWN4TnBGSjBxOXZQM1M2X1pwdEpFdWh1a010TEVxVFYtazY4NjJX?oc=5",
+      "published": "2025-09-26T07:00:00.000Z",
+      "snippet": "Police chiefs call for total ban on fly-camping&nbsp;&nbsp;BBC",
+      "keyword": "Greece illegal camping police",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Will eviction clear way for sale of Crescent Beach to Greece developer? - Rochester Business Journal",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtX3J0QjAtLWNLR2luWmVWLTVmOFJ4V0dHbk1Pdmt1UExjTHBJZEo2X0JQOG9PaHpWY1ZPallnZTNaYk01cThTeF9nS1BNaHZRa3Z0QWkzQzVnTjhUQ2VnbFVzMnNidWJGZi1HbWhIcy0?oc=5",
+      "published": "2025-09-25T07:00:00.000Z",
+      "snippet": "Will eviction clear way for sale of Crescent Beach to Greece developer?&nbsp;&nbsp;Rochester Business Journal",
+      "keyword": "Greece beach camping eviction",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Καμένα Βούρλα: Έκλεισε η παράλια της περιοχής λόγω μόλυνσης από τον βιολογικό καθαρισμό - MEGA TV",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNmpTNl9hUkV4b09XU3lLVVEtbTNQU3ptUzVza3ZJSHFub3FTUjhJR1JfV05fSlFqRUdJZVJCSE9EeTl3dmRtM0t2NzNMTURYX3R2a3RUeTl6d1lLX0V3S0RKd3pfTlhqb3poWkIwLWZIR2Z0TEFIS1F0MXdualNfVHlNcTJMcDA4Zm1laVQ2WDdYZ0JXOVk3Q1ZTT0xWUEZzdTBZU2VxZzVkMjY5dUJJY2dTTFJGNUdObHdmVUExdw?oc=5",
+      "published": "2025-09-24T07:00:00.000Z",
+      "snippet": "Καμένα Βούρλα: Έκλεισε η παράλια της περιοχής λόγω μόλυνσης από τον βιολογικό καθαρισμό&nbsp;&nbsp;MEGA TV",
+      "keyword": "απαγόρευση κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Καμένα Βούρλα: Απαγορεύτηκε η κολύμβηση στην παραλία Κάμπινγκ του ΕΟΤ -Βρέθηκαν μικρόβια E.coli και Εντερόκοκκος - iefimerida.gr",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONzFibXlyMFo1WGZxcGRPU1V5bzQzenBCQnhTMHpaQXBBUHFXa2dxOVpmd3RpX0d6cWc0VkJZa3F4SENwRUtIUkRJeTJyaGJhTmxoVnBQcU93X1Z4WEI4QkJpM2NDMTJHU3pVZ3NOcEVUNHdSeU5LZjl1WVJidzJNMDFpdV9PdThjeVduWldtODlWM0Z10gGaAUFVX3lxTFBXRjE1X0E1cl9QZG9RU2pqVHNGZ0JHTWV2VE13bWlpWGhSaVV4djZkX3FGUXZCUURfSDZ4VzZqcWgxTVBtZmNTOXFReEk0OFZ0blpIMkdmajAzLTJ1NFhLRG1DcTBMV29ZeXJ1cjlVU0libEFkbVFiVHB3TnZsc05jbnNtYmFLSWVoaVU0ZE9CWXZuN2V5R1drVlE?oc=5",
+      "published": "2025-09-23T07:00:00.000Z",
+      "snippet": "Καμένα Βούρλα: Απαγορεύτηκε η κολύμβηση στην παραλία Κάμπινγκ του ΕΟΤ -Βρέθηκαν μικρόβια E.coli και Εντερόκοκκος&nbsp;&nbsp;iefimerida.gr",
+      "keyword": "απαγόρευση κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Καμένα Βούρλα: Απαγορεύτηκε η κολύμβηση στην παραλία του Κάμπινγκ του ΕΟΤ λόγω μικροβίων E.coli και εντερόκοκκου - Athens Voice",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNaUJtdmdOTWFjUDR4OHBPQ2poU0JiWVdnZjlSRFRtY2s1NGRHTDJBWm5CLUxqN0VzOGNEWHppT1BEbGUzY3QwSlJpY3dwWkQtOHJxQmdNMTM1VlU5TkVTMl9tTElaZ0d4R3M2NElteUZoUVBhT0RJbUgzRXpoNXNXUnBMLVRzckc2QmhkNDk0UXh4N3FQWEVfYVIzNjByLVBuT2U0NEFGS0VETTl2QVVUNDFnZ01pekZHYW55Vi14cmJmcXEyc0V2akxXcVE0SVdqRldRY2U4MTR3dTRZdXZHaUpBSEJGRnNZYXVuRl9SRXhqbFUz0gH6AUFVX3lxTE12R2JoV19SSWdIend4eXV6dzk0NEFOM1lLZEtMcERmM3hmZFFIS2VpVW9PcjNmdUdQRWRreExyb2NoZWlNSnkycWhCMlluUTgtRng1Tzk5MElURGdDdjBGQ25JM3JmMjg2WGt5ZjBuNmJrWU85bzlkWGx0MmtnRThzYVRTVHpKZmJ1RV9nQks4X1lIMUdMQlZrUm0zelR2cTlsQ1VLcThhY0stblJOMmxiaDBFQmJnTnUzVl9LQmEyVVNuVnFCZm4waE9kVGhZeDlVeXRGeWM2NlMzYi11VGdnaVhYcEhtY1dDYUptN053ZzhkQ2ZYcHZ0V0E?oc=5",
+      "published": "2025-09-23T07:00:00.000Z",
+      "snippet": "Καμένα Βούρλα: Απαγορεύτηκε η κολύμβηση στην παραλία του Κάμπινγκ του ΕΟΤ λόγω μικροβίων E.coli και εντερόκοκκου&nbsp;&nbsp;Athens Voice",
+      "keyword": "απαγόρευση κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Καμένα Βούρλα: Περιφέρεια \"αδειάζει\" δήμο - Απαγόρευση κολύμβησης λόγω προβληματικού βιολογικού - aftodioikisi.gr",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRVA1T2xyc0hXdVpycHJKTEVhaDlPR25SZUo3ci1pbFkxU3FyUjRLTnlteF93RGM1czNkVV81OUVDTk5OSlUxQmdJSzh5bWktTzd6ZzhoUWU5ZV83TVE1Z2hjeDhYcnRhd0FSWE5PUUVha1Bqdng0ZmM1M2Y1Z2J5d29jU2pFYmJ1Q2pIWEpQeERVS05UQVplVWlhWjZ2Tmt5OEktY1Z2ZzdNVk1uSklVSmg3bHhGWGRUdjloVVlXdVp5TzhzdUdTTnBaZ1RtZTVOTi03YndB?oc=5",
+      "published": "2025-09-23T07:00:00.000Z",
+      "snippet": "Καμένα Βούρλα: Περιφέρεια \"αδειάζει\" δήμο - Απαγόρευση κολύμβησης λόγω προβληματικού βιολογικού&nbsp;&nbsp;aftodioikisi.gr",
+      "keyword": "απαγόρευση κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Καμένα Βούρλα: Απαγορεύτηκε λόγω μικροβίων E.coli και εντερόκοκκου η κολύμβηση στην παραλία του Κάμπινγκ του ΕΟΤ - NewsIT",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNeXFXZ2tIUTF1SmZaSHh4RU1nbTFYdUtYUTEtVkpyZFp6YmVyS1V2VFRrUHY2SWFUR2V6VjhackM2Q0VZYWxmWUZIcEJ3YlowU0xiUEtQYUFQcnRLb09CdmN0RmQ2VkcwS29qYmFNV3BFcWoyT2FQeXEzRWJXdm5fMUhkeUp5dzFhOElQd25uTHIxQXVSN1B1anE3Q2l0bk9mc09HcVN0cEpQTHBGVFAwTzdfdkRTWjhEUHB1M0dfRkdHemhkSFl4WVFHSGxOVHlVNjFoOWZRdTJIRW1nMUxKc20wb9IB6AFBVV95cUxPUkUwTFFxN1V1ZGl4cUlLbE9DNS1aMXZkSGNKZmhnUHd6NVpkTHlTT0wxTUFHNzV0aURjVkhabUo1V09yc0pMY2kySktkQmFkZWFRakd2VlhTVUFEOHF3dkVGYTBQUWM4aGNxU01zOHpHZk5RbE1zSVhYa1FaNWZRQUxteDdtM21zMk5SdjFCWFFIMTh5SFdIQkRSNlpIMzN1eVptS28yR2IyYVBwQWxhcTRBVkp2ekFzWmktUXgxeGVxQ1ZjejFoSnotNFl3NnpiOUJwZHo5QjhaRmlPc3hXaHRGR3Btb0t3?oc=5",
+      "published": "2025-09-23T07:00:00.000Z",
+      "snippet": "Καμένα Βούρλα: Απαγορεύτηκε λόγω μικροβίων E.coli και εντερόκοκκου η κολύμβηση στην παραλία του Κάμπινγκ του ΕΟΤ&nbsp;&nbsp;NewsIT",
+      "keyword": "σύλληψη κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Warning to anyone with a motorhome or caravan from October 12 - Daily Express",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVVlQckZrSW5zTEljR2Z4NzczQjFGTW5sdVZyREd0eTBoMmJubGlLVEtnYmx3OU1mbTQxbFpSNHFDQXRZVE5Rcl8xUmkxd0NuTDFMZC0yZS1peVRpUDBGTFozX1hmeUJDdEtVZVBMcnJ2cGRibHVjU2hiVUpCNFhOOUFHU0k0SmhSVXRsWFNwc2RRMlXSAZgBQVVfeXFMTnpFNXVBZEc3dWJqRW5FUkE4eTQ1bFEwT1lmZlJaTmVydXVFQVg0dXJWblVWVjlqY1kzdUtLOE9FdnNIYU1wbVlFT3hqRmxsU3JVOHI5Q0pESTJaNUtYZUVrYk9VYzBrTzBTV3o5Ui0zZFlGOTE3RTNfUm1NVXJZbkd1TXNFMlhrR3VjQUNXa3RDeWxMYkJDV0w?oc=5",
+      "published": "2025-09-22T07:00:00.000Z",
+      "snippet": "Warning to anyone with a motorhome or caravan from October 12&nbsp;&nbsp;Daily Express",
+      "keyword": "Greece camper van fine beach",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Νέος ΚΟΚ: Έρχεται πρόστιμο εάν μεταφέρεις τα ψώνια σου με το αυτοκίνητο - Proson",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZmlrdW1PVmh3emN6QTlsZjAtV2Y2NmdjQWJWclRCRHdEMTNKRWFtaEZhQVIyaVZoMGxnZDBZbTBsZ1p0Q3B0UUVlX0NOQnF4Ri1UeXBQZDc4TE5rbXIyWm5reGpUZXlVUjByQU5qcVJEeG9aajJTRXdpODMxbjdoRFl0Tzh5NWtXbUNYVTBUOTVGWXNlYzBzQkh2TUdyMXFBMGZmaWlYcW_SAa4BQVVfeXFMUE9aZUQxUC10dHUtQi0ydGZ6US1meWc4S09lMS1abkRzU3BUMWd5UERTWWRMbTdLWk80T3RKVFhlYXJ6LWhocXdUZDloV3UzMHQ1S1BCOEdXM3I3VXFPamtCX3hDaWxrZ0FNX1BXRzYzLVNESW1udE80cFVuT0w0NjlZNTRHcW05Q1NrbS03N0Flcnlud3d5T1VTMVFXZTNFbmxramxRcC15UDZJeldB?oc=5",
+      "published": "2025-09-15T07:00:00.000Z",
+      "snippet": "Νέος ΚΟΚ: Έρχεται πρόστιμο εάν μεταφέρεις τα ψώνια σου με το αυτοκίνητο&nbsp;&nbsp;Proson",
+      "keyword": "ελεύθερο κάμπινγκ πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Crete: Nearly 800 new migrant arrivals places Greek island under pressure once again - InfoMigrants",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR3JDWnFHWmFBczFqa0R5WEFQS3p5NjJObUZ4dWdKTHlLTW9lcURIRVJ3TzF1TkNJSWtvMG9PRHdXZUgtQlFnNklxNFctazN4dWpPM090WGdldWdSNEdwdkc1d0g1bjFDYWFoaHZVZG1JMHVHRFBRLVRXNGhMOXg3dURJUUJ3cmRhcWRWYkUyYXJHb3JSR1BoOVZIb2JZOVdaTkVVMm9QeFoxNUNVNmRiOEpWUUo3Y1ozc1Zzdl85Z2xyX090?oc=5",
+      "published": "2025-09-15T07:00:00.000Z",
+      "snippet": "Crete: Nearly 800 new migrant arrivals places Greek island under pressure once again&nbsp;&nbsp;InfoMigrants",
+      "keyword": "Greece camping law 2025",
+      "region": "Crete"
+    },
+    {
+      "source": "google-news",
+      "title": "Ξένες πινακίδες στα αυτοκίνητα: Τι ισχύει στην Ελλάδα -Ποια είναι τα πρόστιμα για τους παραβάτες - CAR & MOTOR",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOc0FpM0RNVnhYV05oYmZVMlUxLUhoS29kVFMyZUdmTy13ZG9Pei1kYlVrM3RxSlBkTmRNUGNfWGhQNzMzR1R0LWxHV0J6dUlmV244WVJqb1U2WW0wSGREVnJOQ0o1NTFfOUVQOVZZZjFqTTdqY3IzT2JXVzZqbVpDMHk1bw?oc=5",
+      "published": "2025-09-14T07:00:00.000Z",
+      "snippet": "Ξένες πινακίδες στα αυτοκίνητα: Τι ισχύει στην Ελλάδα -Ποια είναι τα πρόστιμα για τους παραβάτες&nbsp;&nbsp;CAR & MOTOR",
+      "keyword": "τροχόσπιτο πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Greece Replaces Term ‘Irregular Migration’ with ‘Illegal Migration’ - tovima.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQW44YVhpeGJCdGJGc3cxSF9PSk5IQndzcGVUQXloelN3d2tUYXp1RW9hbnN2QnBhbFJUUjJaLTk3UTlHek0tNGZ4RTFCd0xRcUduNW5sN2t3RkNaTEd2WUtZZjUyWXRvYnl6SEExN3g0V2RsdHR5ZW1GZ0JvR0hOSXdGb3docHZycUc0bjZ3ZnpNSXdWSWlPSkVXZ9IBoAFBVV95cUxNYzFvc3JXMHV6N1M4RUxGcl9wWnVpT09BNWYwVEUyUGhJMGVMTmhlNWlaSjNEdTI1YlJBWVRvRjJXN0RTdEV3RE5zSUUxXzhvXzBfaENfSG9sZVVzdlBESzdBYlV0SnNoSm5RWks4cF9lWTczX2lJYzJPLVVIdWY2LVBGUmtHaUpYS1pZTTNUUXZXbjIwV0djYXhZNEQ4cGRO?oc=5",
+      "published": "2025-09-12T07:00:00.000Z",
+      "snippet": "Greece Replaces Term ‘Irregular Migration’ with ‘Illegal Migration’&nbsp;&nbsp;tovima.com",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Wilmington City Council passes amended public camping ordinance - WECT | TV6",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMmJGM2xKTVRhUUZCRHFCbjFLUk9wTEVCZmYzT3oya0dZM3Z5X2czX1ZuUy10UXlCSkNtMVZZcl95UzdYajZDdDA0eU5jVmpBOG9iMlctMjZBWDVjLTFTNkhockFjNlBKUUVCTlFob2RRMFJpUF9FMlRrOWdoY29nMUpIUk1yc0RyWmQ3VzItS0pCRVRzM193U0J1XzV4bTQ0ZkRRLWJHeThZM3RULUHSAcIBQVVfeXFMTVdUUTFRR29CUWcxdmtITl9xS0FSTWVDeEd1VU42bTJfRmZvWWp5U0RDRk5aMzVzNm01Z0syUjhZWm1NN3kwcjRjdUZRTXo3RFdmU3hWRDVkeTBYZUJEYkVmZS00VWdnMFVaOGl4NDFwVDhMWVJHU2lleFNRQWFxSmNsQVh5WTcxOXZ4cWdEbHA5MWN2Z1hLNFNISllVUVk2TkFaV09MaWxKT2FtdEVKdU9JbnJWaDFSTkJoY1NUYjlfc3c?oc=5",
+      "published": "2025-09-09T07:00:00.000Z",
+      "snippet": "Wilmington City Council passes amended public camping ordinance&nbsp;&nbsp;WECT | TV6",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Πρόστιμα σε ιδιοκτήτες οικοπέδων στους Αμμόλοφους - τα είχαν κάνει παρκινγκ για τροχόσπιτα χωρίς άδεια - Kavala News",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVTh2VUFhdW9LX1Y0c2Q4cjlvQ2c5MnBJRGRtLTkxWFh6ZUdUc2VfQWp6d1cteTFOOU40dUI2RmxHalhGbWF6c1EzSU1TMGEtYzZKS2x1STJLQTdNNTVwYTJFRHdWR2VHRUxKN2dqUFlKOGNSNGpzNmVrRWNZdm1feko5Y2xNNl9GSGZMLXg5UE5JV0hlX0VRbHRBNlFrc1h5SGRqMUpQSk45ek5QVGdxenJ2STdDS2Z0ZWVzZnBUd2szalE?oc=5",
+      "published": "2025-09-02T07:00:00.000Z",
+      "snippet": "Πρόστιμα σε ιδιοκτήτες οικοπέδων στους Αμμόλοφους - τα είχαν κάνει παρκινγκ για τροχόσπιτα χωρίς άδεια&nbsp;&nbsp;Kavala News",
+      "keyword": "τροχόσπιτο πρόστιμο",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Κατερίνα Παπουτσάκη: Για ελεύθερο κάμπινγκ με τον σύντροφό της – Το ειδυλλιακό σκηνικό στην παραλία - real.gr",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNUhVV29OZmZUTEFvejJIQkhhMEhfSFZ2UGN1NTdLVWN5ci10S2pMUVJ3cVliSlVoXy1pclhDR1lHbU1kZXNrOFV4X1ItemZNdkFQR3hpSGJhbWQtZjYteU5mMEUtZUpCYmZtNmVCakxxNng3OC1Ld2JvS2p6MThzQ1JUZDZKbi1QejRqbHhRYjRuZUtDd09nSGJFMDQ1MlJDSHptam9penNqSndta0hpb05TUkhLN0ZHNWJhZFU2ZE9fdjNfUUQ5X3lkNjlaSE94eDR2V2hzOWI?oc=5",
+      "published": "2025-08-28T07:00:00.000Z",
+      "snippet": "Κατερίνα Παπουτσάκη: Για ελεύθερο κάμπινγκ με τον σύντροφό της – Το ειδυλλιακό σκηνικό στην παραλία&nbsp;&nbsp;real.gr",
+      "keyword": "σύλληψη κάμπινγκ παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Greece: Illegal, violent deportations: the heavy toll of seeking asylum in Europe - Statewatch",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcVZreW5yangwbjFLX3A3Mko5bVoxQmxIcGxiVXk4X21nX2VDVmkwRVV3QUw1RlZsZUNxWldad1JwdXk5MmxubHlHNDRic3J4R0hfLTljalFrY0JaeEZ2N3dNV0hmekxtVXJENzROclU5dVdIZUZ1TGZrekNYMFNFRHNTaFlQVFktZ3drMUZmZVE3NG9CZmc0RmJZT3I2WDNMc2pHVG03UHBwNXR1cm81RFc4LXhIeDhIZEJR?oc=5",
+      "published": "2025-08-26T07:00:00.000Z",
+      "snippet": "Greece: Illegal, violent deportations: the heavy toll of seeking asylum in Europe&nbsp;&nbsp;Statewatch",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "On migration, Greece takes a Trumpian turn - The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWXpzUE9FVlA3NllIUEg2T2xBNEVXQnBQTzNNbUNRY2VrQXp4blIyaHI1NW14cG5jaHlhSGVULW03U3p3TGluUkdnMUlzckNjTWFDbVBZbTlXYldnT3FVbzhpMTh5b3FUS1owM3M0V2FPVU45NkhFZTlKb3pqa0wzRGZyRnFWT29ILVBWS3M2b0lzQ2llNkZZVC1CYUg?oc=5",
+      "published": "2025-08-22T07:00:00.000Z",
+      "snippet": "On migration, Greece takes a Trumpian turn&nbsp;&nbsp;The Washington Post",
+      "keyword": "Greece camping law 2025",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "«Ξηλώνουν» κάμπινγκ της Χαλκιδικής μετά από καταγγελία – Αφαιρούνται ομπρέλες και εξοπλισμός - ΤΑ ΝΕΑ",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcEg2NzU5NTZVYTVvdVVnZ3hjNEJ6VXJldEVyWm1mTll4NHFGVWFONXVpamx3djA5NEdDS0pnSkh3dG5sYkRIcGZYdG5ldDk4cVUwRXE3U1B1bUY1WktXVXVkZktsOEV1eUdrbGVJdm1aaG54cVladXJ3dlIzd25iYjhfNjJPTjcxaVdwOF9nNGJFQ1JyVVpIaV9RU1p0dm9salAwV04wcFl3R3BGSjhtOUY2RVZDWmYwUW5uV1hSeTdnSlBsNmU4N05ucmNsbUXSAdQBQVVfeXFMTnoyZ3pzdmpWS0c4bGNNaXJuLU4tR1FyQ3RJT2N0ZDk4VnExMWppUUlCYlI0Sk9mYXYwcmwxeDdmdDdudHd1QkxIVnpsTWpobENpTExRNXEzNk1kMXJ1dmtGZXhGQ1lSeDQxRDRaT005MTN6aUZfclUyS0REYmd0b2VNNTY5UjhwaFEzdmZKU2M4aXRYUnkxaGFqNWRQYTlTSTFMOE9fUlFqd213bllPbEpVZ3FQbFVyV2RzSkYyZ014ZVpDeWd6LTVlNG13N1FSS2E5Njc?oc=5",
+      "published": "2025-08-20T07:00:00.000Z",
+      "snippet": "«Ξηλώνουν» κάμπινγκ της Χαλκιδικής μετά από καταγγελία – Αφαιρούνται ομπρέλες και εξοπλισμός&nbsp;&nbsp;ΤΑ ΝΕΑ",
+      "keyword": "πρόστιμο κάμπινγκ",
+      "region": "Halkidiki"
+    },
+    {
+      "source": "google-news",
+      "title": "Camping: Πρόστιμα και ποινή φυλάκισης σε όσους δεν έχουν άδεια - City Free Press",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdmJtc3F5dmhIek9DWHVQSnZtTnJPTVBTdkMyd2dlbWZfWTlDT1FKY2w0QndLWTFWa0ktdFR1MlM0T3JnMEd0QTVUNG55TzIyUUs2UFNPbFpXOUd2NklVUmZsTVI5OFRwZGZiZE1HR29aelhIZWJFa2ZDa2FFWnBJZnlpRHNOXzA0emZrRXlneUJxd3VrM1RzajJ0LWQxb1ZXNTVqY1VwMHZnTU9COHc?oc=5",
+      "published": "2025-08-11T07:00:00.000Z",
+      "snippet": "Camping: Πρόστιμα και ποινή φυλάκισης σε όσους δεν έχουν άδεια&nbsp;&nbsp;City Free Press",
+      "keyword": "τροχόσπιτο πρόστιμο παραλία",
+      "region": null
+    },
+    {
+      "source": "google-news",
+      "title": "Για κάμπινγκ με τον σύντροφό της η Κατερίνα Παπουτσάκη - Τα στιγμιότυπα στην παραλία - ProtoThema",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTnJvWGFJcjNaSndKdXkzUnVZVkNwel9hWWlEZVRLSmk1VUZ5blhCSG1sbDdVY1NjQ1R4YmhGZWJnNEZ5X1lJLTNtTGE5aElZOVA2MVlyQVhNM0haUzZOLU1yOTYzeHdzNDljdWlDem9zZzhxM3hkbjdJQm5uNlQ4LWc3RVh4MVByYm1FVWZwUEFiTDMzZ0dPSDFxaDlsU3JHWDNCVGtORUlQUmRJaTc5cEEySWdUY0F0Rmx4RlBma1RfcDhncGFBaTVnZ9IB0AFBVV95cUxQQy1rZmtDWUpzREtUMG4zQ3BmWlo3bjh2N252WE41Q2lBR0g3aG5iUWNRbW1laXZmWDJWRmxYbmZzTVIwQmNNcGk5SkU1WGNoMm1EWklJcHVnb0xiTXBoemUweW5XNHVVcnVDUTZMd2RQTEl2NE83bDZPS2RXU2xsdFV5ekZLdGtOY1pJa2hfRzJoTFdXWGozbWhxQVpKZEdSVXU4TWRTRjBTNk85VUJnY21FaDJ3M2lKVERRajJLRFA4ei1jekdiRENicEFFSElt?oc=5",
+      "published": "2025-08-08T07:00:00.000Z",
+      "snippet": "Για κάμπινγκ με τον σύντροφό της η Κατερίνα Παπουτσάκη - Τα στιγμιότυπα στην παραλία&nbsp;&nbsp;ProtoThema",
+      "keyword": "σύλληψη κάμπινγκ παραλία",
+      "region": null
+    }
+  ]
 }
