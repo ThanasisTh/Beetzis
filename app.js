@@ -15,8 +15,59 @@ const protectedLayer = L.layerGroup().addTo(map);
 const scanBtn = document.getElementById("scan-btn");
 const statusEl = document.getElementById("status");
 const detailsEl = document.getElementById("details");
+const reportsListEl = document.getElementById("reports-list");
+const reportsUpdatedEl = document.getElementById("reports-updated");
 
 scanBtn.addEventListener("click", runScan);
+
+let hotspots = [];
+
+async function loadStaticData() {
+  try {
+    const res = await fetch("data/enforcement-hotspots.json");
+    const json = await res.json();
+    hotspots = json.hotspots || [];
+  } catch (err) {
+    console.error("Failed to load enforcement hotspots", err);
+  }
+
+  try {
+    const res = await fetch("data/enforcement-reports.json");
+    const json = await res.json();
+    renderReports(json);
+  } catch (err) {
+    console.error("Failed to load enforcement reports", err);
+    reportsUpdatedEl.textContent = "Couldn't load report data.";
+  }
+}
+
+function renderReports(json) {
+  const reports = json.reports || [];
+  reportsUpdatedEl.textContent = json.generated_at
+    ? `Last updated ${new Date(json.generated_at).toLocaleDateString()} · ${reports.length} report(s)`
+    : "Not generated yet — runs weekly via GitHub Actions (or trigger it manually from the repo's Actions tab).";
+
+  if (!reports.length) {
+    reportsListEl.innerHTML = '<p class="hint">No reports collected yet.</p>';
+    return;
+  }
+
+  reportsListEl.innerHTML = reports
+    .slice(0, 20)
+    .map((r) => {
+      const date = r.published ? new Date(r.published).toLocaleDateString() : "undated";
+      const region = r.region ? `<span class="report-region">${r.region}</span>` : "";
+      return `
+        <div class="report-row">
+          <a href="${r.link}" target="_blank" rel="noopener">${r.title}</a>
+          <div class="report-meta">${r.source} · ${date} ${region}</div>
+        </div>
+      `;
+    })
+    .join("");
+}
+
+loadStaticData();
 
 function setStatus(msg) {
   statusEl.textContent = msg;
@@ -168,10 +219,13 @@ function processResults(elements) {
       .addTo(devLayer);
   }
 
-  let prime = 0, possible = 0, unlikely = 0, restricted = 0;
+  let prime = 0, possible = 0, unlikely = 0, restricted = 0, enforcement = 0;
 
   for (const beach of beaches) {
-    const scored = scoreBeach(beach.center, devPoints, tracks, protectedRings);
+    let scored = scoreBeach(beach.center, devPoints, tracks, protectedRings);
+    const hotspotMatches = matchHotspots(beach.center, hotspots);
+    scored = applyEnforcementOverlay(scored, hotspotMatches);
+
     const marker = L.circleMarker([beach.center.lat, beach.center.lng], {
       radius: 9,
       color: "#222",
@@ -184,15 +238,38 @@ function processResults(elements) {
     marker.bindPopup(`${body}${links}`);
     marker.on("click", () => showDetails(beach, scored));
 
-    if (scored.bucket === "prime") prime++;
+    if (scored.bucket === "enforcement") enforcement++;
+    else if (scored.bucket === "prime") prime++;
     else if (scored.bucket === "possible") possible++;
     else if (scored.bucket === "unlikely") unlikely++;
     else restricted++;
   }
 
   setStatus(
-    `Found ${beaches.length} beach feature(s): ${prime} prime, ${possible} possible, ${unlikely} unlikely, ${restricted} restricted. (${devPoints.length} existing accommodations, ${tracks.length} access tracks, ${protectedRings.length} protected zones in view.)`
+    `Found ${beaches.length} beach feature(s): ${prime} prime, ${possible} possible, ${unlikely} unlikely, ${restricted} restricted, ${enforcement} enforcement hotspot(s). (${devPoints.length} existing accommodations, ${tracks.length} access tracks, ${protectedRings.length} protected zones in view.)`
   );
+}
+
+function matchHotspots(center, hotspotList) {
+  return hotspotList.filter((h) => haversineKm(center, { lat: h.lat, lng: h.lon }) <= h.radius_km);
+}
+
+function applyEnforcementOverlay(scored, matches) {
+  if (!matches.length) return scored;
+
+  const active = matches.filter((m) => m.enforcement_level === "high" || m.enforcement_level === "medium");
+  const passive = matches.filter((m) => m.enforcement_level === "low-but-illegal");
+  const result = { ...scored, hotspotMatches: matches };
+
+  if (scored.bucket !== "restricted" && active.length) {
+    result.bucket = "enforcement";
+    result.color = "#e65100";
+    result.label = "Enforcement hotspot";
+  } else if (passive.length) {
+    result.legalNote = true;
+  }
+
+  return result;
 }
 
 function scoreBeach(center, devPoints, tracks, protectedRings) {
@@ -249,12 +326,30 @@ function buildDetailHtml(beach, scored) {
       <p class="detail-title">${name} <span class="badge restricted">Restricted</span></p>
       <p class="detail-row">Falls inside a mapped protected area / nature reserve. Avoid camping here.</p>
     `;
+  } else if (scored.bucket === "enforcement") {
+    body = `
+      <p class="detail-title">${name} <span class="badge enforcement">Enforcement hotspot</span></p>
+      <p class="detail-row">Isolation/access score was ${scored.score}, but this falls within an area with reported active camping enforcement — see below.</p>
+    `;
   } else {
     body = `
       <p class="detail-title">${name} <span class="badge ${scored.bucket}">${scored.label} (${scored.score})</span></p>
       <p class="detail-row"><b>Nearest campsite/hotel:</b> ${isFinite(scored.nearestDevKm) ? scored.nearestDevKm.toFixed(2) + " km" : "none found in scanned area"}</p>
       <p class="detail-row"><b>Nearest track/path:</b> ${isFinite(scored.nearestTrackKm) ? scored.nearestTrackKm.toFixed(2) + " km" : "none found in scanned area"}</p>
     `;
+  }
+
+  if (scored.hotspotMatches && scored.hotspotMatches.length) {
+    body += scored.hotspotMatches
+      .map(
+        (h) => `
+      <p class="detail-row hotspot-note"><b>⚠ ${h.name}</b> <span class="badge-inline">${h.enforcement_level}</span><br>
+      ${h.note}
+      ${h.sources.map((s, i) => `<a href="${s}" target="_blank" rel="noopener">[${i + 1}]</a>`).join(" ")}
+      </p>
+    `
+      )
+      .join("");
   }
 
   const links = `

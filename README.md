@@ -25,6 +25,9 @@ or serve the folder statically.
      **Unlikely** (<40)
    - Any beach whose point falls inside a mapped protected area/nature
      reserve is flagged **Restricted** regardless of score.
+   - Any beach within a known camping-enforcement hotspot (see below) is
+     flagged **Enforcement hotspot** and its normal score is overridden,
+     unless it's already Restricted.
 4. Click a marker for the breakdown and jump-off links to Google Maps / OSM.
 
 ## Data sources
@@ -32,8 +35,34 @@ or serve the folder statically.
 Currently wired up (all free, no key required):
 
 - **OpenStreetMap via Overpass API** — beaches, accommodation, tracks,
-  protected areas. This is the only live data source right now; everything
-  else below is a documented idea, not yet implemented.
+  protected areas. Live, queried on every scan.
+- **`data/enforcement-hotspots.json`** — a manually curated, hand-researched
+  list of areas with documented camping/camper-van enforcement (fines,
+  ranger patrols, arrests), each with a source link. Reviewed by a human,
+  not automated; refresh it by asking for another research pass, not by
+  waiting for a script.
+- **`data/enforcement-reports.json`** — generated automatically, weekly, by
+  `.github/workflows/fetch-enforcement-reports.yml` running
+  `scripts/fetch-enforcement-reports.mjs`. That script searches:
+  - **Reddit's public search API** (`reddit.com/search.json`), and
+  - **Google News RSS** (`news.google.com/rss/search`)
+
+  for ~30 Greek- and English-language keywords (fines, arrests, crackdowns,
+  camper-van bans, etc. — see the script for the full list), tags each hit
+  with a best-guess Greek region from a small place-name gazetteer, dedupes,
+  and commits the result. It runs server-side inside the GitHub Actions
+  runner specifically because browsers can't call most of these APIs
+  directly (CORS, and some require auth entirely) — this is why it isn't
+  just client-side JS like the rest of the app. The workflow can also be
+  triggered manually from the repo's **Actions** tab if you want fresh data
+  sooner than the weekly schedule.
+- The frontend just fetches both JSON files as static assets alongside the
+  rest of the site — no server, no keys, same-origin, so no CORS issues.
+
+Not wired up, no true "social media" source is: X/Twitter and
+Facebook/Instagram both require paid API access or a login to query, which
+is incompatible with a free static site with no backend holding secrets —
+Reddit and Google News were the realistic substitutes.
 
 Ideas for future layers (from the original brainstorm, not yet built):
 
@@ -66,9 +95,30 @@ Ideas for future layers (from the original brainstorm, not yet built):
   candidates; missing `boundary=protected_area` tags mean a restricted area
   could be scored as if it weren't. This tool does not know about land
   ownership, private property, or local bylaws.
-- **Legal status.** Wild camping (pitching a tent outside a licensed site) is
-  technically illegal in Greece under Law 392/1976, though enforcement varies
-  by area. This tool is for scouting quiet spots, not a legal opinion.
+- **Legal status.** Wild camping is illegal nationwide under
+  [Law 5170/2025](https://nikana.gr/en/blog/7342/new-camping-law-in-greece-2025-rules-restrictions-and-penalties-for-camper-vehicles)
+  (in force since January 2025) and refined by
+  [Law 5209/2025](https://www.vanlifezone.com/journal/Updated_Greek_law_eases_camping_restrictions_but_stays_firm)
+  (from July 2025): on-the-spot fines of €300 per person/vehicle, with the
+  older [Law 4055/2012 amendment](https://www.cna.gr/greece/telos-sto-elefthero-kabingk-elegchi-syllipsis-ke-prostima-eos-3-000-evro/)
+  allowing arrest and fines up to €3,000 for flagrant offenses. This tool is
+  for scouting quiet spots, not a legal opinion.
+- **Enforcement hotspots are curated, not comprehensive.** The 5 areas in
+  `enforcement-hotspots.json` are ones I found specific, sourced reporting
+  for — Sithonia, the Peloponnese coast generally, Zakynthos's turtle-nesting
+  marine park, Crete's Elafonisi/Balos/Preveli, and Kyparissia Bay/Voidokilia.
+  Being outside all five circles does **not** mean an area is
+  enforcement-free — it means I didn't find documented reporting on it.
+  Note also that "legally banned" and "actively enforced" are different
+  things: Kyparissia Bay is legally protected turtle habitat but conservation
+  groups report enforcement there has historically been weak, which is why
+  it's flagged `low-but-illegal` rather than colored as an active hotspot.
+- **Scraped reports are region-level, not beach-level.** The weekly Reddit/
+  news pipeline tags hits with a broad region (e.g. "Crete", "Cyclades") via
+  simple keyword matching, not real geocoding — it cannot tell you whether a
+  specific scanned beach had police activity, only that something matching
+  the keywords and mentioning that region showed up recently. Treat it as a
+  prompt to go read the source, not as a verdict.
 
 ## Running it
 

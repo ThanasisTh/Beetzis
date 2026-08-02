@@ -1,0 +1,71 @@
+{
+  "last_reviewed": "2026-08-02",
+  "note": "Manually curated from public news and institutional sources (not automated). Coordinates and radii are approximate — they mark a general area, not an exact boundary. Absence from this list does NOT mean an area is free of enforcement; it means it wasn't specifically documented in the sources checked. enforcement_level reflects reported real-world patrol/fine activity, which is a different question from whether camping is legally banned there (most of Greece is, nationally, since Law 5170/2025 and 5209/2025).",
+  "hotspots": [
+    {
+      "id": "sithonia",
+      "name": "Sithonia peninsula (Halkidiki)",
+      "lat": 40.10,
+      "lon": 23.87,
+      "radius_km": 25,
+      "enforcement_level": "high",
+      "note": "Local tourism press reported the 2025 national wild-camping law (5170/2025, refined by 5209/2025) landing hard here specifically, with active local enforcement against camper vans on the peninsula's beaches.",
+      "sources": [
+        "https://visitsithonia.com/news/greece-motorhome-law-2025-wild-camping-ban/",
+        "https://sithoniagreece.com/new-greek-law-on-motorhome-travel-how-does-it-affect-visitors-to-sithonia/"
+      ]
+    },
+    {
+      "id": "peloponnese-coast-general",
+      "name": "Peloponnese coastline (general)",
+      "lat": 37.0,
+      "lon": 22.2,
+      "radius_km": 150,
+      "enforcement_level": "medium",
+      "note": "Reported case of motorhome owners fined €300 each while parked by the sea in the Peloponnese, early 2025, under the new national law. This is a broad, approximate area covering the whole peninsula's coast — not a single beach.",
+      "sources": [
+        "https://www.vanlifezone.com/journal/Updated_Greek_law_eases_camping_restrictions_but_stays_firm"
+      ]
+    },
+    {
+      "id": "zakynthos-marine-park",
+      "name": "Zakynthos National Marine Park (Laganas Bay: Sekania, Dafni, Gerakas)",
+      "lat": 37.72,
+      "lon": 20.88,
+      "radius_km": 8,
+      "enforcement_level": "high",
+      "note": "Sea-turtle nesting beaches patrolled directly by National Marine Park rangers; camping and fires are explicitly banned and fines are enforced. Sekania beach is accessible only by licensed boat or ranger escort.",
+      "sources": [
+        "https://nmp-zak.org/en/content/protection-measures-sea-turtle-nesting-beaches",
+        "https://welcometozante.com/en/map-beaches-and-rules-of-the-marine-park-of-zakynthos/",
+        "https://beachverdict.com/beaches/greece/gerakas-beach"
+      ]
+    },
+    {
+      "id": "crete-sw-protected-beaches",
+      "name": "Elafonisi / Balos / Preveli (Crete)",
+      "lat": 35.27,
+      "lon": 23.54,
+      "radius_km": 40,
+      "enforcement_level": "high",
+      "note": "Natura 2000 dune/lagoon systems historically popular with backpacker tent camping. Rangers are now present in season, camping and fires are banned, and €300 fines are reported as increasingly enforced.",
+      "sources": [
+        "https://www.skipthefine.com/crete",
+        "https://www.geotour.gr/new-campervan-regulations-and-their-implications-for-tourism/"
+      ]
+    },
+    {
+      "id": "kyparissia-voidokilia-gialova",
+      "name": "Kyparissia Bay / Voidokilia / Gialova Lagoon (Messinia)",
+      "lat": 37.02,
+      "lon": 21.67,
+      "radius_km": 35,
+      "enforcement_level": "low-but-illegal",
+      "note": "Legally protected Natura 2000 loggerhead turtle nesting habitat, with camping banned under a 2018 presidential decree — but conservation groups (MEDASSET, 2023 Bern Convention review) report that enforcement of that decree has been largely absent. Legally off-limits and ecologically sensitive either way; just don't mistake low patrol activity for it being allowed.",
+      "sources": [
+        "https://medasset.org/2023-bern-convention-decisions/",
+        "https://archelon.gr/en/project-areas/the-peloponnese-kyparissia-bay"
+      ]
+    }
+  ]
+}
