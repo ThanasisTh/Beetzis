@@ -183,6 +183,7 @@ header h1 span {
 .dot.restricted { background: var(--restricted); }
 .dot.enforcement { background: var(--enforcement); }
 .dot.dev { background: var(--dev); }
+.dot.forest { background: var(--prime); opacity: 0.5; }
 
 #details .hint {
   font-size: 0.85rem;

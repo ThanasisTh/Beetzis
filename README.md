@@ -19,13 +19,19 @@ or serve the folder statically.
    - `place=city|town` — used to penalize proximity to real towns/cities;
      villages/hamlets are deliberately not queried for this since they don't
      count as "too developed" here
-3. Each beach gets a score:
-   - **Isolation**: distance to the nearest existing accommodation
+   - `natural=wood`, `landuse=forest` — tree cover, used as a shade proxy
+3. Each beach gets a score out of 100, split across three factors:
+   - **Isolation** (max 50): distance to the nearest existing accommodation
      (>3 km → +50, 1–3 km → +30, 0.3–1 km → +10, closer → +0)
-   - **Accessibility**: distance to the nearest track/path
+   - **Accessibility** (max 30): distance to the nearest track/path
      (≤0.3 km → +30, ≤1 km → +15, farther → +5)
-   - Normalized to 0–100 and bucketed: **Prime** (≥70), **Possible** (40–69),
-     **Unlikely** (<40)
+   - **Shade** (max 20): distance to the nearest mapped forest/wood patch
+     (≤0.2 km, or right on it → +20, ≤0.5 km → +10, ≤1 km → +5, farther → +0)
+   - Bucketed: **Prime** (≥70), **Possible** (40–69), **Unlikely** (<40). Since
+     shade is now part of the same 0–100 scale as isolation and access, a
+     beach needs decent shade nearby to reach the very top of the range —
+     two otherwise-identical "prime" beaches will show different scores
+     depending on how close real tree cover is.
    - Forced to **Unlikely** regardless of the computed score if either: 2+
      campsites/hotels sit within 1 km of the beach (a cluster of businesses,
      not just one), or a `place=town`/`place=city` node is within 1 km.
@@ -106,6 +112,11 @@ Ideas for future layers (from the original brainstorm, not yet built):
   candidates; missing `boundary=protected_area` tags mean a restricted area
   could be scored as if it weren't. This tool does not know about land
   ownership, private property, or local bylaws.
+- **Shade distance is approximate.** "Distance to forest" is measured to the
+  nearest *mapped vertex* of a wood/forest polygon, not true edge distance —
+  usually close enough since OSM traces these boundaries fairly densely, but
+  a coarsely-drawn polygon could read as farther away than it really is. It
+  also only tells you tree cover exists nearby, not how dense or tall it is.
 - **Legal status.** Wild camping is illegal nationwide under
   [Law 5170/2025](https://nikana.gr/en/blog/7342/new-camping-law-in-greece-2025-rules-restrictions-and-penalties-for-camper-vehicles)
   (in force since January 2025) and refined by
