@@ -1,11 +1,30 @@
 const OVERPASS_URL = "https://overpass-api.de/api/interpreter";
 const MIN_SCAN_ZOOM = 12;
+const DEFAULT_CENTER = [39.0742, 21.8243];
+const DEFAULT_ZOOM = 6;
 
-const map = L.map("map").setView([39.0742, 21.8243], 6);
+const map = L.map("map").setView(DEFAULT_CENTER, DEFAULT_ZOOM);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
   maxZoom: 19,
 }).addTo(map);
+
+// Center on the user's location at scan-ready zoom, if they grant permission.
+// Falls back to the default Greece-wide view otherwise (denied, unsupported,
+// times out, etc.) — the browser's permission prompt is triggered by this
+// call itself, no custom UI needed.
+if (navigator.geolocation) {
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      map.setView([pos.coords.latitude, pos.coords.longitude], MIN_SCAN_ZOOM);
+      setStatus(`Centered on your location — click Scan to check this area.`);
+    },
+    (err) => {
+      console.warn("Geolocation unavailable:", err.message);
+    },
+    { enableHighAccuracy: false, timeout: 10000, maximumAge: 60000 }
+  );
+}
 
 const resultsLayer = L.layerGroup().addTo(map);
 const devLayer = L.layerGroup().addTo(map);
