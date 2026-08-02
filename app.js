@@ -30,6 +30,7 @@ const resultsLayer = L.layerGroup().addTo(map);
 const devLayer = L.layerGroup().addTo(map);
 const trackLayer = L.layerGroup().addTo(map);
 const protectedLayer = L.layerGroup().addTo(map);
+const townLayer = L.layerGroup().addTo(map);
 
 const scanBtn = document.getElementById("scan-btn");
 const statusEl = document.getElementById("status");
@@ -145,6 +146,7 @@ function buildQuery(bounds) {
   way["boundary"="protected_area"](${bbox});
   way["leisure"="nature_reserve"](${bbox});
   relation["boundary"="protected_area"](${bbox});
+  node["place"~"^(city|town)$"](${bbox});
 );
 out geom;
 `;
@@ -161,6 +163,7 @@ async function runScan() {
   devLayer.clearLayers();
   trackLayer.clearLayers();
   protectedLayer.clearLayers();
+  townLayer.clearLayers();
   detailsEl.innerHTML = '<h2>Details</h2><p class="hint">Click a beach marker for its score breakdown.</p>';
 
   scanBtn.disabled = true;
@@ -187,6 +190,7 @@ function processResults(elements) {
   const devPoints = [];
   const tracks = [];
   const protectedRings = [];
+  const towns = [];
 
   for (const el of elements) {
     const tags = el.tags || {};
@@ -206,6 +210,9 @@ function processResults(elements) {
           if (m.geometry) protectedRings.push(m.geometry.map((p) => ({ lat: p.lat, lng: p.lon })));
         }
       }
+    } else if (/^(city|town)$/.test(tags.place || "")) {
+      const center = elementCenter(el);
+      if (center) towns.push({ el, center });
     }
   }
 
@@ -237,11 +244,22 @@ function processResults(elements) {
       .bindTooltip(dp.el.tags.name || (dp.isCampsite ? "Campsite" : "Hotel/accommodation"))
       .addTo(devLayer);
   }
+  for (const town of towns) {
+    L.circleMarker([town.center.lat, town.center.lng], {
+      radius: 5,
+      color: "#4a4a4a",
+      fillColor: "#ffffff",
+      fillOpacity: 1,
+      weight: 2,
+    })
+      .bindTooltip(`${town.el.tags.name || "Town"} (${town.el.tags.place})`)
+      .addTo(townLayer);
+  }
 
   let prime = 0, possible = 0, unlikely = 0, restricted = 0, enforcement = 0;
 
   for (const beach of beaches) {
-    let scored = scoreBeach(beach.center, devPoints, tracks, protectedRings);
+    let scored = scoreBeach(beach.center, devPoints, tracks, protectedRings, towns);
     const hotspotMatches = matchHotspots(beach.center, hotspots);
     scored = applyEnforcementOverlay(scored, hotspotMatches);
 
@@ -265,7 +283,7 @@ function processResults(elements) {
   }
 
   setStatus(
-    `Found ${beaches.length} beach feature(s): ${prime} prime, ${possible} possible, ${unlikely} unlikely, ${restricted} restricted, ${enforcement} enforcement hotspot(s). (${devPoints.length} existing accommodations, ${tracks.length} access tracks, ${protectedRings.length} protected zones in view.)`
+    `Found ${beaches.length} beach feature(s): ${prime} prime, ${possible} possible, ${unlikely} unlikely, ${restricted} restricted, ${enforcement} enforcement hotspot(s). (${devPoints.length} existing accommodations, ${tracks.length} access tracks, ${protectedRings.length} protected zones, ${towns.length} towns/cities in view.)`
   );
 }
 
@@ -291,7 +309,10 @@ function applyEnforcementOverlay(scored, matches) {
   return result;
 }
 
-function scoreBeach(center, devPoints, tracks, protectedRings) {
+const TOWN_RADIUS_KM = 1;
+const CLUSTER_RADIUS_KM = 1;
+
+function scoreBeach(center, devPoints, tracks, protectedRings, towns) {
   const insideProtected = protectedRings.some((ring) => pointInRing(center, ring));
   if (insideProtected) {
     return { bucket: "restricted", color: "#c62828", label: "Restricted", nearestDevKm: null, nearestTrackKm: null };
@@ -301,6 +322,14 @@ function scoreBeach(center, devPoints, tracks, protectedRings) {
   for (const dp of devPoints) {
     const d = haversineKm(center, dp.center);
     if (d < nearestDevKm) nearestDevKm = d;
+  }
+
+  const nearbyDevCount = devPoints.filter((dp) => haversineKm(center, dp.center) <= CLUSTER_RADIUS_KM).length;
+
+  let nearestTownKm = Infinity;
+  for (const town of towns) {
+    const d = haversineKm(center, town.center);
+    if (d < nearestTownKm) nearestTownKm = d;
   }
 
   let nearestTrackKm = Infinity;
@@ -331,7 +360,20 @@ function scoreBeach(center, devPoints, tracks, protectedRings) {
     bucket = "unlikely"; color = "#9e9e9e"; label = "Unlikely";
   }
 
-  return { bucket, color, label, score, nearestDevKm, nearestTrackKm };
+  // Force "too developed" regardless of the isolation/access score: either
+  // multiple businesses cluster nearby, or an actual town/city (not a
+  // village — those are fine) is within range.
+  let developedReason = null;
+  if (nearbyDevCount >= 2) {
+    developedReason = `${nearbyDevCount} campsites/hotels within ${CLUSTER_RADIUS_KM} km`;
+  } else if (nearestTownKm <= TOWN_RADIUS_KM) {
+    developedReason = `within ${TOWN_RADIUS_KM} km of a town/city`;
+  }
+  if (developedReason && bucket !== "unlikely") {
+    bucket = "unlikely"; color = "#9e9e9e"; label = "Unlikely";
+  }
+
+  return { bucket, color, label, score, nearestDevKm, nearestTrackKm, nearbyDevCount, nearestTownKm, developedReason };
 }
 
 function buildDetailHtml(beach, scored) {
@@ -355,6 +397,7 @@ function buildDetailHtml(beach, scored) {
       <p class="detail-title">${name} <span class="badge ${scored.bucket}">${scored.label} (${scored.score})</span></p>
       <p class="detail-row"><b>Nearest campsite/hotel:</b> ${isFinite(scored.nearestDevKm) ? scored.nearestDevKm.toFixed(2) + " km" : "none found in scanned area"}</p>
       <p class="detail-row"><b>Nearest track/path:</b> ${isFinite(scored.nearestTrackKm) ? scored.nearestTrackKm.toFixed(2) + " km" : "none found in scanned area"}</p>
+      ${scored.developedReason ? `<p class="detail-row"><b>Marked unlikely:</b> ${scored.developedReason}.</p>` : ""}
     `;
   }
 

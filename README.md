@@ -16,6 +16,9 @@ or serve the folder statically.
      "discovered"/developed accommodation, used as an isolation reference
    - `highway=track|path|unclassified|service|residential` — access routes
    - `boundary=protected_area`, `leisure=nature_reserve` — protected zones
+   - `place=city|town` — used to penalize proximity to real towns/cities;
+     villages/hamlets are deliberately not queried for this since they don't
+     count as "too developed" here
 3. Each beach gets a score:
    - **Isolation**: distance to the nearest existing accommodation
      (>3 km → +50, 1–3 km → +30, 0.3–1 km → +10, closer → +0)
@@ -23,6 +26,10 @@ or serve the folder statically.
      (≤0.3 km → +30, ≤1 km → +15, farther → +5)
    - Normalized to 0–100 and bucketed: **Prime** (≥70), **Possible** (40–69),
      **Unlikely** (<40)
+   - Forced to **Unlikely** regardless of the computed score if either: 2+
+     campsites/hotels sit within 1 km of the beach (a cluster of businesses,
+     not just one), or a `place=town`/`place=city` node is within 1 km.
+     Villages/hamlets don't trigger this.
    - Any beach whose point falls inside a mapped protected area/nature
      reserve is flagged **Restricted** regardless of score.
    - Any beach within a known camping-enforcement hotspot (see below) is
