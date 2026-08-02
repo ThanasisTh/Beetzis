@@ -37,6 +37,7 @@
         <h2>Recent enforcement reports</h2>
         <p id="reports-updated" class="hint">Loading…</p>
         <div id="reports-list"></div>
+        <button id="open-reports-modal" class="link-btn">View all reports &amp; hotspot sources →</button>
         <p class="hint">Greece-wide, pulled weekly from Reddit search and Google News RSS for camping/camper-van fine and enforcement keywords — not matched to specific beaches, just general awareness.</p>
       </div>
       <div class="panel-section" id="disclaimer">
@@ -46,6 +47,26 @@
     </aside>
   </div>
 </div>
+
+<div id="reports-modal" class="modal-overlay hidden">
+  <div class="modal-box">
+    <button id="close-reports-modal" class="modal-close" aria-label="Close">&times;</button>
+    <h2>Enforcement hotspots &amp; reports — full list</h2>
+
+    <section class="modal-section">
+      <h3>Curated hotspots</h3>
+      <p class="hint">Manually researched areas with documented camping enforcement. See the README for how these were compiled.</p>
+      <div id="modal-hotspots"></div>
+    </section>
+
+    <section class="modal-section">
+      <h3>Scraped reports</h3>
+      <p id="modal-reports-meta" class="hint">Loading…</p>
+      <div id="modal-reports-list"></div>
+    </section>
+  </div>
+</div>
+
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="app.js"></script>
 </body>

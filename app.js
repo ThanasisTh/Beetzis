@@ -17,10 +17,18 @@ const statusEl = document.getElementById("status");
 const detailsEl = document.getElementById("details");
 const reportsListEl = document.getElementById("reports-list");
 const reportsUpdatedEl = document.getElementById("reports-updated");
+const openReportsModalBtn = document.getElementById("open-reports-modal");
+const closeReportsModalBtn = document.getElementById("close-reports-modal");
+const reportsModalEl = document.getElementById("reports-modal");
+const modalHotspotsEl = document.getElementById("modal-hotspots");
+const modalReportsListEl = document.getElementById("modal-reports-list");
+const modalReportsMetaEl = document.getElementById("modal-reports-meta");
 
 scanBtn.addEventListener("click", runScan);
 
 let hotspots = [];
+let allReports = [];
+let reportsGeneratedAt = null;
 
 async function loadStaticData() {
   try {
@@ -34,38 +42,80 @@ async function loadStaticData() {
   try {
     const res = await fetch("data/enforcement-reports.json");
     const json = await res.json();
-    renderReports(json);
+    allReports = json.reports || [];
+    reportsGeneratedAt = json.generated_at || null;
+    renderReports();
   } catch (err) {
     console.error("Failed to load enforcement reports", err);
     reportsUpdatedEl.textContent = "Couldn't load report data.";
   }
 }
 
-function renderReports(json) {
-  const reports = json.reports || [];
-  reportsUpdatedEl.textContent = json.generated_at
-    ? `Last updated ${new Date(json.generated_at).toLocaleDateString()} · ${reports.length} report(s)`
+function reportRowHtml(r) {
+  const date = r.published ? new Date(r.published).toLocaleDateString() : "undated";
+  const region = r.region ? `<span class="report-region">${r.region}</span>` : "";
+  return `
+    <div class="report-row">
+      <a href="${r.link}" target="_blank" rel="noopener">${r.title}</a>
+      <div class="report-meta">${r.source} · ${date} ${region}</div>
+    </div>
+  `;
+}
+
+function renderReports() {
+  reportsUpdatedEl.textContent = reportsGeneratedAt
+    ? `Last updated ${new Date(reportsGeneratedAt).toLocaleDateString()} · ${allReports.length} report(s)`
     : "Not generated yet — runs weekly via GitHub Actions (or trigger it manually from the repo's Actions tab).";
 
-  if (!reports.length) {
-    reportsListEl.innerHTML = '<p class="hint">No reports collected yet.</p>';
-    return;
-  }
-
-  reportsListEl.innerHTML = reports
-    .slice(0, 20)
-    .map((r) => {
-      const date = r.published ? new Date(r.published).toLocaleDateString() : "undated";
-      const region = r.region ? `<span class="report-region">${r.region}</span>` : "";
-      return `
-        <div class="report-row">
-          <a href="${r.link}" target="_blank" rel="noopener">${r.title}</a>
-          <div class="report-meta">${r.source} · ${date} ${region}</div>
-        </div>
-      `;
-    })
-    .join("");
+  reportsListEl.innerHTML = allReports.length
+    ? allReports.slice(0, 20).map(reportRowHtml).join("")
+    : '<p class="hint">No reports collected yet.</p>';
 }
+
+function renderModalHotspots() {
+  modalHotspotsEl.innerHTML = hotspots.length
+    ? hotspots
+        .map(
+          (h) => `
+      <div class="hotspot-card">
+        <p class="hotspot-title">${h.name} <span class="badge-inline">${h.enforcement_level}</span></p>
+        <p>${h.note}</p>
+        <p class="hotspot-sources">${h.sources.map((s, i) => `<a href="${s}" target="_blank" rel="noopener">Source ${i + 1}</a>`).join(" ")}</p>
+      </div>
+    `
+        )
+        .join("")
+    : '<p class="hint">No hotspot data loaded.</p>';
+}
+
+function renderModalReports() {
+  modalReportsMetaEl.textContent = reportsGeneratedAt
+    ? `Last updated ${new Date(reportsGeneratedAt).toLocaleString()} · ${allReports.length} report(s), most recent first.`
+    : "Not generated yet — runs weekly via GitHub Actions (or trigger it manually from the repo's Actions tab).";
+
+  modalReportsListEl.innerHTML = allReports.length
+    ? allReports.map(reportRowHtml).join("")
+    : '<p class="hint">No reports collected yet.</p>';
+}
+
+function openReportsModal() {
+  renderModalHotspots();
+  renderModalReports();
+  reportsModalEl.classList.remove("hidden");
+}
+
+function closeReportsModal() {
+  reportsModalEl.classList.add("hidden");
+}
+
+openReportsModalBtn.addEventListener("click", openReportsModal);
+closeReportsModalBtn.addEventListener("click", closeReportsModal);
+reportsModalEl.addEventListener("click", (e) => {
+  if (e.target === reportsModalEl) closeReportsModal();
+});
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closeReportsModal();
+});
 
 loadStaticData();
 
