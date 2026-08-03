@@ -160,6 +160,36 @@ function ringFenceCoverage(ring, fenceSegments, proximityKm) {
   return nearCount / ring.length;
 }
 
+const HIGHWAY_LABELS = {
+  track: "dirt track",
+  path: "footpath (foot traffic only, not for vehicles)",
+  unclassified: "minor road",
+  service: "service road",
+  residential: "residential street",
+};
+
+// grade1 = solid/often paved ... grade5 = unmaintained, soft natural surface.
+// Only meaningful on highway=track.
+const TRACKTYPE_LABELS = {
+  grade1: "solid, often paved",
+  grade2: "mostly solid, some unpaved sections",
+  grade3: "mixed solid/soft surface",
+  grade4: "mostly unpaved, soft in places",
+  grade5: "unmaintained, natural surface",
+};
+
+function describeTrack(track) {
+  if (!track) return "none found in scanned area";
+  const parts = [HIGHWAY_LABELS[track.highway] || track.highway];
+  if (track.tracktype && TRACKTYPE_LABELS[track.tracktype]) {
+    parts.push(TRACKTYPE_LABELS[track.tracktype]);
+  }
+  if (track.surface) parts.push(`surface: ${track.surface}`);
+  if (track.name) parts.push(`"${track.name}"`);
+  if (PRIVATE_ACCESS_VALUES.has(track.access)) parts.push(`⚠ access=${track.access}`);
+  return parts.join(", ");
+}
+
 function wayCentroid(geometry) {
   const lat = geometry.reduce((s, p) => s + p.lat, 0) / geometry.length;
   const lng = geometry.reduce((s, p) => s + p.lon, 0) / geometry.length;
@@ -254,7 +284,16 @@ function processResults(elements) {
       const center = elementCenter(el);
       if (center) devPoints.push({ el, center, isCampsite: tags.tourism === "camp_site" });
     } else if (/^(track|path|unclassified|service|residential)$/.test(tags.highway || "")) {
-      if (el.geometry) tracks.push(el.geometry.map((p) => ({ lat: p.lat, lng: p.lon })));
+      if (el.geometry) {
+        tracks.push({
+          points: el.geometry.map((p) => ({ lat: p.lat, lng: p.lon })),
+          highway: tags.highway,
+          surface: tags.surface || null,
+          tracktype: tags.tracktype || null,
+          access: tags.access || null,
+          name: tags.name || null,
+        });
+      }
     } else if (tags.boundary === "protected_area" || tags.leisure === "nature_reserve") {
       if (el.type === "way" && el.geometry) {
         protectedRings.push(el.geometry.map((p) => ({ lat: p.lat, lng: p.lon })));
@@ -324,12 +363,16 @@ function processResults(elements) {
       .addTo(excludedForestLayer);
   }
   for (const track of tracks) {
-    L.polyline(track.map((p) => [p.lat, p.lng]), {
-      color: "#6b6a63",
-      weight: 1.5,
-      dashArray: "2 4",
+    const isPrivate = PRIVATE_ACCESS_VALUES.has(track.access);
+    const isFootOnly = track.highway === "path";
+    L.polyline(track.points.map((p) => [p.lat, p.lng]), {
+      color: isPrivate ? "#c62828" : isFootOnly ? "#8d6e63" : "#6b6a63",
+      weight: isFootOnly ? 1 : 1.5,
+      dashArray: isFootOnly ? "1 4" : "2 4",
       opacity: 0.6,
-    }).addTo(trackLayer);
+    })
+      .bindTooltip(describeTrack(track))
+      .addTo(trackLayer);
   }
   for (const dp of devPoints) {
     L.circleMarker([dp.center.lat, dp.center.lng], {
@@ -435,10 +478,14 @@ function scoreBeach(center, devPoints, tracks, protectedRings, towns, forestRing
   }
 
   let nearestTrackKm = Infinity;
+  let nearestTrack = null;
   for (const track of tracks) {
-    for (const p of track) {
+    for (const p of track.points) {
       const d = haversineKm(center, p);
-      if (d < nearestTrackKm) nearestTrackKm = d;
+      if (d < nearestTrackKm) {
+        nearestTrackKm = d;
+        nearestTrack = track;
+      }
     }
   }
 
@@ -505,7 +552,7 @@ function scoreBeach(center, devPoints, tracks, protectedRings, towns, forestRing
 
   return {
     bucket, color, label, score,
-    nearestDevKm, nearestTrackKm, nearestForestKm, nearbyForestAreaKm2,
+    nearestDevKm, nearestTrackKm, nearestTrack, nearestForestKm, nearbyForestAreaKm2,
     nearbyDevCount, nearestTownKm, developedReason,
   };
 }
@@ -530,7 +577,7 @@ function buildDetailHtml(beach, scored) {
     body = `
       <p class="detail-title">${name} <span class="badge ${scored.bucket}">${scored.label} (${scored.score})</span></p>
       <p class="detail-row"><b>Nearest campsite/hotel:</b> ${isFinite(scored.nearestDevKm) ? scored.nearestDevKm.toFixed(2) + " km" : "none found in scanned area"}</p>
-      <p class="detail-row"><b>Nearest track/path:</b> ${isFinite(scored.nearestTrackKm) ? scored.nearestTrackKm.toFixed(2) + " km" : "none found in scanned area"}</p>
+      <p class="detail-row"><b>Nearest track/path:</b> ${isFinite(scored.nearestTrackKm) ? scored.nearestTrackKm.toFixed(2) + " km" : "none found in scanned area"} ${scored.nearestTrack ? `— ${describeTrack(scored.nearestTrack)}` : ""}</p>
       <p class="detail-row"><b>Nearest forest/shade:</b> ${scored.nearestForestKm === 0 ? "right on it" : isFinite(scored.nearestForestKm) ? scored.nearestForestKm.toFixed(2) + " km" : "none found in scanned area"} ${scored.nearbyForestAreaKm2 > 0 ? `(${scored.nearbyForestAreaKm2.toFixed(2)} km² of forest within ${FOREST_SEARCH_RADIUS_KM} km)` : ""}</p>
       ${scored.developedReason ? `<p class="detail-row"><b>Marked unlikely:</b> ${scored.developedReason}.</p>` : ""}
     `;

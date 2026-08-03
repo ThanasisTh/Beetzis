@@ -186,6 +186,19 @@ header h1 span {
 .dot.forest { background: var(--prime); opacity: 0.5; }
 .dot.excluded-forest { background: #8d6e63; }
 
+.line-swatch {
+  width: 16px;
+  height: 0;
+  border-top-width: 2px;
+  border-top-style: dashed;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.line-swatch.track { border-color: #6b6a63; }
+.line-swatch.footpath { border-color: #8d6e63; border-top-style: dotted; }
+.line-swatch.private-track { border-color: var(--restricted); }
+
 #details .hint {
   font-size: 0.85rem;
   color: var(--muted);

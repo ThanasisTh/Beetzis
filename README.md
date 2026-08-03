@@ -14,7 +14,9 @@ or serve the folder statically.
    - `natural=beach` — candidate spots
    - `tourism=camp_site|hotel|guest_house|apartment|resort|hostel` — existing
      "discovered"/developed accommodation, used as an isolation reference
-   - `highway=track|path|unclassified|service|residential` — access routes
+   - `highway=track|path|unclassified|service|residential` — access routes,
+     including their `surface`, `tracktype`, `access`, and `name` tags for
+     the detail popup (see Accessibility below)
    - `boundary=protected_area`, `leisure=nature_reserve` — protected zones
    - `place=city|town` — used to penalize proximity to real towns/cities;
      villages/hamlets are deliberately not queried for this since they don't
@@ -26,7 +28,15 @@ or serve the folder statically.
    - **Isolation** (max 50): distance to the nearest existing accommodation
      (>3 km → +50, 1–3 km → +30, 0.3–1 km → +10, closer → +0)
    - **Accessibility** (max 30): distance to the nearest track/path
-     (≤0.3 km → +30, ≤1 km → +15, farther → +5)
+     (≤0.3 km → +30, ≤1 km → +15, farther → +5). Scoring is distance-only,
+     but the popup shows that nearest path's details for you to judge: its
+     type (dirt track, footpath-only, minor road, service road, residential
+     street), `surface` tag, `tracktype` grade (1 = solid/often paved down to
+     5 = unmaintained natural surface, track ways only), name if mapped, and
+     a warning if it's tagged `access=private|no|permit|customers`. On the
+     map, footpaths are drawn as a thinner dotted brown line and
+     private-tagged tracks as a red dashed line, distinct from ordinary
+     vehicle-passable tracks/roads (gray dashed).
    - **Shade** (max 20): distance to the nearest mapped forest/wood patch,
      *and* how much forest area actually sits within 1 km — a thin sliver of
      mapped trees no longer scores like real tree cover. Full credit (+20)
@@ -148,6 +158,11 @@ Ideas for future layers (from the original brainstorm, not yet built):
   that just happens to run alongside an unrelated fence (e.g. along a road).
   Treat the exclusion as a helpful filter, not proof of legal access — a
   green-marked forest patch can still turn out to be private on the ground.
+- **Access-path details depend on how well each way is tagged.** `surface`,
+  `tracktype`, and `access` are all optional OSM tags — plenty of real
+  tracks have none of them set, in which case the popup just shows the
+  `highway` type with nothing else. Missing detail means "not tagged," not
+  "confirmed fine" — same caveat as the private-access checks above.
 - **Legal status.** Wild camping is illegal nationwide under
   [Law 5170/2025](https://nikana.gr/en/blog/7342/new-camping-law-in-greece-2025-rules-restrictions-and-penalties-for-camper-vehicles)
   (in force since January 2025) and refined by
