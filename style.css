@@ -184,6 +184,7 @@ header h1 span {
 .dot.enforcement { background: var(--enforcement); }
 .dot.dev { background: var(--dev); }
 .dot.forest { background: var(--prime); opacity: 0.5; }
+.dot.excluded-forest { background: #8d6e63; }
 
 #details .hint {
   font-size: 0.85rem;
@@ -247,6 +248,13 @@ header h1 span {
 
 .about-list b {
   color: var(--text);
+}
+
+.about-list code {
+  background: var(--border);
+  border-radius: 3px;
+  padding: 0.05rem 0.3rem;
+  font-size: 0.75rem;
 }
 
 .badge {

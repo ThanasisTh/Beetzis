@@ -32,6 +32,7 @@ const trackLayer = L.layerGroup().addTo(map);
 const protectedLayer = L.layerGroup().addTo(map);
 const townLayer = L.layerGroup().addTo(map);
 const forestLayer = L.layerGroup().addTo(map);
+const excludedForestLayer = L.layerGroup().addTo(map);
 
 const scanBtn = document.getElementById("scan-btn");
 const statusEl = document.getElementById("status");
@@ -141,6 +142,24 @@ function ringAreaKm2(ring) {
   return Math.abs(area) / 2;
 }
 
+// Heuristic only: fraction of a ring's own vertices that have a mapped
+// fence/wall/hedge vertex within proximityKm. Fence ways rarely share exact
+// geometry with the forest polygon they enclose, so this approximates
+// "traces most of the boundary" rather than requiring an exact match. It
+// will miss unfenced private land entirely, and can be fooled by a fence
+// that happens to run alongside the forest without enclosing it.
+function ringFenceCoverage(ring, fenceSegments, proximityKm) {
+  if (!fenceSegments.length) return 0;
+  let nearCount = 0;
+  for (const point of ring) {
+    const isNear = fenceSegments.some((segment) =>
+      segment.some((fp) => haversineKm(point, fp) <= proximityKm)
+    );
+    if (isNear) nearCount++;
+  }
+  return nearCount / ring.length;
+}
+
 function wayCentroid(geometry) {
   const lat = geometry.reduce((s, p) => s + p.lat, 0) / geometry.length;
   const lng = geometry.reduce((s, p) => s + p.lon, 0) / geometry.length;
@@ -172,6 +191,7 @@ function buildQuery(bounds) {
   way["landuse"="forest"](${bbox});
   relation["natural"="wood"](${bbox});
   relation["landuse"="forest"](${bbox});
+  way["barrier"~"^(fence|wall|hedge)$"](${bbox});
 );
 out geom;
 `;
@@ -190,6 +210,7 @@ async function runScan() {
   protectedLayer.clearLayers();
   townLayer.clearLayers();
   forestLayer.clearLayers();
+  excludedForestLayer.clearLayers();
   detailsEl.innerHTML = '<h2>Details</h2><p class="hint">Click a beach marker for its score breakdown.</p>';
 
   scanBtn.disabled = true;
@@ -211,13 +232,18 @@ async function runScan() {
   }
 }
 
+const FENCE_PROXIMITY_KM = 0.03; // ~30m: how close a fence vertex must be to count as "on" the forest boundary
+const FENCE_ENCLOSURE_RATIO = 0.5; // fraction of a forest ring's vertices that must be fence-adjacent to call it "likely fenced"
+const PRIVATE_ACCESS_VALUES = new Set(["private", "no", "permit", "customers"]);
+
 function processResults(elements) {
   const beaches = [];
   const devPoints = [];
   const tracks = [];
   const protectedRings = [];
   const towns = [];
-  const forestRings = [];
+  const rawForestRings = []; // { ring, access }
+  const fenceSegments = [];
 
   for (const el of elements) {
     const tags = el.tags || {};
@@ -242,13 +268,33 @@ function processResults(elements) {
       if (center) towns.push({ el, center });
     } else if (tags.natural === "wood" || tags.landuse === "forest") {
       if (el.type === "way" && el.geometry) {
-        forestRings.push(el.geometry.map((p) => ({ lat: p.lat, lng: p.lon })));
+        rawForestRings.push({ ring: el.geometry.map((p) => ({ lat: p.lat, lng: p.lon })), access: tags.access });
       } else if (el.type === "relation" && el.members) {
         for (const m of el.members) {
-          if (m.geometry) forestRings.push(m.geometry.map((p) => ({ lat: p.lat, lng: p.lon })));
+          if (m.geometry) rawForestRings.push({ ring: m.geometry.map((p) => ({ lat: p.lat, lng: p.lon })), access: tags.access });
         }
       }
+    } else if (/^(fence|wall|hedge)$/.test(tags.barrier || "")) {
+      if (el.geometry) fenceSegments.push(el.geometry.map((p) => ({ lat: p.lat, lng: p.lon })));
     }
+  }
+
+  // Split forest patches into usable (count toward shade score) and
+  // excluded (tagged private, or ringed closely enough by mapped fencing
+  // that it's likely enclosed private/fenced land) — see ringFenceCoverage.
+  const forestRings = [];
+  const excludedForestRings = []; // { ring, reason }
+  for (const { ring, access } of rawForestRings) {
+    if (PRIVATE_ACCESS_VALUES.has(access)) {
+      excludedForestRings.push({ ring, reason: `access=${access}` });
+      continue;
+    }
+    const fenceCoverage = ringFenceCoverage(ring, fenceSegments, FENCE_PROXIMITY_KM);
+    if (fenceCoverage >= FENCE_ENCLOSURE_RATIO) {
+      excludedForestRings.push({ ring, reason: "likely fenced" });
+      continue;
+    }
+    forestRings.push(ring);
   }
 
   // Draw context layers.
@@ -266,6 +312,16 @@ function processResults(elements) {
       weight: 1,
       fillOpacity: 0.15,
     }).addTo(forestLayer);
+  }
+  for (const { ring, reason } of excludedForestRings) {
+    L.polygon(ring.map((p) => [p.lat, p.lng]), {
+      color: "#8d6e63",
+      weight: 1,
+      fillOpacity: 0.15,
+      dashArray: "1 5",
+    })
+      .bindTooltip(`Excluded from shade score — ${reason}`)
+      .addTo(excludedForestLayer);
   }
   for (const track of tracks) {
     L.polyline(track.map((p) => [p.lat, p.lng]), {
@@ -325,7 +381,7 @@ function processResults(elements) {
   }
 
   setStatus(
-    `Found ${beaches.length} beach feature(s): ${prime} prime, ${possible} possible, ${unlikely} unlikely, ${restricted} restricted, ${enforcement} enforcement hotspot(s). (${devPoints.length} existing accommodations, ${tracks.length} access tracks, ${protectedRings.length} protected zones, ${towns.length} towns/cities, ${forestRings.length} forest/wood areas in view.)`
+    `Found ${beaches.length} beach feature(s): ${prime} prime, ${possible} possible, ${unlikely} unlikely, ${restricted} restricted, ${enforcement} enforcement hotspot(s). (${devPoints.length} existing accommodations, ${tracks.length} access tracks, ${protectedRings.length} protected zones, ${towns.length} towns/cities, ${forestRings.length} usable forest/wood areas, ${excludedForestRings.length} excluded as private/fenced.)`
   );
 }
 

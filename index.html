@@ -29,6 +29,7 @@
         <div class="legend-row"><span class="dot enforcement"></span> Enforcement hotspot — active patrols/fines reported</div>
         <div class="legend-row"><span class="dot dev"></span> Existing campsite / hotel</div>
         <div class="legend-row"><span class="dot forest"></span> Forest / wood (shade) — nearby boosts the score</div>
+        <div class="legend-row"><span class="dot excluded-forest"></span> Private / fenced forest — excluded from shade score</div>
       </div>
       <div class="panel-section" id="about">
         <details>
@@ -43,7 +44,7 @@
           <ul class="about-list">
             <li><b>Isolation</b> (up to 50 pts) — distance to the nearest campsite/hotel.</li>
             <li><b>Access</b> (up to 30 pts) — distance to the nearest track/path.</li>
-            <li><b>Shade</b> (up to 20 pts) — proximity to a forest/wood patch, but only full credit if there's also enough forest area nearby, not just a thin sliver of mapped trees.</li>
+            <li><b>Shade</b> (up to 20 pts) — proximity to a forest/wood patch, but only full credit if there's also enough forest area nearby, not just a thin sliver of mapped trees. Patches tagged <code>access=private</code> or that look enclosed by mapped fencing are excluded entirely — though untagged, unfenced private land can still slip through, since OSM only knows what's been mapped.</li>
             <li>≥70 → <b>Prime</b>, 40–69 → <b>Possible</b>, &lt;40 → <b>Unlikely</b>.</li>
             <li>Forced to <b>Unlikely</b> regardless of score if 2+ businesses cluster within 1 km, or a real town/city (not a village) is within 1 km.</li>
             <li>Forced to <b>Restricted</b> if inside a mapped protected area — this overrides everything else.</li>

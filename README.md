@@ -20,6 +20,8 @@ or serve the folder statically.
      villages/hamlets are deliberately not queried for this since they don't
      count as "too developed" here
    - `natural=wood`, `landuse=forest` — tree cover, used as a shade proxy
+   - `barrier=fence|wall|hedge` — used only to guess whether a nearby forest
+     patch is fenced off (see Shade below); not otherwise used or shown
 3. Each beach gets a score out of 100, split across three factors:
    - **Isolation** (max 50): distance to the nearest existing accommodation
      (>3 km → +50, 1–3 km → +30, 0.3–1 km → +10, closer → +0)
@@ -31,6 +33,10 @@ or serve the folder statically.
      needs both ≤0.2 km proximity (or being right on it) **and** ≥0.3 km² of
      forest within 1 km; partial credit (+10) needs ≤0.5 km **and** ≥0.1 km²;
      minimal credit (+5) needs ≤1 km and any forest area at all; otherwise +0.
+     Forest patches tagged `access=private|no|permit|customers`, or that look
+     ringed by mapped fencing (see Known limitations), don't count toward
+     this at all — drawn on the map in brown instead of green, with a
+     tooltip explaining why.
    - Bucketed: **Prime** (≥70), **Possible** (40–69), **Unlikely** (<40). Since
      shade is part of the same 0–100 scale as isolation and access, a beach
      needs decent, substantial shade nearby to reach the very top of the
@@ -126,6 +132,16 @@ Ideas for future layers (from the original brainstorm, not yet built):
   within 1 km — it tells you how much *ground* is tagged as forest, not
   canopy density, tree height, or species, so a sparse, low scrubby "wood"
   polygon can still score as if it were dense shade.
+- **Private/fenced forest detection only catches what OSM has tagged.**
+  Explicit `access=private` (or `no`/`permit`/`customers`) exclusion is
+  reliable when present, but most private land in Greece isn't tagged that
+  way at all. The "likely fenced" heuristic (≥50% of a forest polygon's
+  vertices have a mapped `barrier=fence|wall|hedge` vertex within ~30m) is
+  a rough proxy, not a real enclosure check — it can miss a fenced patch
+  whose fence was never mapped, and can occasionally flag an unfenced patch
+  that just happens to run alongside an unrelated fence (e.g. along a road).
+  Treat the exclusion as a helpful filter, not proof of legal access — a
+  green-marked forest patch can still turn out to be private on the ground.
 - **Legal status.** Wild camping is illegal nationwide under
   [Law 5170/2025](https://nikana.gr/en/blog/7342/new-camping-law-in-greece-2025-rules-restrictions-and-penalties-for-camper-vehicles)
   (in force since January 2025) and refined by
