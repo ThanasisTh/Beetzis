@@ -25,13 +25,18 @@ or serve the folder statically.
      (>3 km → +50, 1–3 km → +30, 0.3–1 km → +10, closer → +0)
    - **Accessibility** (max 30): distance to the nearest track/path
      (≤0.3 km → +30, ≤1 km → +15, farther → +5)
-   - **Shade** (max 20): distance to the nearest mapped forest/wood patch
-     (≤0.2 km, or right on it → +20, ≤0.5 km → +10, ≤1 km → +5, farther → +0)
+   - **Shade** (max 20): distance to the nearest mapped forest/wood patch,
+     *and* how much forest area actually sits within 1 km — a thin sliver of
+     mapped trees no longer scores like real tree cover. Full credit (+20)
+     needs both ≤0.2 km proximity (or being right on it) **and** ≥0.3 km² of
+     forest within 1 km; partial credit (+10) needs ≤0.5 km **and** ≥0.1 km²;
+     minimal credit (+5) needs ≤1 km and any forest area at all; otherwise +0.
    - Bucketed: **Prime** (≥70), **Possible** (40–69), **Unlikely** (<40). Since
-     shade is now part of the same 0–100 scale as isolation and access, a
-     beach needs decent shade nearby to reach the very top of the range —
-     two otherwise-identical "prime" beaches will show different scores
-     depending on how close real tree cover is.
+     shade is part of the same 0–100 scale as isolation and access, a beach
+     needs decent, substantial shade nearby to reach the very top of the
+     range — two otherwise-identical "prime" beaches will show different
+     scores depending on how much real tree cover is nearby, not just
+     whether any forest tag exists close by.
    - Forced to **Unlikely** regardless of the computed score if either: 2+
      campsites/hotels sit within 1 km of the beach (a cluster of businesses,
      not just one), or a `place=town`/`place=city` node is within 1 km.
@@ -112,11 +117,15 @@ Ideas for future layers (from the original brainstorm, not yet built):
   candidates; missing `boundary=protected_area` tags mean a restricted area
   could be scored as if it weren't. This tool does not know about land
   ownership, private property, or local bylaws.
-- **Shade distance is approximate.** "Distance to forest" is measured to the
-  nearest *mapped vertex* of a wood/forest polygon, not true edge distance —
-  usually close enough since OSM traces these boundaries fairly densely, but
-  a coarsely-drawn polygon could read as farther away than it really is. It
-  also only tells you tree cover exists nearby, not how dense or tall it is.
+- **Shade distance and area are approximate.** "Distance to forest" is
+  measured to the nearest *mapped vertex* of a wood/forest polygon, not true
+  edge distance — usually close enough since OSM traces these boundaries
+  fairly densely, but a coarsely-drawn polygon could read as farther away
+  than it really is. "Nearby forest area" is a planar shoelace-formula
+  estimate of each polygon's mapped footprint, summed for whatever falls
+  within 1 km — it tells you how much *ground* is tagged as forest, not
+  canopy density, tree height, or species, so a sparse, low scrubby "wood"
+  polygon can still score as if it were dense shade.
 - **Legal status.** Wild camping is illegal nationwide under
   [Law 5170/2025](https://nikana.gr/en/blog/7342/new-camping-law-in-greece-2025-rules-restrictions-and-penalties-for-camper-vehicles)
   (in force since January 2025) and refined by

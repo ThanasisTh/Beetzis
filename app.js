@@ -121,6 +121,26 @@ function pointInRing(point, ring) {
   return inside;
 }
 
+// Approximate area of a lat/lng ring in km², via the shoelace formula on an
+// equirectangular projection centered at the ring's own latitude — accurate
+// enough at the sub-km scale these forest patches are checked at.
+function ringAreaKm2(ring) {
+  if (ring.length < 3) return 0;
+  const latRad = (ring[0].lat * Math.PI) / 180;
+  const kmPerDegLat = 110.574;
+  const kmPerDegLng = 111.320 * Math.cos(latRad);
+
+  let area = 0;
+  for (let i = 0; i < ring.length; i++) {
+    const p1 = ring[i];
+    const p2 = ring[(i + 1) % ring.length];
+    const x1 = p1.lng * kmPerDegLng, y1 = p1.lat * kmPerDegLat;
+    const x2 = p2.lng * kmPerDegLng, y2 = p2.lat * kmPerDegLat;
+    area += x1 * y2 - x2 * y1;
+  }
+  return Math.abs(area) / 2;
+}
+
 function wayCentroid(geometry) {
   const lat = geometry.reduce((s, p) => s + p.lat, 0) / geometry.length;
   const lng = geometry.reduce((s, p) => s + p.lon, 0) / geometry.length;
@@ -334,6 +354,9 @@ function applyEnforcementOverlay(scored, matches) {
 const TOWN_RADIUS_KM = 1;
 const CLUSTER_RADIUS_KM = 1;
 const MAX_POINTS = 100; // 50 isolation + 30 access + 20 shade
+const FOREST_SEARCH_RADIUS_KM = 1;
+const DENSE_FOREST_KM2 = 0.3; // needed for full shade credit
+const MODERATE_FOREST_KM2 = 0.1; // needed for partial shade credit
 
 function scoreBeach(center, devPoints, tracks, protectedRings, towns, forestRings) {
   const insideProtected = protectedRings.some((ring) => pointInRing(center, ring));
@@ -363,19 +386,25 @@ function scoreBeach(center, devPoints, tracks, protectedRings, towns, forestRing
     }
   }
 
-  // Distance to the nearest forest/wood patch, as a proxy for shade — 0 if
-  // the beach point itself falls inside one, otherwise the distance to its
-  // nearest mapped edge (approximated by its nearest vertex).
+  // Distance to the nearest forest/wood patch, plus how much forest area
+  // actually sits within range — a sliver of mapped trees shouldn't score
+  // the same as real, substantial tree cover. nearestForestKm is 0 if the
+  // beach point itself falls inside a patch; otherwise the distance to its
+  // nearest mapped edge (approximated by its nearest vertex). Only patches
+  // within FOREST_SEARCH_RADIUS_KM count toward the area total.
   let nearestForestKm = Infinity;
+  let nearbyForestAreaKm2 = 0;
   for (const ring of forestRings) {
-    if (pointInRing(center, ring)) {
-      nearestForestKm = 0;
-      break;
+    let ringDistKm = 0;
+    if (!pointInRing(center, ring)) {
+      ringDistKm = Infinity;
+      for (const p of ring) {
+        const d = haversineKm(center, p);
+        if (d < ringDistKm) ringDistKm = d;
+      }
     }
-    for (const p of ring) {
-      const d = haversineKm(center, p);
-      if (d < nearestForestKm) nearestForestKm = d;
-    }
+    if (ringDistKm < nearestForestKm) nearestForestKm = ringDistKm;
+    if (ringDistKm <= FOREST_SEARCH_RADIUS_KM) nearbyForestAreaKm2 += ringAreaKm2(ring);
   }
 
   let points = 0;
@@ -387,9 +416,12 @@ function scoreBeach(center, devPoints, tracks, protectedRings, towns, forestRing
   else if (nearestTrackKm <= 1) points += 15;
   else points += 5;
 
-  if (nearestForestKm <= 0.2) points += 20;
-  else if (nearestForestKm <= 0.5) points += 10;
-  else if (nearestForestKm <= 1) points += 5;
+  // Full/partial shade credit now requires both proximity AND enough nearby
+  // forest area — being 100m from a tiny mapped tree-line no longer counts
+  // the same as being 100m from an actual forest.
+  if (nearestForestKm <= 0.2 && nearbyForestAreaKm2 >= DENSE_FOREST_KM2) points += 20;
+  else if (nearestForestKm <= 0.5 && nearbyForestAreaKm2 >= MODERATE_FOREST_KM2) points += 10;
+  else if (nearestForestKm <= 1 && nearbyForestAreaKm2 > 0) points += 5;
 
   const score = Math.round((points / MAX_POINTS) * 100);
 
@@ -417,7 +449,7 @@ function scoreBeach(center, devPoints, tracks, protectedRings, towns, forestRing
 
   return {
     bucket, color, label, score,
-    nearestDevKm, nearestTrackKm, nearestForestKm,
+    nearestDevKm, nearestTrackKm, nearestForestKm, nearbyForestAreaKm2,
     nearbyDevCount, nearestTownKm, developedReason,
   };
 }
@@ -443,7 +475,7 @@ function buildDetailHtml(beach, scored) {
       <p class="detail-title">${name} <span class="badge ${scored.bucket}">${scored.label} (${scored.score})</span></p>
       <p class="detail-row"><b>Nearest campsite/hotel:</b> ${isFinite(scored.nearestDevKm) ? scored.nearestDevKm.toFixed(2) + " km" : "none found in scanned area"}</p>
       <p class="detail-row"><b>Nearest track/path:</b> ${isFinite(scored.nearestTrackKm) ? scored.nearestTrackKm.toFixed(2) + " km" : "none found in scanned area"}</p>
-      <p class="detail-row"><b>Nearest forest/shade:</b> ${scored.nearestForestKm === 0 ? "right on it" : isFinite(scored.nearestForestKm) ? scored.nearestForestKm.toFixed(2) + " km" : "none found in scanned area"}</p>
+      <p class="detail-row"><b>Nearest forest/shade:</b> ${scored.nearestForestKm === 0 ? "right on it" : isFinite(scored.nearestForestKm) ? scored.nearestForestKm.toFixed(2) + " km" : "none found in scanned area"} ${scored.nearbyForestAreaKm2 > 0 ? `(${scored.nearbyForestAreaKm2.toFixed(2)} km² of forest within ${FOREST_SEARCH_RADIUS_KM} km)` : ""}</p>
       ${scored.developedReason ? `<p class="detail-row"><b>Marked unlikely:</b> ${scored.developedReason}.</p>` : ""}
     `;
   }

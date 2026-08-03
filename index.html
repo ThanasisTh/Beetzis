@@ -30,6 +30,27 @@
         <div class="legend-row"><span class="dot dev"></span> Existing campsite / hotel</div>
         <div class="legend-row"><span class="dot forest"></span> Forest / wood (shade) — nearby boosts the score</div>
       </div>
+      <div class="panel-section" id="about">
+        <details>
+          <summary>Data sources &amp; scoring criteria</summary>
+          <p class="hint"><b>Where the data comes from:</b></p>
+          <ul class="about-list">
+            <li><b>OpenStreetMap</b> (via the Overpass API) — beaches, existing campsites/hotels, access tracks, protected areas/nature reserves, towns/cities, and forest/wood cover. Queried live for whatever's in view each time you click Scan.</li>
+            <li><b>Curated enforcement hotspots</b> — a small, manually researched list of areas with documented camping enforcement (fines, patrols, arrests), each with a source link.</li>
+            <li><b>Enforcement reports</b> — Google News RSS searched weekly for Greek/English camping-fine keywords, filtered to hits that both name a specific Greek region and actually mention camping.</li>
+          </ul>
+          <p class="hint"><b>How a beach is scored (0–100):</b></p>
+          <ul class="about-list">
+            <li><b>Isolation</b> (up to 50 pts) — distance to the nearest campsite/hotel.</li>
+            <li><b>Access</b> (up to 30 pts) — distance to the nearest track/path.</li>
+            <li><b>Shade</b> (up to 20 pts) — proximity to a forest/wood patch, but only full credit if there's also enough forest area nearby, not just a thin sliver of mapped trees.</li>
+            <li>≥70 → <b>Prime</b>, 40–69 → <b>Possible</b>, &lt;40 → <b>Unlikely</b>.</li>
+            <li>Forced to <b>Unlikely</b> regardless of score if 2+ businesses cluster within 1 km, or a real town/city (not a village) is within 1 km.</li>
+            <li>Forced to <b>Restricted</b> if inside a mapped protected area — this overrides everything else.</li>
+            <li>Forced to <b>Enforcement hotspot</b> if within a known active-enforcement area, unless already Restricted.</li>
+          </ul>
+        </details>
+      </div>
       <div class="panel-section" id="details">
         <h2>Details</h2>
         <p class="hint">Click a beach marker for its score breakdown.</p>
