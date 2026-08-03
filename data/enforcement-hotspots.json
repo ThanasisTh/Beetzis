@@ -1,30 +1,48 @@
 {
-  "last_reviewed": "2026-08-02",
-  "note": "Manually curated from public news and institutional sources (not automated). Coordinates and radii are approximate — they mark a general area, not an exact boundary. Absence from this list does NOT mean an area is free of enforcement; it means it wasn't specifically documented in the sources checked. enforcement_level reflects reported real-world patrol/fine activity, which is a different question from whether camping is legally banned there (most of Greece is, nationally, since Law 5170/2025 and 5209/2025).",
+  "last_reviewed": "2026-08-03",
+  "note": "Manually curated from public news and institutional sources (not automated). Coordinates and radii are approximate — they mark a general area, not an exact boundary. Absence from this list does NOT mean an area is free of enforcement; it means it wasn't specifically documented in the sources checked. enforcement_level reflects reported real-world patrol/fine activity, which is a different question from whether camping is legally banned there (most of Greece is, nationally, since Law 5170/2025 and 5209/2025). Entries are scoped as tightly as the sourcing allows — a single dated incident at a named beach gets a small radius around that beach, not the whole surrounding region, so an unrelated beach 50km away doesn't inherit the same warning.",
   "hotspots": [
     {
-      "id": "sithonia",
-      "name": "Sithonia peninsula (Halkidiki)",
-      "lat": 40.10,
-      "lon": 23.87,
-      "radius_km": 25,
+      "id": "sithonia-kavourotrypes",
+      "name": "Kavourotrypes & Sithonia peninsula beaches (Halkidiki)",
+      "lat": 40.05,
+      "lon": 23.89,
+      "radius_km": 12,
       "enforcement_level": "high",
-      "note": "Local tourism press reported the 2025 national wild-camping law (5170/2025, refined by 5209/2025) landing hard here specifically, with active local enforcement against camper vans on the peninsula's beaches.",
+      "note": "Repeated, dated arrests for illegal camping at Kavourotrypes specifically (2017, 2018), and local press reporting the 2025 national law (5170/2025, refined by 5209/2025) being actively enforced against camper vans across the peninsula's beaches more broadly.",
       "sources": [
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZUNaaFBydXVENDIzMUFhLWtjVnptWTNjbjFjUWpuWFEwd0RKQ09Ea09Lei1qdTFNSk1LQ2NFdTVkNWx6SEdFYlZMSjdzUWlrenhSeE9YUUVNb1NaM2Y1ZHRJZ3NQa3ZaSnVIYmtBWE9jM25yaFo0MnBXNkFoZE9wQV9ZNEZocWpkMlR2UUVqUmI1czh30gGaAUFVX3lxTE5HNWF3aEdWY2tZS0x0aDVDOVZJaGNOLXVFcmFjb2RqWVNoSVhNX3dPc1dJem14TjRHQnJiX2JiUmtzeGNlaE96UXNaNmJTc1RjZmYtMEw0czRZelExc2UzbmRGNU5tU1F1VjNjTXJzVW84R0dZM2g3TFNHbExKOFJvNVNHckpSN1hYcXFoQ2ZqRkY1cEYyY3BsWlE?oc=5",
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdmNZMkdDaWlwank5b0VXV182ZUFHWktiQWV1NFFYbFZuUU5zUmFwdGVzdlJ6NHJMVnhqZ0c0TlZ3OFdnajFZdVRaMjZmNEo5Vm5FcDQ0QnowWjFNbTVrbDZJem5Tal9VcjJycFc1cFZxd012bHJveGJYaHAtRWxURWRzOHZfNXM1TmRQVGRTc05WSkw3?oc=5",
         "https://visitsithonia.com/news/greece-motorhome-law-2025-wild-camping-ban/",
         "https://sithoniagreece.com/new-greek-law-on-motorhome-travel-how-does-it-affect-visitors-to-sithonia/"
       ]
     },
     {
-      "id": "peloponnese-coast-general",
-      "name": "Peloponnese coastline (general)",
-      "lat": 37.0,
-      "lon": 22.2,
-      "radius_km": 150,
-      "enforcement_level": "medium",
-      "note": "Reported case of motorhome owners fined €300 each while parked by the sea in the Peloponnese, early 2025, under the new national law. This is a broad, approximate area covering the whole peninsula's coast — not a single beach.",
+      "id": "elaia-messinia",
+      "name": "Elaia beach & pine forest, Messinia (Neda river mouth)",
+      "lat": 37.375,
+      "lon": 21.683,
+      "radius_km": 5,
+      "enforcement_level": "high",
+      "note": "A recurring, specific enforcement site, not a one-off: police raids with mass arrests for illegal camping at this exact beach/forest in 2023 (13 arrests), 2025 (the first arrests made anywhere under the new law), and again in 2026 (18 arrests, also involving drugs and unlicensed radio equipment). This is a named beach 10km north of Kyparissia, distinct from the Kyparissia Bay/Voidokilia entry below.",
       "sources": [
-        "https://www.vanlifezone.com/journal/Updated_Greek_law_eases_camping_restrictions_but_stays_firm"
+        "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOXhCdWJaTVY3V0JjeWRBVmY4SHZKM1QxUEdzS0VsVUotdkNudURhUVFjU2ZqNVp3OTRGaXBkd0NZdi1wc3BtQW1NM1hJa2dxM3hyZHk4RWJYRWpqVGpwMmxReU9pUkpZbWtIMnFIVkZZa0phRHJXbTJxTEhwcnZIb3pIMlM5RzB4SkVwREktNlp5Z0cya3V6VXhIaVcwSE1VSTBTZ3BxYkdzck5jZGowM00wdnlPUWp6R08wckJqbG1rS0VIeHBnZGhmZVFlREE3OTRj0gHYAUFVX3lxTE9rUGZmblBNenQ5ckFYdlhiSml4X25ETlRmQ1M2WGN4bDVYQTFTMExtNWFZMHc3SXQ3UmlqNklSQV95NnFsejNsZ2JaaUxkRkpWM1N4emN5TTVFMFNCdUU1TUhBZjlqWE5jd0pwRGlEZG9US1NENkZiMFhHeFpxOHl1YU1TaVB1a3Rnd3JDZFAzMDRXdzUybldnT2lUMXFyVk9KVE1fYkJ3OTZUY3RJOEFId3ZKM2xFNGVKV3RsUEx3V29RWDZVRWIyaEdnQVo5MzBoY3ZYT041Zw?oc=5",
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPR29ObmdjOXc3ZkUtOEpiSXczZ0N0SVZJWnpmbXB1SEJTTms2b210b0tIb0J3R3dOSk5nai05TzZ5MHVheHoySFhpLXVEbFVmenhmTzlDOW00c0VZR3NnWThpN1dTOTdTTktwWGNQOXJpZlotV3NQSDhVc08xa1dkQk1OdGRwUm53SUlPbjkzT3ZLeURqVUJ6VjFOaEFEVUk5Ym9RRldR0gGuAUFVX3lxTFAtV0RURTJPNkxjTW1CQW5IMjlxYl92NVI3dUoyaWZNNVVxSHZaZUNLNXdEYUdtcEpkMklVV18xbk1oeVBhVWFNcnhERFZhRnhMSnczYzBsdWptRndVUV9EQlhVTTVhVHVyaHNLNFczRklOanI5V3E0TTNuQWZ2NTUwREhfOWVzdDVKeG93UXlsN2lzeHZ6U2lWMzk0VzRJMlJDbGFGaVVlVnpCbDhOdw?oc=5",
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNzdXdFFZNWpFRmVGY1VQV3ZNN0JxZ1Nmc0l2TzVpLXYwTlRockVjZ2VKQWtOUGdTTmNTRUYyVmRPWDZVeTFuX0l6dFY0a3ZzckdjTUl2YjBTdXhOQzBSNUJaVWNvOS1qVWVKYkpaWUZkYUZKY1NwdjNfZUwxMC02X0VoZUo2bmNZQklFejFPMGZBWFdCQnJ2Y2R6bzYtYms2NUhKTERrWDFNSlZWbEM5alBtYU81anZzd2FwcXppT0VoclRqUl92eTdB?oc=5"
+      ]
+    },
+    {
+      "id": "thapsa-evia",
+      "name": "Thapsa beach, Kymi, Evia",
+      "lat": 38.52,
+      "lon": 24.16,
+      "radius_km": 8,
+      "enforcement_level": "high",
+      "note": "Heavy, widely-reported fines against free campers at this specific beach in June 2024, after complaints from locals about overcrowding. Coordinates are an estimate from descriptive routing (reached via dirt road south of Kymi, past Konistres/Maletianoi/Tsilaro) rather than a confirmed GPS pin — verify the exact spot before relying on this radius.",
+      "sources": [
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeXZBQzRfaXVJYTBXcWNOQXVKWmJ1QjFvNDBQV1dNSnhkaXV2cEhDVnVXdUk1VE01SGN4RElyRjI4WDZUVG1WX1BxU2tyZk8tVnV3cTdINjZSLThoM1p4TFV4aGRqVE5NcUhmbWVUcFV3alFESW93Y0UzLWp5bzByclZzWlU5dEw0RURUb3p0TW5rQWRBNzhIdkJSWmtvU1NhdDVGV0x2d1g4UDJSNHFmY2lKd2hsNUZ0b2plOWdPUEtmRXIwalplTzJB0gHPAUFVX3lxTE03MGp5Z0FIVmZ6Ti0wRVh6WDhlVnJfd1pKSTNmc1YzRE5reU1oUmVBa1FieHJnRWE3ZW1rWVJxRUhaSTFoMm5HLTFkOC0xM1BFZzBwcXJpQm05YVNtbEY4eFR2dkowX2xZMnBmaEQ0V1dobFp1THNaZGVtWGtuM2tOSWFaaF8wSDJfNVdMMlhBamVfREU5cS1KejBkbHJPV0dNanBQN2JhLU5ueElJa0tHVHIzRjhEWWlVaWU0R25IMGRxQkptUmZNVFFtWEVsMA?oc=5",
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU2dzLWRCaTlraE1GSW9Sc3BGdWI0OWtPa0YzbzZoamlkTUNsYUlYQnhhNDJsOUFyUlVjRWg4NWpUdmRxWnRGUGJCQkFfeF8yR3ZZWG5PMFBjVnNJOE5rdnhmZ09HZ1Nsakh6OUhnTFVNUkhMQ3ItRnVuSWJpc2xzRnpMR2hIYUhrVjB0OG52S3Fnc2NLT1NIUXpWNlZsUEl5VE9QeFN5bjQ4d9IBrwFBVV95cUxOWmZicU52cFZRNFMzdFI4QXAxQXdHWHB5QVRkbHFkYzJuWDllekRxR0VXOUNnT0lwWEZFc1JrNjRvYnQxdHhvYlZzcXVZNVZmaEVTSTB3ZEJoS2RtY1c4ZVNDRklCcVJ5cVdwX05jN2xvYU41NzZZcmk4clV6V1owWG5FSTBNWXk0ZE43cjFpT28tSUpmOEZmczhPZV9rVEs5U3ljYWRfU0pnelF3eG1R?oc=5",
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRWpkOFVhYkVtMUVhYkpjWHpSLWZ6SjUwZ09md0Ewb2lHQk1TMkUxNk1YcTRCUW5LSHY4Mm0yb2ROQnkwczZmeHNUREJlS2FUak1pVmdZMlZsWFFINDUwZnYyMUFXZFNLZ2NWQ01WNk84OVdWMHByVURZU200X200ejI2Mml6Rm51bmUzOGFKZk9uM1gzaVc1RThKbVFDODRocE9CaE1OVmU3YzJmZlHSAbMBQVVfeXFMT2lWeE90RF8wVm9rVVNYYXhTdW5UNDZ6QnViTk1pZFAzV3VXZzZ6X1FMNTA1WnF6Tnlrd1R0TzRtcEw5SnZXZTBOblhFUHRsQkRlT2V3X2Rnc1VNSDRKd3R5SEZGbmxmM3l4ZzJOSGFuZVFoRzJ6TFAyNVhkMDAwU2hMdDNVRENsQ1NLVl9TNTh4c0Z4SFQtWE9oNWVsMDkxemduS25LZ05yTUdydmY0U1hSVkk?oc=5"
       ]
     },
     {

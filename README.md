@@ -62,9 +62,15 @@ Currently wired up (all free, no key required):
   protected areas. Live, queried on every scan.
 - **`data/enforcement-hotspots.json`** — a manually curated, hand-researched
   list of areas with documented camping/camper-van enforcement (fines,
-  ranger patrols, arrests), each with a source link. Reviewed by a human,
+  ranger patrols, arrests), each with source links. Reviewed by a human,
   not automated; refresh it by asking for another research pass, not by
-  waiting for a script.
+  waiting for a script. Entries are scoped as tightly as the sourcing
+  supports — a specific, dated incident at a named beach (e.g. Elaia,
+  Messinia: raids with mass arrests in 2023, 2025, and 2026) gets a small
+  few-km radius around that beach, not a blanket radius over the whole
+  surrounding region. A radius only gets wide when the sourcing is
+  genuinely about a wide area (e.g. Zakynthos's marine park, Crete's
+  Natura 2000 dune systems).
 - **`data/enforcement-reports.json`** — generated automatically, weekly, by
   `.github/workflows/fetch-enforcement-reports.yml` running
   `scripts/fetch-enforcement-reports.mjs`. That script searches:
@@ -150,16 +156,17 @@ Ideas for future layers (from the original brainstorm, not yet built):
   older [Law 4055/2012 amendment](https://www.cna.gr/greece/telos-sto-elefthero-kabingk-elegchi-syllipsis-ke-prostima-eos-3-000-evro/)
   allowing arrest and fines up to €3,000 for flagrant offenses. This tool is
   for scouting quiet spots, not a legal opinion.
-- **Enforcement hotspots are curated, not comprehensive.** The 5 areas in
-  `enforcement-hotspots.json` are ones I found specific, sourced reporting
-  for — Sithonia, the Peloponnese coast generally, Zakynthos's turtle-nesting
-  marine park, Crete's Elafonisi/Balos/Preveli, and Kyparissia Bay/Voidokilia.
-  Being outside all five circles does **not** mean an area is
-  enforcement-free — it means I didn't find documented reporting on it.
-  Note also that "legally banned" and "actively enforced" are different
-  things: Kyparissia Bay is legally protected turtle habitat but conservation
-  groups report enforcement there has historically been weak, which is why
-  it's flagged `low-but-illegal` rather than colored as an active hotspot.
+- **Enforcement hotspots are curated, not comprehensive.** The 6 areas in
+  `enforcement-hotspots.json` are ones with specific, sourced reporting —
+  Kavourotrypes/Sithonia (Halkidiki), Elaia beach (Messinia), Thapsa beach
+  (Evia), Zakynthos's turtle-nesting marine park, Crete's Elafonisi/Balos/
+  Preveli, and Kyparissia Bay/Voidokilia. Being outside all six circles does
+  **not** mean an area is enforcement-free — it means no documented
+  reporting was found for it, not that it's safe. Note also that "legally
+  banned" and "actively enforced" are different things: Kyparissia Bay is
+  legally protected turtle habitat but conservation groups report
+  enforcement there has historically been weak, which is why it's flagged
+  `low-but-illegal` rather than colored as an active hotspot.
 - **Scraped reports are region-level, not beach-level.** The weekly Reddit/
   news pipeline tags hits with a broad region (e.g. "Crete", "Cyclades") via
   simple keyword matching, not real geocoding — it cannot tell you whether a
