@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Wedding Table Planner</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>💍 Wedding Table Planner</h1>
+    <p class="subtitle">Add your guests, place tables in the room, then drag names onto seats.</p>
+  </header>
+
+  <div class="app-layout">
+    <aside class="sidebar">
+      <section class="panel">
+        <h2>Guest List</h2>
+        <form id="guest-form" class="inline-form">
+          <input type="text" id="guest-name-input" placeholder="Guest name" autocomplete="off" required />
+          <button type="submit">Add</button>
+        </form>
+        <p class="hint">Press and drag a name onto a table to seat them.</p>
+        <ul id="unassigned-list" class="guest-list" data-role="unassigned-drop"></ul>
+        <div class="panel-footer">
+          <span id="unassigned-count"></span>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Add Table</h2>
+        <form id="table-form" class="stacked-form">
+          <label>
+            Table name
+            <input type="text" id="table-name-input" placeholder="e.g. Table 1" autocomplete="off" required />
+          </label>
+          <label>
+            Shape
+            <select id="table-shape-input"></select>
+          </label>
+          <label>
+            Seats
+            <input type="number" id="table-capacity-input" min="1" max="30" />
+          </label>
+          <button type="submit">Add Table</button>
+        </form>
+      </section>
+
+      <section class="panel">
+        <button id="reset-btn" class="danger-btn" type="button">Clear everything</button>
+      </section>
+    </aside>
+
+    <main class="canvas-wrap">
+      <div id="canvas" class="canvas"></div>
+    </main>
+  </div>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

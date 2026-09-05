@@ -4,6 +4,11 @@ A static, client-side map tool for scouting quiet, undeveloped beach camping
 spots in Greece. No backend, no API keys, no build step — open `index.html`
 or serve the folder statically.
 
+This repo also hosts [Wedding Table Planner](wedding-table/), a separate
+static app for assigning guests to wedding tables and arranging the tables
+in a room — served alongside this app at the `/wedding-table/` path. See
+`wedding-table/README.md` for details.
+
 ## How it works
 
 1. Pan/zoom the map to a stretch of Greek coastline (zoom ≥ 12 — roughly
